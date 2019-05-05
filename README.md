@@ -3,7 +3,7 @@
 
 __________________________________![description](https://www.upload.ee/image/9917352/VisualTexture.png) __________________________________
 
-## Changes madae: 05 - May - 2019
+## Changes made: 05 - May - 2019
 
  - *A problem was solved in the variables, which did not allow VisualTexture to be closed completely, happening to run in the background.*
  - *The options for visualize objects, wikisamp and sounds, they were removed. (Possibly be added in another update)*
