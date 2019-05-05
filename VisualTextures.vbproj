@@ -1,0 +1,1410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{937F7EE6-694B-4AC0-BA1E-612F5DF815FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VisualTextures.My.MyApplication</StartupObject>
+    <RootNamespace>VisualTextures</RootNamespace>
+    <AssemblyName>VisualTextures</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\sebas_000\Desktop\VisualT\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://www.facebook.com/ZaikerHiind</SupportUrl>
+    <ErrorReportUrl>https://github.com/KaizerHind/VisualTexture</ErrorReportUrl>
+    <ProductName>VisualTextures</ProductName>
+    <PublisherName>Kaizer_Modding © 2018</PublisherName>
+    <SuiteName>VisualTextures</SuiteName>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C1669C08B2E9BE614CE21F911599B36CA94A1E8F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>VisualTextures_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>VisualTextures_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>visualicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A-Principal\LOptions.Designer.vb">
+      <DependentUpon>LOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A-Principal\LOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\Pawncp.Designer.vb">
+      <DependentUpon>Pawncp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\English\Pawncp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\VSprites.Designer.vb">
+      <DependentUpon>VSprites.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\English\VSprites.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmColorMap.Designer.vb">
+      <DependentUpon>frmColorMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmColorMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmVehicleColors.Designer.vb">
+      <DependentUpon>frmVehicleColors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\frmVehicleColors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Multi-tools\Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\CMilisegundos.Designer.vb">
+      <DependentUpon>CMilisegundos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\CMilisegundos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\Contact.Designer.vb">
+      <DependentUpon>Contact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\Contact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\Credits.Designer.vb">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\Credits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\Screenshots.Designer.vb">
+      <DependentUpon>Screenshots.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\Screenshots.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\VAnims.Designer.vb">
+      <DependentUpon>VAnims.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\English\VAnims.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\VTextures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\VTextures.Designer.vb">
+      <DependentUpon>VTextures.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\LOG.Designer.vb">
+      <DependentUpon>LOG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\LOG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A-Principal\Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A-Principal\Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A-Principal\Index.Designer.vb">
+      <DependentUpon>Index.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A-Principal\Index.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\Spanish\Spanish.Designer.vb">
+      <DependentUpon>Spanish.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Spanish\Spanish.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="A-Principal\LOptions.resx">
+      <DependentUpon>LOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\English\Pawncp.resx">
+      <DependentUpon>Pawncp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\English\VSprites.resx">
+      <DependentUpon>VSprites.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Multi-tools\AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Multi-tools\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Multi-tools\frmColorMap.resx">
+      <DependentUpon>frmColorMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Multi-tools\frmVehicleColors.resx">
+      <DependentUpon>frmVehicleColors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Multi-tools\Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\CMilisegundos.resx">
+      <DependentUpon>CMilisegundos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\Contact.resx">
+      <DependentUpon>Contact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\Credits.resx">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\Screenshots.resx">
+      <DependentUpon>Screenshots.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\English\VAnims.resx">
+      <DependentUpon>VAnims.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\English\VTextures.resx">
+      <DependentUpon>VTextures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\LOG.resx">
+      <DependentUpon>LOG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A-Principal\Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A-Principal\Index.resx">
+      <DependentUpon>Index.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Spanish\Spanish.resx">
+      <DependentUpon>Spanish.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="VisualTextures_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SAGallery\ALogos\Backgopt.png" />
+    <None Include="SAGallery\ALogos\InfoTextvs.bmp" />
+    <None Include="SAGallery\ALogos\LEEUU.png" />
+    <None Include="SAGallery\ALogos\LSpain.png" />
+    <None Include="SAGallery\ALogos\visualicon.ico" />
+    <None Include="SAGallery\ALogos\VisualTexture.png" />
+    <None Include="SAGallery\ALogos\VisualTexture_GIF.gif" />
+    <None Include="SAGallery\Credits\Alebhor.png" />
+    <None Include="SAGallery\Credits\DanielWalker.PNG" />
+    <None Include="SAGallery\Credits\FailLout.png" />
+    <None Include="SAGallery\Credits\Fedenet.jpg" />
+    <None Include="SAGallery\Credits\Graber.png" />
+    <None Include="SAGallery\Credits\Guidescredits.png" />
+    <None Include="SAGallery\Credits\Kaizer.jpg" />
+    <None Include="SAGallery\Credits\Matthudson.png" />
+    <None Include="SAGallery\Credits\Memencio.png" />
+    <None Include="SAGallery\Credits\TheChaoz.jpg" />
+    <None Include="SAGallery\Credits\TheChaoz.png" />
+    <None Include="SAGallery\Credits\Y_Less.png" />
+    <None Include="SAGallery\Desinfeccion\des1.gif" />
+    <None Include="SAGallery\Desinfeccion\des2.gif" />
+    <None Include="SAGallery\Desinfeccion\des3.gif" />
+    <None Include="SAGallery\Guide1\Ini1.png" />
+    <None Include="SAGallery\Guide1\Ini2.png" />
+    <None Include="SAGallery\Guide1\Ini3.png" />
+    <None Include="SAGallery\Guide1\Ini4.png" />
+    <None Include="SAGallery\Guide1\Ini5.png" />
+    <None Include="SAGallery\Guide1\Ini6.png" />
+    <None Include="SAGallery\Guide1\Ini7.png" />
+    <None Include="SAGallery\Guide1\Ini8.png" />
+    <None Include="SAGallery\Guide1\Ini9.png" />
+    <None Include="SAGallery\Guide1\Ini10.png" />
+    <None Include="SAGallery\Guide1\Ini11.png" />
+    <None Include="SAGallery\Guide1\Ini12.png" />
+    <None Include="SAGallery\Guide1\ini13.png" />
+    <None Include="SAGallery\Guide1\Ini14.png" />
+    <None Include="SAGallery\Guide1\Ini15.png" />
+    <None Include="SAGallery\Guide1\Ini16.png" />
+    <None Include="SAGallery\Guide1\Ini17.png" />
+    <None Include="SAGallery\Guide1\Ini18.png" />
+    <None Include="SAGallery\Guide1\Ini19.png" />
+    <None Include="SAGallery\Guide1\Ini20.png" />
+    <None Include="SAGallery\Guide1\Ini21.png" />
+    <None Include="SAGallery\Guide1\Ini22.png" />
+    <None Include="SAGallery\Introductions\Captura1.PNG" />
+    <None Include="SAGallery\Introductions\Captura2.PNG" />
+    <None Include="SAGallery\Introductions\Captura3.PNG" />
+    <None Include="SAGallery\Introductions\Captura4.PNG" />
+    <None Include="SAGallery\Introductions\Captura5.PNG" />
+    <None Include="SAGallery\Introductions\Captura6.PNG" />
+    <None Include="SAGallery\Introductions\Captura7.PNG" />
+    <None Include="SAGallery\Introductions\Captura8.PNG" />
+    <None Include="SAGallery\Introductions\Captura9.PNG" />
+    <None Include="SAGallery\Introductions\Captura10.PNG" />
+    <None Include="SAGallery\Introductions\Captura11.PNG" />
+    <None Include="SAGallery\Introductions\Captura12.PNG" />
+    <None Include="SAGallery\Introductions\Captura13.PNG" />
+    <None Include="SAGallery\Introductions\Captura14.PNG" />
+    <None Include="SAGallery\Introductions\Captura15.PNG" />
+    <None Include="SAGallery\Introductions\Captura16.PNG" />
+    <None Include="SAGallery\Introductions\Captura16-.PNG" />
+    <None Include="SAGallery\Introductions\Captura16a.PNG" />
+    <None Include="SAGallery\Introductions\Captura17.PNG" />
+    <None Include="SAGallery\Introductions\Captura18.PNG" />
+    <None Include="SAGallery\Introductions\Captura19.PNG" />
+    <None Include="SAGallery\Introductions\Captura20.PNG" />
+    <None Include="SAGallery\Introductions\Captura21.PNG" />
+    <None Include="SAGallery\Introductions\Captura22.PNG" />
+    <None Include="SAGallery\Introductions\Captura23.PNG" />
+    <None Include="SAGallery\Introductions\Captura24.PNG" />
+    <None Include="SAGallery\Introductions\Captura25.PNG" />
+    <None Include="SAGallery\Introductions\Captura26.PNG" />
+    <None Include="SAGallery\Introductions\Captura27.PNG" />
+    <None Include="SAGallery\Introductions\Captura28.PNG" />
+    <None Include="SAGallery\Introductions\Captura29.PNG" />
+    <None Include="SAGallery\Introductions\Captura30.PNG" />
+    <None Include="SAGallery\Introductions\Captura31.PNG" />
+    <None Include="SAGallery\Introductions\Captura32.PNG" />
+    <None Include="SAGallery\Introductions\Captura33.PNG" />
+    <None Include="SAGallery\Introductions\Captura34.PNG" />
+    <None Include="SAGallery\Introductions\Captura35.PNG" />
+    <None Include="SAGallery\Introductions\Captura36.PNG" />
+    <None Include="SAGallery\Introductions\Captura37.PNG" />
+    <None Include="SAGallery\Introductions\Captura38.PNG" />
+    <None Include="SAGallery\Introductions\Captura39.PNG" />
+    <None Include="SAGallery\Introductions\Captura40.PNG" />
+    <None Include="SAGallery\Introductions\Captura41.PNG" />
+    <None Include="SAGallery\Introductions\Captura42.PNG" />
+    <None Include="SAGallery\Introductions\Captura43.PNG" />
+    <None Include="SAGallery\Introductions\Captura44.PNG" />
+    <None Include="SAGallery\Introductions\Captura45.PNG" />
+    <None Include="SAGallery\Introductions\Captura46.PNG" />
+    <None Include="SAGallery\Introductions\Captura47.PNG" />
+    <None Include="SAGallery\Introductions\Captura48.PNG" />
+    <None Include="SAGallery\Introductions\Captura49.PNG" />
+    <None Include="SAGallery\Introductions\Captura50.PNG" />
+    <None Include="SAGallery\Introductions\Captura51.PNG" />
+    <None Include="SAGallery\Introductions\Captura52.PNG" />
+    <None Include="SAGallery\Introductions\Captura53.PNG" />
+    <None Include="SAGallery\Introductions\Infotexto.png" />
+    <None Include="SAGallery\mp3\drop1.png" />
+    <None Include="SAGallery\mp3\drop2.png" />
+    <None Include="SAGallery\mp3\drop3.png" />
+    <None Include="SAGallery\mp3\drop4.png" />
+    <None Include="SAGallery\Texturas\Puertas\a51_blastdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\a51_intdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\a51_weedoors.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\aarprt6LAS.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor6.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor8.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor9b.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ballydoor01_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bevdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bigwhite_4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bigwhite_5.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_bar_entrance_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_Loadingbay_Door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_LoadingBayDoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\clubdoor1_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\compdoor2_LAe.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\compdoor4_LAe.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\corporate1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\corporate3green_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\des_backdoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\flatdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garagedoor4_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garagedoor5_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garargeb2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\GB_truckdepot29.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_sf_door12b.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_vicdoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_vicdoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\halldoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\hosdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\int02_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasbevcit7.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasjmdoorgud.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasmalhus92.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\liftdoors_kb_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\liftdoorsac256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\LoadingDoorClean.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Lombard_door1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\metaldoor01_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\pawn_door01.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\plainwoodoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sf_garagedr1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shitydoor1_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shopdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shopgrating128H.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sjmhoodalldr.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_grngarage1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_prisongate1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_shopshttr1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\staddoors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_backdoor02.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_door11.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_door12.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_sheddoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_shutters1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vengardoor01_SFW.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vgncorpdoor1_512.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vgsclubdoor02_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Was_scrpyd_door_in_hngr.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\wilsdoor_01_la.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_airportdoors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_airportwin2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_altz_wall5_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_basheddoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_bigblackdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_doubledoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_doubledoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_blue.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_green.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_white.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_green.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_pink.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_white.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor4_peach.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_glassnbrassdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_guardhousedoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_hangardoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_reinforcedbutwonky.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_rollerdoor_fire.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_rollerdoor_silver.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_security_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_wood_doors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_wood_doors2.bmp" />
+    <None Include="SAGallery\LodAnims\airport_thrw_barl_thrw.gif" />
+    <None Include="SAGallery\LodAnims\Attractors_Stepsit_in.gif" />
+    <None Include="SAGallery\LodAnims\Attractors_Stepsit_loop.gif" />
+    <None Include="SAGallery\LodAnims\Attractors_Stepsit_out.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barcustom_get.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barcustom_loop.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barcustom_order.gif" />
+    <None Include="SAGallery\LodAnims\BAR_BARman_idle.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_bottle.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_give.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_glass.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_in.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_loop.gif" />
+    <None Include="SAGallery\LodAnims\BAR_Barserve_order.gif" />
+    <None Include="SAGallery\LodAnims\BAR_dnk_stndF_loop.gif" />
+    <None Include="SAGallery\LodAnims\BAR_dnk_stndM_loop.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_1.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_2.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_3.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_4.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_IDLE.gif" />
+    <None Include="SAGallery\LodAnims\BASEBALL_Bat_M.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_GF_Wave.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_Panic_01.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_Panic_02.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_Panic_03.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_Panic_04.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_BD_Panic_Loop.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_Grlfrd_Kiss_03.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_M_smklean_loop.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_Playa_Kiss_03.gif" />
+    <None Include="SAGallery\LodAnims\bdfire_wash_up.gif" />
+    <None Include="SAGallery\LodAnims\Beach_bather.gif" />
+    <None Include="SAGallery\LodAnims\Beach_Lay_Bac_Loop.gif" />
+    <None Include="SAGallery\LodAnims\Beach_ParkSit_M_loop.gif" />
+    <None Include="SAGallery\LodAnims\Beach_ParkSit_W_loop.gif" />
+    <None Include="SAGallery\LodAnims\Beach_SitnWait_loop_W.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_celebrate.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_down.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_getoff.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_geton.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_up_A.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_up_B.gif" />
+    <None Include="SAGallery\LodAnims\benchpress_gym_bp_up_smooth.gif" />
+    <None Include="SAGallery\LodAnims\Bike_Dbz_Pass_Driveby_BWD.gif" />
+    <None Include="SAGallery\LodAnims\Bike_Dbz_Pass_Driveby_FWD.gif" />
+    <None Include="SAGallery\LodAnims\Bike_Dbz_Pass_Driveby_LHS.gif" />
+    <None Include="SAGallery\LodAnims\Bike_Dbz_Pass_Driveby_RHS.gif" />
+    <None Include="SAGallery\LodAnims\BIKEd_Back.gif" />
+    <None Include="SAGallery\LodAnims\BIKEd_hit.gif" />
+    <None Include="SAGallery\LodAnims\BIKEh_Back.gif" />
+    <None Include="SAGallery\LodAnims\BIKEh_hit.gif" />
+    <None Include="SAGallery\LodAnims\bikeleap_struggle_cesar.gif" />
+    <None Include="SAGallery\LodAnims\bikeleap_struggle_driver.gif" />
+    <None Include="SAGallery\LodAnims\BIKEs_Back.gif" />
+    <None Include="SAGallery\LodAnims\BIKEs_hit.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Car_Loop_W.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Car_Start_P.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Car_Start_W.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Couch_End_P.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Couch_Start_W.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Stand_End_P.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Stand_Start_P.gif" />
+    <None Include="SAGallery\LodAnims\BlowJobz_BJ_Stand_Start_W.gif" />
+    <None Include="SAGallery\LodAnims\Bomber_BOM_Plant.gif" />
+    <None Include="SAGallery\LodAnims\Bomber_BOM_Plant_2Idle.gif" />
+    <None Include="SAGallery\LodAnims\Bomber_BOM_Plant_Crouch_In.gif" />
+    <None Include="SAGallery\LodAnims\Bomber_BOM_Plant_Loop.gif" />
+    <None Include="SAGallery\LodAnims\Box_boxhipin.gif" />
+    <None Include="SAGallery\LodAnims\Box_boxhipup.gif" />
+    <None Include="SAGallery\LodAnims\Box_boxshdwn.gif" />
+    <None Include="SAGallery\LodAnims\Box_catch_box.gif" />
+    <None Include="SAGallery\LodAnims\Pass_Driveby_RHS.gif" />
+    <None Include="SAGallery\LodAnims\ped_abseil.gif" />
+    <None Include="SAGallery\LodAnims\ped_ARRESTgun.gif" />
+    <None Include="SAGallery\LodAnims\ped_ATM.gif" />
+    <None Include="SAGallery\LodAnims\ped_bomber.gif" />
+    <None Include="SAGallery\LodAnims\ped_CAR_crawloutRHS.gif" />
+    <None Include="SAGallery\LodAnims\ped_CAR_doorlocked_LHS.gif" />
+    <None Include="SAGallery\LodAnims\ped_CAR_doorlocked_RHS.gif" />
+    <None Include="SAGallery\LodAnims\ped_cower.gif" />
+    <None Include="SAGallery\LodAnims\ped_endchat_01.gif" />
+    <None Include="SAGallery\LodAnims\ped_endchat_02.gif" />
+    <None Include="SAGallery\LodAnims\ped_endchat_03.gif" />
+    <None Include="SAGallery\LodAnims\ped_facgum.gif" />
+    <None Include="SAGallery\LodAnims\ped_factalk.gif" />
+    <None Include="SAGallery\LodAnims\ped_FALL_skyDive.gif" />
+    <None Include="SAGallery\LodAnims\ped_flee_lkaround_01.gif" />
+    <None Include="SAGallery\LodAnims\ped_fucku.gif" />
+    <None Include="SAGallery\LodAnims\ped_gas_cwr.gif" />
+    <None Include="SAGallery\LodAnims\ped_gum_eat.gif" />
+    <None Include="SAGallery\LodAnims\ped_handsup.gif" />
+    <None Include="SAGallery\LodAnims\ped_HIT_walk.gif" />
+    <None Include="SAGallery\LodAnims\ped_IDLE_chat.gif" />
+    <None Include="SAGallery\LodAnims\ped_IDLE_HBHB.gif" />
+    <None Include="SAGallery\LodAnims\ped_IDLE_ROCKET.gif" />
+    <None Include="SAGallery\LodAnims\ped_IDLE_taxi.gif" />
+    <None Include="SAGallery\LodAnims\ped_IDLE_tired.gif" />
+    <None Include="SAGallery\LodAnims\ped_KO_shot_face.gif" />
+    <None Include="SAGallery\LodAnims\ped_KO_shot_front.gif" />
+    <None Include="SAGallery\LodAnims\ped_KO_shot_stom.gif" />
+    <None Include="SAGallery\LodAnims\ped_KO_skid_front.gif" />
+    <None Include="SAGallery\LodAnims\ped_pass_Smoke_in_car.gif" />
+    <None Include="SAGallery\LodAnims\ped_phone_in.gif" />
+    <None Include="SAGallery\LodAnims\ped_phone_out.gif" />
+    <None Include="SAGallery\LodAnims\ped_phone_talk.gif" />
+    <None Include="SAGallery\LodAnims\ped_roadcross.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_1armed.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_armed.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_civi.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_fatold.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_gang1.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_old.gif" />
+    <None Include="SAGallery\LodAnims\ped_run_player.gif" />
+    <None Include="SAGallery\LodAnims\ped_Run_stop.gif" />
+    <None Include="SAGallery\LodAnims\ped_Run_Wuzi.gif" />
+    <None Include="SAGallery\LodAnims\ped_SEAT_down.gif" />
+    <None Include="SAGallery\LodAnims\ped_SEAT_idle.gif" />
+    <None Include="SAGallery\LodAnims\ped_SEAT_up.gif" />
+    <None Include="SAGallery\LodAnims\ped_Smoke_in_car.gif" />
+    <None Include="SAGallery\LodAnims\ped_Swim_Tread.gif" />
+    <None Include="SAGallery\LodAnims\ped_WALK_drunk.gif" />
+    <None Include="SAGallery\LodAnims\ped_WALK_fatold.gif" />
+    <None Include="SAGallery\LodAnims\ped_WALK_gang1.gif" />
+    <None Include="SAGallery\LodAnims\ped_WALK_gang2.gif" />
+    <None Include="SAGallery\LodAnims\ped_Walk_Wuzi.gif" />
+    <None Include="SAGallery\LodAnims\ped_WOMAN_walkpro.gif" />
+    <None Include="SAGallery\LodAnims\ped_WOMAN_walkshop.gif" />
+    <None Include="SAGallery\LodAnims\ped_XPRESSscratch.gif" />
+    <None Include="SAGallery\ViObjects\Casa.png" />
+    <None Include="SAGallery\ViObjects\mans.png" />
+    <None Include="SAGallery\ViObjects\mansion.png" />
+    <None Include="SAGallery\ViObjects\manspen.png" />
+    <None Include="SAGallery\ViObjects\Mapa.png" />
+    <None Include="SAGallery\ViObjects\Mapshen.png" />
+    <None Include="SAGallery\ViObjects\Mapyay.png" />
+    <None Include="SAGallery\Credits\Zume.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_400.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_401.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_402.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_403.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_404.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_405.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_406.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_407.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_408.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_409.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_410.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_411.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_412.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_413.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_414.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_415.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_416.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_417.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_418.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_419.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_420.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_421.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_422.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_423.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_424.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_425.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_426.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_427.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_428.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_429.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_430.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_431.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_432.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_433.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_434.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_435.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_436.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_437.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_438.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_439.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_440.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_441.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_442.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_443.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_444.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_445.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_446.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_447.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_448.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_449.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_450.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_451.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_452.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_453.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_454.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_455.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_456.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_457.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_458.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_459.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_460.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_461.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_462.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_463.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_464.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_465.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_466.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_467.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_468.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_469.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_470.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_471.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_472.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_473.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_474.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_475.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_476.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_477.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_478.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_479.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_480.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_481.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_482.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_483.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_484.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_485.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_486.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_487.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_488.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_489.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_490.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_491.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_492.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_493.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_494.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_495.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_496.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_497.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_498.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_499.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_500.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_501.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_502.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_503.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_504.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_505.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_506.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_507.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_508.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_509.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_510.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_511.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_512.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_513.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_514.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_515.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_516.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_517.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_518.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_519.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_520.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_521.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_522.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_523.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_524.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_525.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_526.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_527.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_528.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_529.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_530.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_531.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_532.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_533.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_534.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_535.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_536.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_537.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_538.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_539.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_540.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_541.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_542.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_543.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_544.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_545.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_546.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_547.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_548.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_549.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_550.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_551.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_552.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_553.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_554.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_555.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_556.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_557.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_558.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_559.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_560.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_561.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_562.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_563.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_564.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_565.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_566.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_567.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_568.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_569.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_570.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_571.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_572.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_573.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_574.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_575.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_576.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_577.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_578.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_579.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_580.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_581.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_582.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_583.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_584.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_585.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_586.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_587.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_588.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_589.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_590.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_591.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_592.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_593.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_594.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_595.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_596.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_597.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_598.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_599.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_600.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_601.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_602.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_603.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_604.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_605.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_606.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_607.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_608.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_609.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_610.jpg" />
+    <None Include="SAGallery\Vehicles\Vehicle_611.jpg" />
+    <None Include="SAGallery\Weapons\sa-mp-060.png" />
+    <None Include="SAGallery\Weapons\sa-mp-061.png" />
+    <None Include="SAGallery\Weapons\sa-mp-062.png" />
+    <None Include="SAGallery\Weapons\sa-mp-063.png" />
+    <None Include="SAGallery\Weapons\sa-mp-064.png" />
+    <None Include="SAGallery\Weapons\sa-mp-065.png" />
+    <None Include="SAGallery\Weapons\sa-mp-066.png" />
+    <None Include="SAGallery\Weapons\sa-mp-067.png" />
+    <None Include="SAGallery\Weapons\sa-mp-068.png" />
+    <None Include="SAGallery\Weapons\sa-mp-069.png" />
+    <None Include="SAGallery\Weapons\sa-mp-070.png" />
+    <None Include="SAGallery\Weapons\sa-mp-071.png" />
+    <None Include="SAGallery\Weapons\sa-mp-072.png" />
+    <None Include="SAGallery\Weapons\sa-mp-073.png" />
+    <None Include="SAGallery\Weapons\sa-mp-074.png" />
+    <None Include="SAGallery\Weapons\sa-mp-075.png" />
+    <None Include="SAGallery\Weapons\sa-mp-076.png" />
+    <None Include="SAGallery\Weapons\sa-mp-077.png" />
+    <None Include="SAGallery\Weapons\sa-mp-078.png" />
+    <None Include="SAGallery\Weapons\sa-mp-079.png" />
+    <None Include="SAGallery\Weapons\sa-mp-080.png" />
+    <None Include="SAGallery\Weapons\sa-mp-081.png" />
+    <None Include="SAGallery\Weapons\sa-mp-082.png" />
+    <None Include="SAGallery\Weapons\sa-mp-083.png" />
+    <None Include="SAGallery\Weapons\sa-mp-084.png" />
+    <None Include="SAGallery\Weapons\sa-mp-085.png" />
+    <None Include="SAGallery\Weapons\sa-mp-086.png" />
+    <None Include="SAGallery\Weapons\sa-mp-087.png" />
+    <None Include="SAGallery\Weapons\sa-mp-088.png" />
+    <None Include="SAGallery\Weapons\sa-mp-089.png" />
+    <None Include="SAGallery\Weapons\sa-mp-090.png" />
+    <None Include="SAGallery\Weapons\sa-mp-091.png" />
+    <None Include="SAGallery\Weapons\sa-mp-092.png" />
+    <None Include="SAGallery\Weapons\sa-mp-093.png" />
+    <None Include="SAGallery\Weapons\sa-mp-094.png" />
+    <None Include="SAGallery\Weapons\sa-mp-095.png" />
+    <None Include="SAGallery\Weapons\sa-mp-096.png" />
+    <None Include="SAGallery\Weapons\sa-mp-097.png" />
+    <None Include="SAGallery\Weapons\sa-mp-098.png" />
+    <None Include="SAGallery\Weapons\sa-mp-099.png" />
+    <None Include="SAGallery\Weapons\sa-mp-100.png" />
+    <None Include="SAGallery\Weapons\sa-mp-101.png" />
+    <None Include="SAGallery\Weapons\sa-mp-102.png" />
+    <None Include="SAGallery\Weapons\sa-mp-103.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-131.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-132.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-133.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-134.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-135.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-136.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-137.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-138.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-139.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-140.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-141.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-142.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-143.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-144.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-145.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-146.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-147.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-148.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-149.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-150.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-151.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-152.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-153.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-154.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-155.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-156.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-157.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-158.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-159.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-160.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-161.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-162.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-163.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-164.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-165.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-166.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-167.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-168.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-169.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-170.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-171.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-172.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-173.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-174.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-175.png" />
+    <None Include="SAGallery\Weapons2\sa-mp-176.png" />
+    <None Include="SAGallery\Peds\Skin_0.png" />
+    <None Include="SAGallery\Peds\Skin_0_001.png" />
+    <None Include="SAGallery\Peds\Skin_0_002.png" />
+    <None Include="SAGallery\Peds\Skin_0_003.png" />
+    <None Include="SAGallery\Peds\Skin_0_004.png" />
+    <None Include="SAGallery\Peds\Skin_0_005.png" />
+    <None Include="SAGallery\Peds\Skin_0_006.png" />
+    <None Include="SAGallery\Peds\Skin_0_007.png" />
+    <None Include="SAGallery\Peds\Skin_0_008.png" />
+    <None Include="SAGallery\Peds\Skin_0_009.png" />
+    <None Include="SAGallery\Peds\Skin_0_010.png" />
+    <None Include="SAGallery\Peds\Skin_7.png" />
+    <None Include="SAGallery\Peds\Skin_9.png" />
+    <None Include="SAGallery\Peds\Skin_10.png" />
+    <None Include="SAGallery\Peds\Skin_11.png" />
+    <None Include="SAGallery\Peds\Skin_12.png" />
+    <None Include="SAGallery\Peds\Skin_13.png" />
+    <None Include="SAGallery\Peds\Skin_14.png" />
+    <None Include="SAGallery\Peds\Skin_15.png" />
+    <None Include="SAGallery\Peds\Skin_16.png" />
+    <None Include="SAGallery\Peds\Skin_17.png" />
+    <None Include="SAGallery\Peds\Skin_18.png" />
+    <None Include="SAGallery\Peds\Skin_19.png" />
+    <None Include="SAGallery\Peds\Skin_20.png" />
+    <None Include="SAGallery\Peds\Skin_21.png" />
+    <None Include="SAGallery\Peds\Skin_22.png" />
+    <None Include="SAGallery\Peds\Skin_23.png" />
+    <None Include="SAGallery\Peds\Skin_24.png" />
+    <None Include="SAGallery\Peds\Skin_25.png" />
+    <None Include="SAGallery\Peds\Skin_26.png" />
+    <None Include="SAGallery\Peds\Skin_27.png" />
+    <None Include="SAGallery\Peds\Skin_28.png" />
+    <None Include="SAGallery\Peds\Skin_29.png" />
+    <None Include="SAGallery\Peds\Skin_30.png" />
+    <None Include="SAGallery\Peds\Skin_31.png" />
+    <None Include="SAGallery\Peds\Skin_32.png" />
+    <None Include="SAGallery\Peds\Skin_33.png" />
+    <None Include="SAGallery\Peds\Skin_34.png" />
+    <None Include="SAGallery\Peds\Skin_35.png" />
+    <None Include="SAGallery\Peds\Skin_36.png" />
+    <None Include="SAGallery\Peds\Skin_37.png" />
+    <None Include="SAGallery\Peds\Skin_38.png" />
+    <None Include="SAGallery\Peds\Skin_39.png" />
+    <None Include="SAGallery\Peds\Skin_40.png" />
+    <None Include="SAGallery\Peds\Skin_41.png" />
+    <None Include="SAGallery\Peds\Skin_43.png" />
+    <None Include="SAGallery\Peds\Skin_44.png" />
+    <None Include="SAGallery\Peds\Skin_45.png" />
+    <None Include="SAGallery\Peds\Skin_46.png" />
+    <None Include="SAGallery\Peds\Skin_47.png" />
+    <None Include="SAGallery\Peds\Skin_48.png" />
+    <None Include="SAGallery\Peds\Skin_49.png" />
+    <None Include="SAGallery\Peds\Skin_50.png" />
+    <None Include="SAGallery\Peds\Skin_51.png" />
+    <None Include="SAGallery\Peds\Skin_52.png" />
+    <None Include="SAGallery\Peds\Skin_54.png" />
+    <None Include="SAGallery\Peds\Skin_55.png" />
+    <None Include="SAGallery\Peds\Skin_56.png" />
+    <None Include="SAGallery\Peds\Skin_57.png" />
+    <None Include="SAGallery\Peds\Skin_58.png" />
+    <None Include="SAGallery\Peds\Skin_59.png" />
+    <None Include="SAGallery\Peds\Skin_60.png" />
+    <None Include="SAGallery\Peds\Skin_61.png" />
+    <None Include="SAGallery\Peds\Skin_62.png" />
+    <None Include="SAGallery\Peds\Skin_63.png" />
+    <None Include="SAGallery\Peds\Skin_64.png" />
+    <None Include="SAGallery\Peds\Skin_66.png" />
+    <None Include="SAGallery\Peds\Skin_67.png" />
+    <None Include="SAGallery\Peds\Skin_68.png" />
+    <None Include="SAGallery\Peds\Skin_69.png" />
+    <None Include="SAGallery\Peds\Skin_70.png" />
+    <None Include="SAGallery\Peds\Skin_72.png" />
+    <None Include="SAGallery\Peds\Skin_73.png" />
+    <None Include="SAGallery\Peds\Skin_75.png" />
+    <None Include="SAGallery\Peds\Skin_76.png" />
+    <None Include="SAGallery\Peds\Skin_77.png" />
+    <None Include="SAGallery\Peds\Skin_78.png" />
+    <None Include="SAGallery\Peds\Skin_79.png" />
+    <None Include="SAGallery\Peds\Skin_80.png" />
+    <None Include="SAGallery\Peds\Skin_81.png" />
+    <None Include="SAGallery\Peds\Skin_82.png" />
+    <None Include="SAGallery\Peds\Skin_83.png" />
+    <None Include="SAGallery\Peds\Skin_84.png" />
+    <None Include="SAGallery\Peds\Skin_85.png" />
+    <None Include="SAGallery\Peds\Skin_87.png" />
+    <None Include="SAGallery\Peds\Skin_88.png" />
+    <None Include="SAGallery\Peds\Skin_89.png" />
+    <None Include="SAGallery\Peds\Skin_90.png" />
+    <None Include="SAGallery\Peds\Skin_92.png" />
+    <None Include="SAGallery\Peds\Skin_93.png" />
+    <None Include="SAGallery\Peds\Skin_94.png" />
+    <None Include="SAGallery\Peds\Skin_95.png" />
+    <None Include="SAGallery\Peds\Skin_96.png" />
+    <None Include="SAGallery\Peds\Skin_97.png" />
+    <None Include="SAGallery\Peds\Skin_98.png" />
+    <None Include="SAGallery\Peds\Skin_99.png" />
+    <None Include="SAGallery\Peds\Skin_100.png" />
+    <None Include="SAGallery\Peds\Skin_101.png" />
+    <None Include="SAGallery\Peds\Skin_102.png" />
+    <None Include="SAGallery\Peds\Skin_103.png" />
+    <None Include="SAGallery\Peds\Skin_104.png" />
+    <None Include="SAGallery\Peds\Skin_105.png" />
+    <None Include="SAGallery\Peds\Skin_106.png" />
+    <None Include="SAGallery\Peds\Skin_107.png" />
+    <None Include="SAGallery\Peds\Skin_108.png" />
+    <None Include="SAGallery\Peds\Skin_109.png" />
+    <None Include="SAGallery\Peds\Skin_110.png" />
+    <None Include="SAGallery\Peds\Skin_111.png" />
+    <None Include="SAGallery\Peds\Skin_112.png" />
+    <None Include="SAGallery\Peds\Skin_113.png" />
+    <None Include="SAGallery\Peds\Skin_114.png" />
+    <None Include="SAGallery\Peds\Skin_115.png" />
+    <None Include="SAGallery\Peds\Skin_116.png" />
+    <None Include="SAGallery\Peds\Skin_117.png" />
+    <None Include="SAGallery\Peds\Skin_118.png" />
+    <None Include="SAGallery\Peds\Skin_120.png" />
+    <None Include="SAGallery\Peds\Skin_121.png" />
+    <None Include="SAGallery\Peds\Skin_122.png" />
+    <None Include="SAGallery\Peds\Skin_123.png" />
+    <None Include="SAGallery\Peds\Skin_124.png" />
+    <None Include="SAGallery\Peds\Skin_125.png" />
+    <None Include="SAGallery\Peds\Skin_126.png" />
+    <None Include="SAGallery\Peds\Skin_127.png" />
+    <None Include="SAGallery\Peds\Skin_128.png" />
+    <None Include="SAGallery\Peds\Skin_129.png" />
+    <None Include="SAGallery\Peds\Skin_130.png" />
+    <None Include="SAGallery\Peds\Skin_131.png" />
+    <None Include="SAGallery\Peds\Skin_132.png" />
+    <None Include="SAGallery\Peds\Skin_133.png" />
+    <None Include="SAGallery\Peds\Skin_134.png" />
+    <None Include="SAGallery\Peds\Skin_135.png" />
+    <None Include="SAGallery\Peds\Skin_136.png" />
+    <None Include="SAGallery\Peds\Skin_137.png" />
+    <None Include="SAGallery\Peds\Skin_138.png" />
+    <None Include="SAGallery\Peds\Skin_139.png" />
+    <None Include="SAGallery\Peds\Skin_140.png" />
+    <None Include="SAGallery\Peds\Skin_141.png" />
+    <None Include="SAGallery\Peds\Skin_142.png" />
+    <None Include="SAGallery\Peds\Skin_143.png" />
+    <None Include="SAGallery\Peds\Skin_144.png" />
+    <None Include="SAGallery\Peds\Skin_145.png" />
+    <None Include="SAGallery\Peds\Skin_146.png" />
+    <None Include="SAGallery\Peds\Skin_147.png" />
+    <None Include="SAGallery\Peds\Skin_148.png" />
+    <None Include="SAGallery\Peds\Skin_150.png" />
+    <None Include="SAGallery\Peds\Skin_151.png" />
+    <None Include="SAGallery\Peds\Skin_152.png" />
+    <None Include="SAGallery\Peds\Skin_153.png" />
+    <None Include="SAGallery\Peds\Skin_154.png" />
+    <None Include="SAGallery\Peds\Skin_155.png" />
+    <None Include="SAGallery\Peds\Skin_156.png" />
+    <None Include="SAGallery\Peds\Skin_157.png" />
+    <None Include="SAGallery\Peds\Skin_158.png" />
+    <None Include="SAGallery\Peds\Skin_159.png" />
+    <None Include="SAGallery\Peds\Skin_160.png" />
+    <None Include="SAGallery\Peds\Skin_161.png" />
+    <None Include="SAGallery\Peds\Skin_162.png" />
+    <None Include="SAGallery\Peds\Skin_163.png" />
+    <None Include="SAGallery\Peds\Skin_164.png" />
+    <None Include="SAGallery\Peds\Skin_165.png" />
+    <None Include="SAGallery\Peds\Skin_166.png" />
+    <None Include="SAGallery\Peds\Skin_167.png" />
+    <None Include="SAGallery\Peds\Skin_168.png" />
+    <None Include="SAGallery\Peds\Skin_169.png" />
+    <None Include="SAGallery\Peds\Skin_170.png" />
+    <None Include="SAGallery\Peds\Skin_171.png" />
+    <None Include="SAGallery\Peds\Skin_172.png" />
+    <None Include="SAGallery\Peds\Skin_173.png" />
+    <None Include="SAGallery\Peds\Skin_174.png" />
+    <None Include="SAGallery\Peds\Skin_175.png" />
+    <None Include="SAGallery\Peds\Skin_176.png" />
+    <None Include="SAGallery\Peds\Skin_177.png" />
+    <None Include="SAGallery\Peds\Skin_178.png" />
+    <None Include="SAGallery\Peds\Skin_179.png" />
+    <None Include="SAGallery\Peds\Skin_180.png" />
+    <None Include="SAGallery\Peds\Skin_181.png" />
+    <None Include="SAGallery\Peds\Skin_182.png" />
+    <None Include="SAGallery\Peds\Skin_183.png" />
+    <None Include="SAGallery\Peds\Skin_184.png" />
+    <None Include="SAGallery\Peds\Skin_185.png" />
+    <None Include="SAGallery\Peds\Skin_186.png" />
+    <None Include="SAGallery\Peds\Skin_187.png" />
+    <None Include="SAGallery\Peds\Skin_188.png" />
+    <None Include="SAGallery\Peds\Skin_189.png" />
+    <None Include="SAGallery\Peds\Skin_190.png" />
+    <None Include="SAGallery\Peds\Skin_191.png" />
+    <None Include="SAGallery\Peds\Skin_192.png" />
+    <None Include="SAGallery\Peds\Skin_193.png" />
+    <None Include="SAGallery\Peds\Skin_194.png" />
+    <None Include="SAGallery\Peds\Skin_195.png" />
+    <None Include="SAGallery\Peds\Skin_196.png" />
+    <None Include="SAGallery\Peds\Skin_197.png" />
+    <None Include="SAGallery\Peds\Skin_198.png" />
+    <None Include="SAGallery\Peds\Skin_199.png" />
+    <None Include="SAGallery\Peds\Skin_200.png" />
+    <None Include="SAGallery\Peds\Skin_201.png" />
+    <None Include="SAGallery\Peds\Skin_202.png" />
+    <None Include="SAGallery\Peds\Skin_203.png" />
+    <None Include="SAGallery\Peds\Skin_204.png" />
+    <None Include="SAGallery\Peds\Skin_205.png" />
+    <None Include="SAGallery\Peds\Skin_206.png" />
+    <None Include="SAGallery\Peds\Skin_207.png" />
+    <None Include="SAGallery\Peds\Skin_209.png" />
+    <None Include="SAGallery\Peds\Skin_210.png" />
+    <None Include="SAGallery\Peds\Skin_211.png" />
+    <None Include="SAGallery\Peds\Skin_212.png" />
+    <None Include="SAGallery\Peds\Skin_213.png" />
+    <None Include="SAGallery\Peds\Skin_214.png" />
+    <None Include="SAGallery\Peds\Skin_215.png" />
+    <None Include="SAGallery\Peds\Skin_216.png" />
+    <None Include="SAGallery\Peds\Skin_217.png" />
+    <None Include="SAGallery\Peds\Skin_218.png" />
+    <None Include="SAGallery\Peds\Skin_219.png" />
+    <None Include="SAGallery\Peds\Skin_220.png" />
+    <None Include="SAGallery\Peds\Skin_221.png" />
+    <None Include="SAGallery\Peds\Skin_222.png" />
+    <None Include="SAGallery\Peds\Skin_223.png" />
+    <None Include="SAGallery\Peds\Skin_224.png" />
+    <None Include="SAGallery\Peds\Skin_225.png" />
+    <None Include="SAGallery\Peds\Skin_226.png" />
+    <None Include="SAGallery\Peds\Skin_227.png" />
+    <None Include="SAGallery\Peds\Skin_228.png" />
+    <None Include="SAGallery\Peds\Skin_229.png" />
+    <None Include="SAGallery\Peds\Skin_230.png" />
+    <None Include="SAGallery\Peds\Skin_231.png" />
+    <None Include="SAGallery\Peds\Skin_232.png" />
+    <None Include="SAGallery\Peds\Skin_233.png" />
+    <None Include="SAGallery\Peds\Skin_234.png" />
+    <None Include="SAGallery\Peds\Skin_235.png" />
+    <None Include="SAGallery\Peds\Skin_236.png" />
+    <None Include="SAGallery\Peds\Skin_237.png" />
+    <None Include="SAGallery\Peds\Skin_238.png" />
+    <None Include="SAGallery\Peds\Skin_239.png" />
+    <None Include="SAGallery\Peds\Skin_240.png" />
+    <None Include="SAGallery\Peds\Skin_241.png" />
+    <None Include="SAGallery\Peds\Skin_242.png" />
+    <None Include="SAGallery\Peds\Skin_243.png" />
+    <None Include="SAGallery\Peds\Skin_244.png" />
+    <None Include="SAGallery\Peds\Skin_245.png" />
+    <None Include="SAGallery\Peds\Skin_246.png" />
+    <None Include="SAGallery\Peds\Skin_247.png" />
+    <None Include="SAGallery\Peds\Skin_248.png" />
+    <None Include="SAGallery\Peds\Skin_249.png" />
+    <None Include="SAGallery\Peds\Skin_250.png" />
+    <None Include="SAGallery\Peds\Skin_251.png" />
+    <None Include="SAGallery\Peds\Skin_252.png" />
+    <None Include="SAGallery\Peds\Skin_253.png" />
+    <None Include="SAGallery\Peds\Skin_254.png" />
+    <None Include="SAGallery\Peds\Skin_255.png" />
+    <None Include="SAGallery\Peds\Skin_256.png" />
+    <None Include="SAGallery\Peds\Skin_257.png" />
+    <None Include="SAGallery\Peds\Skin_258.png" />
+    <None Include="SAGallery\Peds\Skin_259.png" />
+    <None Include="SAGallery\Peds\Skin_260.png" />
+    <None Include="SAGallery\Peds\Skin_261.png" />
+    <None Include="SAGallery\Peds\Skin_262.png" />
+    <None Include="SAGallery\Peds\Skin_263.png" />
+    <None Include="SAGallery\Peds\Skin_264.png" />
+    <None Include="SAGallery\Peds\Skin_274.png" />
+    <None Include="SAGallery\Peds\Skin_275.png" />
+    <None Include="SAGallery\Peds\Skin_276.png" />
+    <None Include="SAGallery\Peds\Skin_277.png" />
+    <None Include="SAGallery\Peds\Skin_278.png" />
+    <None Include="SAGallery\Peds\Skin_279.png" />
+    <None Include="SAGallery\Peds\Skin_280.png" />
+    <None Include="SAGallery\Peds\Skin_281.png" />
+    <None Include="SAGallery\Peds\Skin_282.png" />
+    <None Include="SAGallery\Peds\Skin_283.png" />
+    <None Include="SAGallery\Peds\Skin_284.png" />
+    <None Include="SAGallery\Peds\Skin_285.png" />
+    <None Include="SAGallery\Peds\Skin_286.png" />
+    <None Include="SAGallery\Peds\Skin_287.png" />
+    <None Include="SAGallery\Peds\Skin_288.png" />
+    <None Include="SAGallery\Pickups\sa-mp-104.png" />
+    <None Include="SAGallery\Pickups\sa-mp-105.png" />
+    <None Include="SAGallery\Pickups\sa-mp-106.png" />
+    <None Include="SAGallery\Pickups\sa-mp-107.png" />
+    <None Include="SAGallery\Pickups\sa-mp-108.png" />
+    <None Include="SAGallery\Pickups\sa-mp-109.png" />
+    <None Include="SAGallery\Pickups\sa-mp-110.png" />
+    <None Include="SAGallery\Pickups\sa-mp-111.png" />
+    <None Include="SAGallery\Pickups\sa-mp-112.png" />
+    <None Include="SAGallery\Pickups\sa-mp-113.png" />
+    <None Include="SAGallery\Pickups\sa-mp-114.png" />
+    <None Include="SAGallery\Pickups\sa-mp-115.png" />
+    <None Include="SAGallery\Pickups\sa-mp-116.png" />
+    <None Include="SAGallery\Pickups\sa-mp-117.png" />
+    <None Include="SAGallery\Pickups\sa-mp-118.png" />
+    <None Include="SAGallery\Pickups\sa-mp-119.png" />
+    <None Include="SAGallery\Pickups\sa-mp-120.png" />
+    <None Include="SAGallery\Pickups\sa-mp-121.png" />
+    <None Include="SAGallery\Pickups\sa-mp-122.png" />
+    <None Include="SAGallery\Pickups\sa-mp-123.png" />
+    <None Include="SAGallery\Pickups\sa-mp-124.png" />
+    <None Include="SAGallery\Pickups\sa-mp-125.png" />
+    <None Include="SAGallery\Pickups\sa-mp-126.png" />
+    <None Include="SAGallery\Pickups\sa-mp-127.png" />
+    <None Include="SAGallery\Pickups\sa-mp-128.png" />
+    <None Include="SAGallery\Pickups\sa-mp-129.png" />
+    <None Include="SAGallery\Pickups\sa-mp-130.png" />
+    <None Include="SAGallery\Colors\20100501221341!SA-MP_Color.jpg" />
+    <None Include="SAGallery\Colors\Carcolours_All.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type0.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type1.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type2.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type3.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type4.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type5.jpg" />
+    <None Include="SAGallery\Gametext\Game-text-type6.jpg" />
+    <None Include="SAGallery\Iconsweap\Weapon-0.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-1.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-2.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-3.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-4.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-5.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-6.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-7.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-8.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-9.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-10.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-11.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-12.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-13.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-14.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-15.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-16.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-17.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-18.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-22.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-23.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-24.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-25.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-26.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-27.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-28.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-29.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-30.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-31.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-32.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-33.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-34.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-35.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-36.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-37.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-38.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-39.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-40.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-41.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-42.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-43.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-44.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-45.gif" />
+    <None Include="SAGallery\Iconsweap\Weapon-46.gif" />
+    <None Include="SAGallery\Weather\sa-mp-000.png" />
+    <None Include="SAGallery\Weather\sa-mp-001.png" />
+    <None Include="SAGallery\Weather\sa-mp-002.png" />
+    <None Include="SAGallery\Weather\sa-mp-003.png" />
+    <None Include="SAGallery\Weather\sa-mp-004.png" />
+    <None Include="SAGallery\Weather\sa-mp-005.png" />
+    <None Include="SAGallery\Weather\sa-mp-006.png" />
+    <None Include="SAGallery\Weather\sa-mp-007.png" />
+    <None Include="SAGallery\Weather\sa-mp-008.png" />
+    <None Include="SAGallery\Weather\sa-mp-009.png" />
+    <None Include="SAGallery\Weather\sa-mp-010.png" />
+    <None Include="SAGallery\Weather\sa-mp-011.png" />
+    <None Include="SAGallery\Weather\sa-mp-012.png" />
+    <None Include="SAGallery\Weather\sa-mp-013.png" />
+    <None Include="SAGallery\Weather\sa-mp-014.png" />
+    <None Include="SAGallery\Weather\sa-mp-015.png" />
+    <None Include="SAGallery\Weather\sa-mp-016.png" />
+    <None Include="SAGallery\Weather\sa-mp-017.png" />
+    <None Include="SAGallery\Weather\sa-mp-018.png" />
+    <None Include="SAGallery\Weather\sa-mp-019.png" />
+    <None Include="SAGallery\Weather\sa-mp-020.png" />
+    <None Include="SAGallery\Weather\sa-mp-021.png" />
+    <None Include="SAGallery\Weather\sa-mp-022.png" />
+    <None Include="SAGallery\Weather\sa-mp-023.png" />
+    <None Include="SAGallery\Weather\sa-mp-024.png" />
+    <None Include="SAGallery\Weather\sa-mp-025.png" />
+    <None Include="SAGallery\Sounds\SOUND_AMMUNATION_BUY_WEAPON.wav" />
+    <None Include="SAGallery\Sounds\SOUND_AMMUNATION_BUY_WEAPON_DENIED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_AMMUNATION_GUN_COLLISION.wav" />
+    <None Include="SAGallery\Sounds\SOUND_AWARD_TRACK_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BASEBALL_BAT_HIT_PED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BEE_TRACK_START%28MUSIC%29.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BIKE_AWARD_TRACK_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BONNET_DENT.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BUY_CAR_MOD.wav" />
+    <None Include="SAGallery\Sounds\SOUND_BUY_CAR_RESPRAY.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CAMERA_SHOT.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CAR_SMASH_CAR.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CAR_SMASH_GATE.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CEILING_VENT_LAND.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CHECKPOINT_AMBER.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CHECKPOINT_GREEN.wav" />
+    <None Include="SAGallery\Sounds\SOUND_CHECKPOINT_RED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_DRIVING_AWARD_TRACK_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_DUAL_TRACK_START%28MUSIC%29.wav" />
+    <None Include="SAGallery\Sounds\SOUND_EXPLOSION.wav" />
+    <None Include="SAGallery\Sounds\SOUND_GARAGE_DOOR_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_GOGO_TRACK_START%28MUSIC%29.wav" />
+    <None Include="SAGallery\Sounds\SOUND_MAGNET_VEHICLE_COLLISION.wav" />
+    <None Include="SAGallery\Sounds\SOUND_OTB_TRACK_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PARACHUTE_OPEN.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PART_MISSION_COMPLETE.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PED_COLLAPSE.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PED_HIT_WATER_SPLASH.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PICKUP_STANDARD.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PILOT_AWARD_TRACK_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PROPERTY_PURCHASED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_PUNCH_PED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_RACE_321.wav" />
+    <None Include="SAGallery\Sounds\SOUND_RACE_GO.wav" />
+    <None Include="SAGallery\Sounds\SOUND_RESTAURANT_TRAY_COLLISION.wav" />
+    <None Include="SAGallery\Sounds\SOUND_ROULETTE_ADD_CASH.wav" />
+    <None Include="SAGallery\Sounds\SOUND_ROULETTE_NO_CASH.wav" />
+    <None Include="SAGallery\Sounds\SOUND_ROULETTE_REMOVE_CASH.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SHOP_BUY.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SHOP_BUY_DENIED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SHUTTER_DOOR_SLOW_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SHUTTER_DOOR_START.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SLAP.wav" />
+    <None Include="SAGallery\Sounds\SOUND_STAMP_PED.wav" />
+    <None Include="SAGallery\Sounds\SOUND_SWEETS_HORN.wav" />
+    <None Include="SAGallery\Sounds\SOUND_TWO_FEET_STOMP.wav" />
+    <None Include="SAGallery\Sounds\SOUND_WHEEL_OF_FORTUNE_CLACKER.wav" />
+    <None Include="SAGallery\ALogos\favicon.ico" />
+    <None Include="SAGallery\ALogos\GTA_San_Andreas_SA_MP_Icon_by_TheOriginalTwig.ico" />
+    <Content Include="visualicon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
