@@ -1,7 +1,7 @@
 
 
 
-__________________________________![description](https://www.upload.ee/image/9917352/VisualTexture.png) __________________________________
+__________________________________![description](https://www.upload.ee/image/9967286/VisualTexture.png) __________________________________
 
 ## Changes made: 05 - May - 2019
 
