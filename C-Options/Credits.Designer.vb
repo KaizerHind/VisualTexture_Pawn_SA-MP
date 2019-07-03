@@ -760,17 +760,7 @@ Partial Class Credits
         Me.RichTextBox4.Size = New System.Drawing.Size(303, 20)
         Me.RichTextBox4.TabIndex = 43
         Me.RichTextBox4.Text = "Resource e InfoTeam. "
-        '
-        'PictureBox21
-        '
-        Me.PictureBox21.BackColor = System.Drawing.SystemColors.Control
-        Me.PictureBox21.BackgroundImage = Global.VisualTextures.My.Resources.Resources.Memencio
-        Me.PictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox21.Location = New System.Drawing.Point(6, 229)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(111, 106)
-        Me.PictureBox21.TabIndex = 42
-        Me.PictureBox21.TabStop = False
+
         '
         'RichTextBox3
         '

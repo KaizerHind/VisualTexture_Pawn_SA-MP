@@ -37,10 +37,10 @@ Partial Class Loading
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.Control
-        Me.Label1.Font = New System.Drawing.Font("BIRTH OF A HERO", 26.25!)
-        Me.Label1.Location = New System.Drawing.Point(71, 246)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!)
+        Me.Label1.Location = New System.Drawing.Point(30, 240)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(205, 39)
+        Me.Label1.Size = New System.Drawing.Size(287, 39)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "VisualTexture 1.0"
         '

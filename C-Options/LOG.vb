@@ -113,7 +113,15 @@
     Descripción: Se agrego un formulario antes de la Index, la cual
     te permitira elegir si deseas iniciar con la Index en
     Ingles o Español, esto con el fin de leer la Informacion
-    principal del programa."
+    principal del programa.
+
+# Cambios realizados: 02 - Julio - 2019
+
+.- Fixeo de errores.
+    
+    Descripción: Se arreglaron 2 errores notorios en la app:
+    - La sección Sprites no funcionaba ya que lanzaba un error a todos.
+    - En la pantalla de carga estaba mal centrado el texto y la imagen."
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
