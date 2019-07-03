@@ -3,6 +3,12 @@
 
 __________________________________![description](https://www.upload.ee/image/9967286/VisualTexture.png) __________________________________
 
+## Changed made: 02 - July - 2019
+
+ - *Fixed bug: Section Sprites now works!*
+
+ - *Fixed bug: Charge screen was poorly centered*
+
 ## Changes made: 05 - May - 2019
 
  - *A problem was solved in the variables, which did not allow VisualTexture to be closed completely, happening to run in the background.*
@@ -62,9 +68,3 @@ __________________________________![description](https://www.upload.ee/image/996
  - *The Textures section is at 10% development.*
  - *The interface of the "Credits" section was changed.*
  - *The language options are in Development.*
-
-## Changed made: 02 - July - 2019
-
- - *Fixed bug: Section Sprites now works!*
-
- - *Fixed bug: Charge screen was poorly centered*
