@@ -10,10 +10,9 @@ Public Class VSprites
 
     Private Sub VSprites_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        mainLocation = Directory.GetFiles("C:\Users\sebas_000\Documents\Visual Studio 2017\Projects\VisualTextures\VisualTextures\SAGallery\Sprites\", "*.png", SearchOption.AllDirectories)
+        mainLocation = Directory.GetFiles(".\Sprites\", "*.png", SearchOption.AllDirectories)
         Dim spriteCount As Integer = 0
         Me.MaximizeBox = False
-        Me.textBox2.Enabled = False
         For Each name As String In mainLocation
             Dim newLoc As String = Path.GetFileName(name)
             listBox1.Items.Add(newLoc)
@@ -22,15 +21,6 @@ Public Class VSprites
         Next
         spriteCount += 1
         label4.Text = spriteCount & " SPRITES"
-
-
-        textBox2.Show()
-
-        textBox2.Text = "To look at the huge
-images that are
-hardly shown, refer
-yourself to using the
-""Stretch"" button!"
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click

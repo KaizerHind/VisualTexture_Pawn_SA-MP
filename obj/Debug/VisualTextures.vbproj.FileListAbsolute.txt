@@ -36,3 +36,37 @@ C:\Users\sebas_000\Documents\Visual Studio 2017\Projects\VisualTextures\VisualTe
 C:\Users\sebas_000\Documents\Visual Studio 2017\Projects\VisualTextures\VisualTextures\obj\Debug\VisualTextures.frmColorMap.resources
 C:\Users\sebas_000\Documents\Visual Studio 2017\Projects\VisualTextures\VisualTextures\obj\Debug\VisualTextures.frmVehicleColors.resources
 C:\Users\sebas_000\Documents\Visual Studio 2017\Projects\VisualTextures\VisualTextures\obj\Debug\VisualTextures.Form4.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\VisualTextures.exe.config
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\VisualTextures.exe.manifest
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\VisualTextures.application
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\VisualTextures.exe
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\VisualTextures.pdb
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.vbprojAssemblyReference.cache
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.LOptions.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Pawncp.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.VSprites.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.AboutBox1.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.frmMain.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.frmColorMap.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.frmVehicleColors.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Form4.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.CMilisegundos.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Contact.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Credits.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Screenshots.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.VAnims.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.VTextures.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.LOG.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Loading.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Index.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Spanish.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.Resources.resources
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.vbproj.GenerateResource.cache
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.vbproj.CoreCompileInputs.cache
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.TrustInfo.xml
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.exe.manifest
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.application
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.vbproj.CopyComplete
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.exe
+C:\Users\DarkFire\Desktop\VisualTexture_Pawn_SA-MP-master\obj\Debug\VisualTextures.pdb

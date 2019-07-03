@@ -23,8 +23,6 @@ Partial Class VSprites
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.label4 = New System.Windows.Forms.Label()
-        Me.label3 = New System.Windows.Forms.Label()
-        Me.textBox2 = New System.Windows.Forms.TextBox()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
         Me.button3 = New System.Windows.Forms.Button()
@@ -60,28 +58,6 @@ Partial Class VSprites
         Me.label4.Size = New System.Drawing.Size(101, 15)
         Me.label4.TabIndex = 21
         Me.label4.Text = "1000 SPRITES"
-        '
-        'label3
-        '
-        Me.label3.AutoSize = True
-        Me.label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.label3.Location = New System.Drawing.Point(493, 158)
-        Me.label3.Name = "label3"
-        Me.label3.Size = New System.Drawing.Size(41, 16)
-        Me.label3.TabIndex = 20
-        Me.label3.Text = "Note"
-        '
-        'textBox2
-        '
-        Me.textBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
-        Me.textBox2.ForeColor = System.Drawing.SystemColors.Control
-        Me.textBox2.Location = New System.Drawing.Point(496, 175)
-        Me.textBox2.Multiline = True
-        Me.textBox2.Name = "textBox2"
-        Me.textBox2.ReadOnly = True
-        Me.textBox2.Size = New System.Drawing.Size(105, 75)
-        Me.textBox2.TabIndex = 19
         '
         'label2
         '
@@ -186,38 +162,38 @@ Partial Class VSprites
         'CloseToolStripMenuItem
         '
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
         '
         'ToolsToolStripMenuItem
         '
         Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
+        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
         '
         'AnimationsViewerToolStripMenuItem
         '
         Me.AnimationsViewerToolStripMenuItem.Name = "AnimationsViewerToolStripMenuItem"
-        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.AnimationsViewerToolStripMenuItem.Text = "Animations viewer"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'SupportToolStripMenuItem
@@ -259,8 +235,6 @@ Partial Class VSprites
         Me.ClientSize = New System.Drawing.Size(613, 351)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.label4)
-        Me.Controls.Add(Me.label3)
-        Me.Controls.Add(Me.textBox2)
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.label1)
         Me.Controls.Add(Me.button3)
@@ -282,8 +256,6 @@ Partial Class VSprites
     End Sub
 
     Private WithEvents label4 As Label
-    Private WithEvents label3 As Label
-    Private WithEvents textBox2 As TextBox
     Private WithEvents label2 As Label
     Private WithEvents label1 As Label
     Private WithEvents button3 As Button
