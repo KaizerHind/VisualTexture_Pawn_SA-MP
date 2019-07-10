@@ -120,12 +120,34 @@
 .- Fixeo de errores.
     
     Descripción: Se arreglaron 2 errores notorios en la app:
+ 
     - La sección Sprites no funcionaba ya que lanzaba un error a todos.
-    - En la pantalla de carga estaba mal centrado el texto y la imagen."
+
+    - En la pantalla de carga estaba mal centrado el texto y la imagen.
+
+# Cambios realizados: 08 - Julio - 2019
+
+    .- Se hicieron correcciones y cambios en algunas ventanas
+    tambien asi mismo se añadio nueva informacion y datos.
+
+    Descripción: Se corrigieron las opciones de cerrar las ventanas, ya
+    que estas no finalizaban los procesos totalmente, ahora lo hacen.
+
+    - Se añadieron nuevos datos en la seccion de Texturas.
+
+    Descripción: Se añadieron mas imagenes en la seccion de Texturas, ya
+    que actualmente solo se disponia de puertas, ahora se podran visualizar
+    mas secciones.
+
+    - Diseño de bordes y ventanas.
+
+    Descripción: Algunas ventanas tienen un nuevo diseño, esto con el fin de
+    quitar ciertas opciones que no se desean mostrar, ya que estan programadas
+    en el codigo."
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
+        Application.Exit()
     End Sub
 
     Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox1.TextChanged
