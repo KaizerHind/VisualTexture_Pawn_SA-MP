@@ -107,7 +107,7 @@ Partial Class Contact
         '
         Me.Button1.Location = New System.Drawing.Point(351, 1)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(22, 23)
+        Me.Button1.Size = New System.Drawing.Size(22, 20)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "X"
         Me.Button1.UseVisualStyleBackColor = True
