@@ -4,7 +4,7 @@
     Private MoveForm As Boolean
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
+        Application.Exit()
     End Sub
     Private Sub Credits_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
         If e.Button = Windows.Forms.MouseButtons.Left Then
@@ -66,7 +66,4 @@
         Me.Cursor = Cursors.Default
     End Sub
 
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
 End Class
