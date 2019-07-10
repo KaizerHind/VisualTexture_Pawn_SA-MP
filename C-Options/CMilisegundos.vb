@@ -1,6 +1,6 @@
 ﻿Public Class CMilisegundos
     Private Sub MainToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MainToolStripMenuItem.Click
-        Close()
+        Application.Exit()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
