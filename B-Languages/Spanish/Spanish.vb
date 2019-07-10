@@ -4,7 +4,7 @@
     Private MoveForm As Boolean
 
     Private Sub Spanish_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Label1.Text = "Gracias por usar VisualTextures."
+        Label1.Text = "Gracias por usar VisualTexture."
         Label2.Text = "Esta herramienta a sido creada con el fin de proporcionar informacion mucho mas rapida, a la hora de"
         Label3.Text = "necesitar cualquier tipo de dato, con lo que se refiere a: Funciones, texturas, objectos, sonidos, entre"
         Label4.Text = "otros. De momento, esta herramienta se encuentra en Fase BETA, estamos trabajando constantemente"
