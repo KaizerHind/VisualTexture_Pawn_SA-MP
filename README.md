@@ -3,6 +3,11 @@
 
 __________________________________![description](https://www.upload.ee/image/9967286/VisualTexture.png) __________________________________
 
+## Changed made: 09 - July - 2019
+
+- *The multi-tools section was repaired, it had a small information problem.*
+- *An error correction was made in the resources.resx file.*
+
 ## Changed made: 02 - July - 2019
 
  - *Fixed bug: Section Sprites now works!*
