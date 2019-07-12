@@ -177,6 +177,12 @@
     <Compile Include="B-Languages\Multi-tools\Form4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="B-Languages\Spanish\PawnWiki.Designer.vb">
+      <DependentUpon>PawnWiki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\Spanish\PawnWiki.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="C-Options\CMilisegundos.Designer.vb">
       <DependentUpon>CMilisegundos.vb</DependentUpon>
     </Compile>
@@ -278,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\Multi-tools\Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\Spanish\PawnWiki.resx">
+      <DependentUpon>PawnWiki.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="C-Options\CMilisegundos.resx">
       <DependentUpon>CMilisegundos.vb</DependentUpon>
@@ -2021,10 +2030,100 @@
     <None Include="SAGallery\Sprites\wheels\wheel_smallcar64.png" />
     <None Include="SAGallery\Sprites\wheels\wheel_sport64.png" />
     <None Include="SAGallery\Sprites\wheels\wheel_truck64.png" />
+    <None Include="SAGallery\Texturas\Puertas\a51_blastdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\a51_intdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\a51_weedoors.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\aarprt6LAS.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor6.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor8.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\alleydoor9b.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ballydoor01_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bevdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bigwhite_4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\bigwhite_5.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_bar_entrance_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_Loadingbay_Door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Bow_LoadingBayDoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\clubdoor1_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\compdoor2_LAe.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\compdoor4_LAe.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\comptdoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\corporate1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\corporate3green_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\des_backdoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\flatdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garagedoor4_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garagedoor5_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\garargeb2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\GB_truckdepot29.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_sf_door12b.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_vicdoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\gz_vicdoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\halldoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\hosdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\int02_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasbevcit7.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasjmdoorgud.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\lasmalhus92.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\liftdoors_kb_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\liftdoorsac256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\LoadingDoorClean.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Lombard_door1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\metaldoor01_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\pawn_door01.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\plainwoodoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sf_garagedr1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shitydoor1_256.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shopdoor01_law.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\shopgrating128H.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sjmhoodalldr.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_grngarage1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_prisongate1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sl_shopshttr1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\staddoors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_backdoor02.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_door11.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_door12.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_sheddoor2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\sw_shutters1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vengardoor01_SFW.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vgncorpdoor1_512.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\vgsclubdoor02_128.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\Was_scrpyd_door_in_hngr.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\wilsdoor_01_la.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_airportdoors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_airportwin2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_altz_wall5_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_basheddoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_bigblackdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_doubledoor1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_doubledoor4.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_blue.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_green.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor2_white.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_green.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_pink.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor3_white.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_garagedoor4_peach.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_glassnbrassdoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_guardhousedoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_hangardoor.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors2.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_painted_doors3.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_reinforcedbutwonky.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_rollerdoor_fire.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_rollerdoor_silver.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_security_door.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_wood_doors1.bmp" />
+    <None Include="SAGallery\Texturas\Puertas\ws_wood_doors2.bmp" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SAGallery\Texturas\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
