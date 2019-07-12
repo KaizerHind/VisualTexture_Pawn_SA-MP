@@ -5158,4 +5158,280 @@
   <data name="_9rasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\9rasta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="a51_blastdoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\a51_blastdoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a51_intdoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\a51_intdoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a51_weedoors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\a51_weedoors.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aarprt6LAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\aarprt6LAS.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alleydoor9b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\alleydoor9b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ballydoor01_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ballydoor01_128.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bevdoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\bevdoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigwhite_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\bigwhite_4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bigwhite_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\bigwhite_5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_bar_entrance_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\Bow_bar_entrance_door.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_LoadingBayDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\Bow_LoadingBayDoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Loadingbay_Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\Bow_Loadingbay_Door.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clubdoor1_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\clubdoor1_256.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compdoor2_LAe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\compdoor2_LAe.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compdoor4_LAe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\compdoor4_LAe.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comptdoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\comptdoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comptdoor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\comptdoor3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comptdoor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\comptdoor4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corporate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\corporate1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corporate3green_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\corporate3green_128.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="des_backdoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\des_backdoor1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flatdoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\flatdoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garagedoor4_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\garagedoor4_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garagedoor5_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\garagedoor5_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garargeb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\garargeb2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GB_truckdepot29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\GB_truckdepot29.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gz_sf_door12b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\gz_sf_door12b.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gz_vicdoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\gz_vicdoor1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gz_vicdoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\gz_vicdoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="halldoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\halldoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hosdoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\hosdoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="int02_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\int02_128.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasbevcit7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\lasbevcit7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasjmdoorgud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\lasjmdoorgud.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasmalhus92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\lasmalhus92.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liftdoorsac256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\liftdoorsac256.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liftdoors_kb_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\liftdoors_kb_256.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoadingDoorClean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\LoadingDoorClean.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lombard_door1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\Lombard_door1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metaldoor01_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\metaldoor01_256.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pawn_door01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\pawn_door01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plainwoodoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\plainwoodoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sf_garagedr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sf_garagedr1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shitydoor1_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\shitydoor1_256.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopdoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\shopdoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopgrating128H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\shopgrating128H.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sjmhoodalldr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sjmhoodalldr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sl_grngarage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sl_grngarage1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sl_prisongate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sl_prisongate1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sl_shopshttr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sl_shopshttr1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staddoors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\staddoors1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw_backdoor02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sw_backdoor02.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw_door11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sw_door11.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw_door12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sw_door12.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw_sheddoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sw_sheddoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sw_shutters1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\sw_shutters1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vengardoor01_SFW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\vengardoor01_SFW.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vgncorpdoor1_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\vgncorpdoor1_512.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vgsclubdoor02_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\vgsclubdoor02_128.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Was_scrpyd_door_in_hngr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\Was_scrpyd_door_in_hngr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wilsdoor_01_la" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\wilsdoor_01_la.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_airportdoors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_airportdoors1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_airportwin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_airportwin2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_altz_wall5_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_altz_wall5_door.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_basheddoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_basheddoor1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_bigblackdoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_bigblackdoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_doubledoor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_doubledoor1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_doubledoor4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_doubledoor4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor2_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor2_blue.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor2_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor2_green.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor2_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor2_white.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor3_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor3_green.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor3_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor3_pink.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor3_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor3_white.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_garagedoor4_peach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_garagedoor4_peach.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_glassnbrassdoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_glassnbrassdoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_guardhousedoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_guardhousedoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_hangardoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_hangardoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_painted_doors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_painted_doors1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_painted_doors2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_painted_doors2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_painted_doors3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_painted_doors3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_reinforcedbutwonky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_reinforcedbutwonky.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_rollerdoor_fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_rollerdoor_fire.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_rollerdoor_silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_rollerdoor_silver.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_security_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_security_door.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_wood_doors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_wood_doors1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_wood_doors2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Puertas\ws_wood_doors2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
