@@ -203,13 +203,18 @@ Siempre se llama primero en gamemodes."
             Case 6
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerClickPlayer"
+                Inform.Text = "Se llama cuando el jugador
+clickea a otro en la tablist"
+                Tags.Text = "playerid, clickedplayerid, source."
+                Subtitle1.Text = "OnPlayerClickPlayer"
+                RichTextBox1.Text = "Funcion llamada cuanto el jugador selecciona a otro usuario en la TabList."
+                RichTextBox2.Text = "| playerid | El id del jugador. |
+| clickedplayerid | El id del jugador clickeado.|
+| source | El source del click del jugador. |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.
+1 - Indica que este callback pasó al otro Script.
+Siempre se llama primero en gamemodes."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -218,19 +223,28 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerClickPlayer</span><span class=""hljs-params"">(playerid, clickedplayerid, source)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> msg[<span class=""hljs-number"">32</span>];
+    format(msg, <span class=""hljs-keyword"">sizeof</span>(msg), <span class=""hljs-string"">""Clickeaste al id %d""</span>, clickedplayerid);
+    SendClientMessage(playerid, <span class=""hljs-number"">0xFFFFFFFF</span>, msg);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 7
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerConnect"
+                Inform.Text = "Este CallBack es llamado
+cuando el jugador entra al servidor"
+                Tags.Text = "playerid"
+                Subtitle1.Text = "OnPlayerConnect"
+                RichTextBox1.Text = "Funcion llamada en cuanto el jugador accede al Servidor."
+                RichTextBox2.Text = "| playerid | El id del jugador cuando se conecta. |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.
+1 - Indica que este callback pasó al otro Script.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -239,19 +253,31 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerConnect</span><span class=""hljs-params"">(playerid)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">64</span>], NombreJ[MAX_PLAYER_NAME];
+    GetPlayerName(playerid,NombreJ,MAX_PLAYER_NAME);
+    format(<span class=""hljs-built_in"">string</span>,<span class=""hljs-keyword"">sizeof</span> <span class=""hljs-built_in"">string</span>,<span class=""hljs-string"">""%s se conectó al servidor, Bienvenido!""</span>,NombreJ);
+    SendClientMessageToAll(<span class=""hljs-number"">0xFFFFFFAA</span>,<span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 8
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerDeath"
+                Inform.Text = "Este evento es llamado
+cuando un jugador muere."
+                Tags.Text = "playerid, killerid, reason"
+                Subtitle1.Text = "OnPlayerDeath"
+                RichTextBox1.Text = "Funcion llamada en cuanto un jugador es asesinado."
+                RichTextBox2.Text = "| playerid | El id del jugador cuando se conecta. |
+| killerid | El id del jugador que lo mató.|
+| reason | El id de la razón de muerte del jugador (ids de armas por ejemplo) |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.
+1 - Indica que este callback pasó al otro Script.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -260,20 +286,36 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
+<pre class=""hljs""><code><span class=""hljs-keyword"">new</span> muertes[MAX_PLAYERS];
+<span class=""hljs-keyword"">new</span> kills[MAX_PLAYERS];
 
+<span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerDeath</span><span class=""hljs-params"">(playerid, killerid, reason)</span>
+</span>{
+    <span class=""hljs-keyword"">if</span>(killerid != INVALID_PLAYER_ID)
+    {
+        kills[killerid] ++; <span class=""hljs-comment"">// le sumamos una kill al que mató</span>
+    }
+
+    muertes[playerid] ++; <span class=""hljs-comment"">// le sumamos una muerte al que murió</span>
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
 
             Case 9
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerDisconnect"
+                Inform.Text = "Este evento es llamado
+cuando el jugador abandona o cierra la sesion del
+servidor."
+                Tags.Text = "playerid, reason"
+                Subtitle1.Text = "OnPlayerDisconnect"
+                RichTextBox1.Text = "Este evento es llamado cuando el jugador abandona o cierra la sesion del servidor."
+                RichTextBox2.Text = "| ID | Razón | Descripción | |--------------------------| | 0 | Timeout/Crash | Al jugador se le crasheó/Se le lageó extremadamente. | | 1 | Quitó | El jugador uso /q o /quit y/o se desconectó. | | 2 | Kick/Ban | El jugador fue expulsado o exiliado. |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.
+1 - Indica que este callback pasó al otro Script.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -282,19 +324,30 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerDisconnect</span><span class=""hljs-params"">(playerid, reason)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">64</span>], NombreJ[MAX_PLAYER_NAME];
+    GetPlayerName(playerid,NombreJ,MAX_PLAYER_NAME);
+    format(<span class=""hljs-built_in"">string</span>,<span class=""hljs-keyword"">sizeof</span> <span class=""hljs-built_in"">string</span>,<span class=""hljs-string"">""%s se desconectó del servidor!""</span>,NombreJ);
+    SendClientMessageToAll(<span class=""hljs-number"">0xFFFFFFAA</span>,<span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 10
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerEnterVehicle"
+                Inform.Text = "Se llama cuando el
+jugador entra a un vehiculo."
+                Tags.Text = "playerid, vehicleid, ispassenger"
+                Subtitle1.Text = "OnPlayerEnterVehicle"
+                RichTextBox1.Text = "Evento llamado cuando jugador entra en un vehiculo."
+                RichTextBox2.Text = "| playerid | El id del jugador. |
+| vehicleid | El id del vehículo.|
+| ispassenger | Es pasajero o no (boolean) |"
+                RichTextBox3.Text = "Este callback no controla retornos.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -303,19 +356,28 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerEnterVehicle</span><span class=""hljs-params"">(playerid, vehicleid, ispassenger)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">128</span>];
+    format(<span class=""hljs-built_in"">string</span>, <span class=""hljs-keyword"">sizeof</span>(<span class=""hljs-built_in"">string</span>), <span class=""hljs-string"">""Entraste en el vehículo id %i""</span>, vehicleid);
+    SendClientMessage(playerid, <span class=""hljs-number"">0xFFFFFFFF</span>, <span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 11
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerExitVehicle"
+                Inform.Text = "Se llama cuando el
+jugador sale de un vehiculo"
+                Tags.Text = "playerid, vehicleid"
+                Subtitle1.Text = "OnPlayerExitVehicle"
+                RichTextBox1.Text = "Evento llamado cuando el jugador sale del interior de un vehiculo."
+                RichTextBox2.Text = "| playerid | El id del jugador. |
+| vehicleid | El id del vehículo. |"
+                RichTextBox3.Text = "Este callback no controla retornos.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -324,19 +386,31 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerExitVehicle</span><span class=""hljs-params"">(playerid, vehicleid)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">128</span>];
+    format(<span class=""hljs-built_in"">string</span>, <span class=""hljs-keyword"">sizeof</span>(<span class=""hljs-built_in"">string</span>), <span class=""hljs-string"">""Saliste del vehículo id %i""</span>, vehicleid);
+    SendClientMessage(playerid, <span class=""hljs-number"">0xFFFFFFFF</span>, <span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 12
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerKeyStateChange"
+                Inform.Text = "Informacion agregada
+en Descripcion."
+                Tags.Text = "playerid, newkeys, oldkeys"
+                Subtitle1.Text = "OnPlayerKeyStateChange"
+                RichTextBox1.Text = "Se llama a este callback cuando se cambia (presiona / suelta) el estado de
+cualquier tecla compatible. Las teclas direccionales no activan
+OnPlayerKeyStateChange (arriba / abajo / izquierda / derecha)."
+                RichTextBox2.Text = "| playerid | El id del jugador. |
+| newkeys | Un mapa (máscara de bits) de las teclas que se mantienen actualmente. |
+| oldkeys | Un mapa (máscara de bits) de las teclas que se mantenían anteriormente. |"
+                RichTextBox3.Text = "Este callback no controla retornos.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -345,19 +419,54 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
+<pre class=""hljs""><code><span class=""hljs-keyword"">if</span> (newkeys &amp; KEY_FIRE) <span class=""hljs-comment"">// si preciona KEY_FIRE</span>
 
+<span class=""hljs-meta"">#<span class=""hljs-meta-keyword"">define</span> HOLDING(%0) \
+    ((newkeys &amp; (%0)) == (%0)) </span>
+
+<span class=""hljs-keyword"">if</span> (HOLDING( KEY_FIRE )) <span class=""hljs-comment"">// si mantiene precionada la tecla KEY_FIRE</span>
+<span class=""hljs-keyword"">if</span> (HOLDING( KEY_FIRE | KEY_CROUCH )) <span class=""hljs-comment"">// si mantiene precionadas las teclas KEY_FIRE y KEY_CROUCH</span>
+
+<span class=""hljs-meta"">#<span class=""hljs-meta-keyword"">define</span> PRESSED(%0) \
+    (((newkeys &amp; (%0)) == (%0)) &amp;&amp; ((oldkeys &amp; (%0)) != (%0)))</span>
+
+<span class=""hljs-keyword"">if</span> (PRESSED( KEY_FIRE )) <span class=""hljs-comment"">// si presionó KEY_FIRE</span>
+<span class=""hljs-keyword"">if</span> (PRESSED( KEY_FIRE | KEY_CROUCH )) <span class=""hljs-comment"">// si presionó las teclas KEY_FIRE  y KEY_CROUCH</span>
+
+<span class=""hljs-meta"">#<span class=""hljs-meta-keyword"">define</span> RELEASED(%0) \
+    (((newkeys &amp; (%0)) != (%0)) &amp;&amp; ((oldkeys &amp; (%0)) == (%0)))</span>
+
+<span class=""hljs-keyword"">if</span> (RELEASED( KEY_FIRE )) <span class=""hljs-comment"">// si soltó KEY_FIRE</span>
+<span class=""hljs-keyword"">if</span> (RELEASED( KEY_FIRE | KEY_CROUCH )) <span class=""hljs-comment"">// si soltó las teclas KEY_FIRE  y KEY_CROUCH</span></code></pre><h2 id=""ejemplo"">Ejemplo</h2>
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerKeyStateChange</span><span class=""hljs-params"">(playerid, newkeys, oldkeys)</span>
+</span>{
+    <span class=""hljs-keyword"">if</span> (PRESSED(KEY_JUMP)) <span class=""hljs-comment"">// si preciona KEY_JUMP</span>
+    {
+        <span class=""hljs-keyword"">new</span>
+            Float:x,
+            Float:y,
+            Float:z;
+        GetPlayerPos(playerid, x, y, z);
+        SetPlayerPos(playerid, x, y, z + <span class=""hljs-number"">10.0</span>);
+    }
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 13
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerRequestSpawn"
+                Inform.Text = "Evento llamado cuando
+un jugador usa las
+opciones de spawn."
+                Tags.Text = "playerid"
+                Subtitle1.Text = "OnPlayerRequestSpawn"
+                RichTextBox1.Text = "Se llama cuando un jugador intenta Spawnear mediante la selección de clase presionando
+SHIFT o haciendo clic en el botón 'Spawn'"
+                RichTextBox2.Text = "playerid"
+                RichTextBox3.Text = "0 - Evitará que el jugador se spawnee.
+Siempre se llama primero en los filterscripts, por lo que devolver 0 también bloquea otras secuencias de comandos para que no lo vean."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -366,19 +475,30 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerRequestSpawn</span><span class=""hljs-params"">(playerid)</span>
+</span>{
+    <span class=""hljs-keyword"">if</span>(!IsPlayerAdmin(playerid))
+    {
+        SendClientMessage(playerid, <span class=""hljs-number"">-1</span>, <span class=""hljs-string"">""No puedes spawnear""</span>);
+        <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">0</span>;
+    }
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 14
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerSpawn"
+                Inform.Text = "Evento llamado cuando
+un jugador Loguea/Spawnea
+en el Mapa."
+                Tags.Text = "playerid"
+                Subtitle1.Text = "OnPlayerSpawn"
+                RichTextBox1.Text = "Este evento es llamado cuando un jugador spawnea en en el mapa de SanAndreas."
+                RichTextBox2.Text = "| playerid | El id del jugador. |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.
+1 - Indica que este callback pasó al otro Script."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -387,19 +507,31 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerSpawn</span><span class=""hljs-params"">(playerid)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> NombreJ[MAX_PLAYER_NAME],
+    <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">40</span>]; 
+    GetPlayerName(playerid, NombreJ, <span class=""hljs-keyword"">sizeof</span>(NombreJ));
+    format(<span class=""hljs-built_in"">string</span>, <span class=""hljs-keyword"">sizeof</span>(<span class=""hljs-built_in"">string</span>), <span class=""hljs-string"">""%s spawneó correctamente1""</span>, NombreJ);
+    SendClientMessageToAll(<span class=""hljs-number"">0xFFFFFFFF</span>, <span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 15
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnPlayerText"
+                Inform.Text = "Se llama cuando un
+jugador envia un
+texto al chat."
+                Tags.Text = "playerid, text[]"
+                Subtitle1.Text = "OnPlayerText"
+                RichTextBox1.Text = "Evento llamado cuando un jugador envia un texto al chat."
+                RichTextBox2.Text = "| playerid | El id del jugador. |
+| text[] | String enviado.|"
+                RichTextBox3.Text = "0 - En este callback evitará que el texto se envíe a todos los jugadores.</p>
+Siempre se llama primero en filterscripts de modo que devolver 0 no permite que otras secuencias de comandos lo vean."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -408,19 +540,30 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnPlayerText</span><span class=""hljs-params"">(playerid, text[])</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> pText[<span class=""hljs-number"">144</span>];
+    format(pText, <span class=""hljs-keyword"">sizeof</span> (pText), <span class=""hljs-string"">""(%d) %s""</span>, playerid, text);
+    SendPlayerMessageToAll(playerid, pText);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">0</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 16
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnRconLoginAttempt"
+                Inform.Text = "Se llama cuando un
+jugador intenta
+iniciar en RCON."
+                Tags.Text = "ip[], password[], sucess"
+                Subtitle1.Text = "OnRconLoginAttempt"
+                RichTextBox1.Text = "Evento llamado cuando un jugador intenta iniciar en modo RCON."
+                RichTextBox2.Text = "| ip[] | El ip del jugador. |
+| password[] | Contraseña enviada.|
+| sucess | Contraseña correcta o no (boolean) |"
+                RichTextBox3.Text = "Este callback no controla retornos.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -429,19 +572,39 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnRconLoginAttempt</span><span class=""hljs-params"">(ip[], password[], success)</span>
+</span>{
+    <span class=""hljs-keyword"">if</span>(!success) <span class=""hljs-comment"">// Si la contraseña es incorrecta</span>
+    {
+        <span class=""hljs-built_in"">printf</span>(<span class=""hljs-string"">""Intentaron logear como RCON : Ip: %s Contraseña ingresada: %s""</span>, ip, password);
+        <span class=""hljs-keyword"">new</span> pip[<span class=""hljs-number"">16</span>];
+        <span class=""hljs-keyword"">for</span>(<span class=""hljs-keyword"">new</span> i = GetPlayerPoolSize(); i != <span class=""hljs-number"">-1</span>; --i) <span class=""hljs-comment"">//Loop a todos los jugadores</span>
+        {
+            GetPlayerIp(i, pip, <span class=""hljs-keyword"">sizeof</span>(pip));
+            <span class=""hljs-keyword"">if</span>(!<span class=""hljs-built_in"">strcmp</span>(ip, pip, <span class=""hljs-literal"">true</span>)) <span class=""hljs-comment"">//si el ip es el mismo que el que falló al ingresar la contraseña</span>
+            {
+                SendClientMessage(i, <span class=""hljs-number"">0xFFFFFFFF</span>, <span class=""hljs-string"">""Wrong Password. Bye!""</span>); <span class=""hljs-comment"">//Enviar un mensaje</span>
+                Kick(i); <span class=""hljs-comment"">//Ahora esta expulsado.</span>
+            }
+        }
+    }
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
             Case 17
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnVehicleDeath"
+                Inform.Text = "Se llama cuando el
+vehículo es destruido."
+                Tags.Text = "vehicleid, killerid"
+                Subtitle1.Text = "OnVehicleDeath"
+                RichTextBox1.Text = "Evento llamado cuanto un vehiculo es destruido."
+                RichTextBox2.Text = "| vehicleid | El id del vehículo. |
+| killerid | El id del que lo rompió. (o el mas cercano al coche) |"
+                RichTextBox3.Text = "Este callback no controla retornos.
+Siempre se llama primero en filterscripts."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -450,21 +613,29 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnVehicleDeath</span><span class=""hljs-params"">(vehicleid, killerid)</span>
+</span>{
+    <span class=""hljs-keyword"">new</span> <span class=""hljs-built_in"">string</span>[<span class=""hljs-number"">64</span>];
+    format(<span class=""hljs-built_in"">string</span>, <span class=""hljs-keyword"">sizeof</span>(<span class=""hljs-built_in"">string</span>), <span class=""hljs-string"">""El vehículo id %i fue destruido por el jugador id %i.""</span>, vehicleid, killerid);
+    SendClientMessageToAll(<span class=""hljs-number"">0xFFFFFFFF</span>, <span class=""hljs-built_in"">string</span>);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
 
-            ' ------------- Inicio de categoria functions ------------- '
+            
             Case 18 
                 Panel2.Show()
                 Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                Tags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
+                Title1.Text = "OnVehicleSpawn"
+                Inform.Text = "Se llama cuando el
+vehículo spawnea."
+                Tags.Text = "vehicleid"
+                Subtitle1.Text = "OnVehicleSpawn"
+                RichTextBox1.Text = "Evento llamado cuando un vehiculo es spawneado."
+                RichTextBox2.Text = "| vehicleid | El id del vehículo. |"
+                RichTextBox3.Text = "0 - Evitará que otros FilterScripts reciban esta devolución de llamada.</p>
+1 - Indica que este callback pasó al otro Script."
                 RichTextBox4.Text = "<!DOCTYPE html>
 <html>
 <head>
@@ -473,9 +644,14 @@ Siempre se llama primero en gamemodes."
 <link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
 </head>
 <Body>
-
+<pre class=""hljs""><code><span class=""hljs-function""><span class=""hljs-keyword"">public</span> <span class=""hljs-title"">OnVehicleSpawn</span><span class=""hljs-params"">(vehicleid)</span>
+</span>{
+    <span class=""hljs-built_in"">printf</span>(<span class=""hljs-string"">""El vehículo id %i spawneó!""</span>,vehicleid);
+    <span class=""hljs-keyword"">return</span> <span class=""hljs-number"">1</span>;
+}</code></pre>
 </Body>
 </html>"
+            ' ------------- Inicio de categoria functions ------------- '
             Case 19
                 Panel2.Show()
                 Panel3.Show()
