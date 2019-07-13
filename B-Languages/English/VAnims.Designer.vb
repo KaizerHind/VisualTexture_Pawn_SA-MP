@@ -22,6 +22,7 @@ Partial Class VAnims
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VAnims))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -213,7 +214,7 @@ Partial Class VAnims
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
         Me.ToolStripMenuItem2.Text = "Close"
         '
         'ToolStripMenuItem3
@@ -226,25 +227,25 @@ Partial Class VAnims
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'ToolStripMenuItem8
@@ -290,6 +291,7 @@ Partial Class VAnims
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "VAnims"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
