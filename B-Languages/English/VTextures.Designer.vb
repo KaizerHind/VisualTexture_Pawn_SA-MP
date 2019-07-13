@@ -22,6 +22,7 @@ Partial Class VTextures
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VTextures))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -2464,7 +2465,7 @@ Partial Class VTextures
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(172, 22)
         Me.ToolStripMenuItem4.Text = "Animations viewer"
         '
         'SpriteViewerToolStripMenuItem
@@ -2495,25 +2496,25 @@ Partial Class VTextures
         'ToolStripMenuItem9
         '
         Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(131, 22)
         Me.ToolStripMenuItem9.Text = "About"
         '
         'ToolStripMenuItem10
         '
         Me.ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(131, 22)
         Me.ToolStripMenuItem10.Text = "Contact us"
         '
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
         '
         'VTextures
@@ -2528,6 +2529,7 @@ Partial Class VTextures
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ListBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "VTextures"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
