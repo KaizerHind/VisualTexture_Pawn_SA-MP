@@ -22,6 +22,7 @@ Partial Class PawnWiki
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PawnWiki))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -43,6 +44,8 @@ Partial Class PawnWiki
         Me.TablePanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Inform = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
         Me.Example = New System.Windows.Forms.Label()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
@@ -59,6 +62,7 @@ Partial Class PawnWiki
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -215,6 +219,7 @@ Partial Class PawnWiki
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Panel3)
         Me.Panel1.Controls.Add(Me.RichTextBox4)
         Me.Panel1.Controls.Add(Me.Example)
         Me.Panel1.Controls.Add(Me.RichTextBox3)
@@ -229,13 +234,32 @@ Partial Class PawnWiki
         Me.Panel1.Size = New System.Drawing.Size(600, 724)
         Me.Panel1.TabIndex = 24
         '
+        'Panel3
+        '
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.WebBrowser1)
+        Me.Panel3.Location = New System.Drawing.Point(3, 463)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(594, 258)
+        Me.Panel3.TabIndex = 27
+        '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Location = New System.Drawing.Point(4, 6)
+        Me.WebBrowser1.Margin = New System.Windows.Forms.Padding(4, 4, 3, 3)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.ScriptErrorsSuppressed = True
+        Me.WebBrowser1.Size = New System.Drawing.Size(584, 245)
+        Me.WebBrowser1.TabIndex = 26
+        '
         'RichTextBox4
         '
         Me.RichTextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox4.Location = New System.Drawing.Point(0, 462)
+        Me.RichTextBox4.Location = New System.Drawing.Point(172, 553)
         Me.RichTextBox4.Name = "RichTextBox4"
         Me.RichTextBox4.ReadOnly = True
-        Me.RichTextBox4.Size = New System.Drawing.Size(601, 259)
+        Me.RichTextBox4.Size = New System.Drawing.Size(39, 37)
         Me.RichTextBox4.TabIndex = 25
         Me.RichTextBox4.Text = ""
         '
@@ -256,7 +280,7 @@ Partial Class PawnWiki
         Me.RichTextBox3.Location = New System.Drawing.Point(0, 340)
         Me.RichTextBox3.Name = "RichTextBox3"
         Me.RichTextBox3.ReadOnly = True
-        Me.RichTextBox3.Size = New System.Drawing.Size(601, 60)
+        Me.RichTextBox3.Size = New System.Drawing.Size(601, 79)
         Me.RichTextBox3.TabIndex = 23
         Me.RichTextBox3.Text = ""
         '
@@ -277,7 +301,7 @@ Partial Class PawnWiki
         Me.RichTextBox2.Location = New System.Drawing.Point(0, 200)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.ReadOnly = True
-        Me.RichTextBox2.Size = New System.Drawing.Size(601, 60)
+        Me.RichTextBox2.Size = New System.Drawing.Size(601, 86)
         Me.RichTextBox2.TabIndex = 21
         Me.RichTextBox2.Text = ""
         '
@@ -320,7 +344,7 @@ Partial Class PawnWiki
         Me.RichTextBox1.Location = New System.Drawing.Point(-1, 74)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
-        Me.RichTextBox1.Size = New System.Drawing.Size(601, 60)
+        Me.RichTextBox1.Size = New System.Drawing.Size(601, 77)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = ""
         '
@@ -394,6 +418,7 @@ Partial Class PawnWiki
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "PawnWiki"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PawnWiki"
@@ -401,6 +426,7 @@ Partial Class PawnWiki
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
@@ -440,7 +466,9 @@ Partial Class PawnWiki
     Friend WithEvents Returns As Label
     Friend WithEvents Params As Label
     Protected WithEvents RichTextBox1 As RichTextBox
-    Protected WithEvents RichTextBox4 As RichTextBox
     Protected WithEvents RichTextBox3 As RichTextBox
     Protected WithEvents RichTextBox2 As RichTextBox
+    Friend WithEvents WebBrowser1 As WebBrowser
+    Protected WithEvents RichTextBox4 As RichTextBox
+    Friend WithEvents Panel3 As Panel
 End Class
