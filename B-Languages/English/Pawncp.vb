@@ -148,17 +148,14 @@ Public Class Pawncp
 
     Private Sub ContactUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContactUsToolStripMenuItem.Click
         Contact.Show()
-        Me.Hide()
     End Sub
 
     Private Sub LOGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGToolStripMenuItem.Click
         LOG.Show()
-        Me.Hide()
     End Sub
 
     Private Sub CreditsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreditsToolStripMenuItem.Click
         Credits.Show()
-        Me.Hide()
     End Sub
 
     Private Sub SAMPScriptToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SAMPScriptToolStripMenuItem.Click
@@ -166,4 +163,8 @@ Public Class Pawncp
         Me.Hide()
     End Sub
 
+    Private Sub PawnWikiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PawnWikiToolStripMenuItem.Click
+        VSWiki.Show()
+        Me.Hide()
+    End Sub
 End Class
