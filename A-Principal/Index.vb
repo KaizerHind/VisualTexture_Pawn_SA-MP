@@ -141,8 +141,4 @@
         Me.Hide()
     End Sub
 
-    Private Sub PawnWikiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PawnWikiToolStripMenuItem.Click
-        PawnWiki.Show()
-        Me.Hide()
-    End Sub
 End Class
