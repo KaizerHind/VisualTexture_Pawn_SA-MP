@@ -239,6 +239,7 @@ Partial Class VTextures
         Me.ToolStripMenuItem10 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2457,7 +2458,7 @@ Partial Class VTextures
         '
         'ToolStripMenuItem3
         '
-        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem4, Me.SpriteViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem})
+        Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem4, Me.SpriteViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
         Me.ToolStripMenuItem3.Size = New System.Drawing.Size(48, 20)
         Me.ToolStripMenuItem3.Text = "Tools"
@@ -2465,25 +2466,25 @@ Partial Class VTextures
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(172, 22)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
         Me.ToolStripMenuItem4.Text = "Animations viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'ToolStripMenuItem8
@@ -2516,6 +2517,12 @@ Partial Class VTextures
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
         Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
+        '
+        'PawnWikiToolStripMenuItem
+        '
+        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'VTextures
         '
@@ -2848,4 +2855,5 @@ Partial Class VTextures
     Friend WithEvents CreditsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PawnColorPickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SAMPScriptToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PawnWikiToolStripMenuItem As ToolStripMenuItem
 End Class
