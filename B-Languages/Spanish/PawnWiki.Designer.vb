@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class PawnWiki
+Partial Class VSWiki
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,7 +22,7 @@ Partial Class PawnWiki
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PawnWiki))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VSWiki))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -40,7 +40,7 @@ Partial Class PawnWiki
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Tags = New System.Windows.Forms.Label()
+        Me.HKTags = New System.Windows.Forms.Label()
         Me.TablePanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Inform = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -57,7 +57,7 @@ Partial Class PawnWiki
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Title1 = New System.Windows.Forms.Label()
         Me.Titulo = New System.Windows.Forms.Label()
-        Me.Tag = New System.Windows.Forms.Label()
+        Me.KHTag = New System.Windows.Forms.Label()
         Me.Descrip = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
@@ -178,16 +178,16 @@ Partial Class PawnWiki
         Me.ListBox1.Size = New System.Drawing.Size(134, 355)
         Me.ListBox1.TabIndex = 10
         '
-        'Tags
+        'HKTags
         '
-        Me.Tags.AutoSize = True
-        Me.Tags.BackColor = System.Drawing.Color.White
-        Me.Tags.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Tags.Location = New System.Drawing.Point(416, 64)
-        Me.Tags.Name = "Tags"
-        Me.Tags.Size = New System.Drawing.Size(30, 13)
-        Me.Tags.TabIndex = 23
-        Me.Tags.Text = "Tags"
+        Me.HKTags.AutoSize = True
+        Me.HKTags.BackColor = System.Drawing.Color.White
+        Me.HKTags.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HKTags.Location = New System.Drawing.Point(416, 64)
+        Me.HKTags.Name = "HKTags"
+        Me.HKTags.Size = New System.Drawing.Size(30, 13)
+        Me.HKTags.TabIndex = 23
+        Me.HKTags.Text = "Tags"
         '
         'TablePanel1
         '
@@ -370,16 +370,16 @@ Partial Class PawnWiki
         Me.Titulo.TabIndex = 17
         Me.Titulo.Text = "Title"
         '
-        'Tag
+        'KHTag
         '
-        Me.Tag.AutoSize = True
-        Me.Tag.BackColor = System.Drawing.Color.White
-        Me.Tag.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Tag.Location = New System.Drawing.Point(485, 22)
-        Me.Tag.Name = "Tag"
-        Me.Tag.Size = New System.Drawing.Size(35, 14)
-        Me.Tag.TabIndex = 20
-        Me.Tag.Text = "Tags"
+        Me.KHTag.AutoSize = True
+        Me.KHTag.BackColor = System.Drawing.Color.White
+        Me.KHTag.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KHTag.Location = New System.Drawing.Point(485, 22)
+        Me.KHTag.Name = "KHTag"
+        Me.KHTag.Size = New System.Drawing.Size(35, 14)
+        Me.KHTag.TabIndex = 20
+        Me.KHTag.Text = "Tags"
         '
         'Descrip
         '
@@ -396,11 +396,11 @@ Partial Class PawnWiki
         '
         Me.Panel2.AutoScroll = True
         Me.Panel2.Controls.Add(Me.Title1)
-        Me.Panel2.Controls.Add(Me.Tags)
+        Me.Panel2.Controls.Add(Me.HKTags)
         Me.Panel2.Controls.Add(Me.Inform)
         Me.Panel2.Controls.Add(Me.Descrip)
         Me.Panel2.Controls.Add(Me.Titulo)
-        Me.Panel2.Controls.Add(Me.Tag)
+        Me.Panel2.Controls.Add(Me.KHTag)
         Me.Panel2.Controls.Add(Me.Panel1)
         Me.Panel2.Controls.Add(Me.TablePanel1)
         Me.Panel2.Location = New System.Drawing.Point(152, 41)
@@ -408,7 +408,7 @@ Partial Class PawnWiki
         Me.Panel2.Size = New System.Drawing.Size(640, 355)
         Me.Panel2.TabIndex = 25
         '
-        'PawnWiki
+        'VSWiki
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -419,7 +419,7 @@ Partial Class PawnWiki
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "PawnWiki"
+        Me.Name = "VSWiki"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PawnWiki"
         Me.MenuStrip1.ResumeLayout(False)
@@ -451,13 +451,13 @@ Partial Class PawnWiki
     Friend WithEvents LOGToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CreditosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Tags As Label
+    Friend WithEvents HKTags As Label
     Friend WithEvents TablePanel1 As TableLayoutPanel
     Friend WithEvents Inform As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Title1 As Label
     Friend WithEvents Titulo As Label
-    Friend WithEvents Tag As Label
+    Friend WithEvents KHTag As Label
     Friend WithEvents Descrip As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Descrip2 As Label
