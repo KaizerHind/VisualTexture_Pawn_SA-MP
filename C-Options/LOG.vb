@@ -1,5 +1,5 @@
 ﻿Public Class LOG
-    Dim Claves = {"#", "Cambios realizados:", "Diciembre", "Enero", "Febrero", "Marzo", "2018", "2019", "18", "19", "22", "26", "27"}
+    Dim Claves = {"#", "Cambios realizados:", "Diciembre", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Julio", "2018", "2019", "02", "08", "13", "18", "19", "22", "26", "27"}
     Dim Example = {"temporalmente"}
 
     Private Declare Function LockWindowUpdate Lib "user32" (ByVal HWnd As Integer) As Integer
@@ -108,7 +108,7 @@
     Descripción: Se agrego el Formulario de Contacto para soporte, en
     caso de querer contactar con un Developer.
 
-    .- Opciones de Idioma/Lenguajes.
+.- Opciones de Idioma/Lenguajes.
 
     Descripción: Se agrego un formulario antes de la Index, la cual
     te permitira elegir si deseas iniciar con la Index en
@@ -121,33 +121,50 @@
     
     Descripción: Se arreglaron 2 errores notorios en la app:
  
-    - La sección Sprites no funcionaba ya que lanzaba un error a todos.
+.- La sección Sprites no funcionaba ya que lanzaba un error a todos.
 
-    - En la pantalla de carga estaba mal centrado el texto y la imagen.
+.- En la pantalla de carga estaba mal centrado el texto y la imagen.
 
 # Cambios realizados: 08 - Julio - 2019
 
-    .- Se hicieron correcciones y cambios en algunas ventanas
-    tambien asi mismo se añadio nueva informacion y datos.
+.- Se hicieron correcciones y cambios en algunas ventanas
+tambien asi mismo se añadio nueva informacion y datos.
 
     Descripción: Se corrigieron las opciones de cerrar las ventanas, ya
     que estas no finalizaban los procesos totalmente, ahora lo hacen.
 
-    - Se añadieron nuevos datos en la seccion de Texturas.
+.- Se añadieron nuevos datos en la seccion de Texturas.
 
-    Descripción: Se añadieron mas imagenes en la seccion de Texturas, ya
-    que actualmente solo se disponia de puertas, ahora se podran visualizar
-    mas secciones.
+    Descripción: Se añadieron mas imagenes en la seccion de
+    Texturas, ya que actualmente solo se disponia de
+    puertas, ahora se podran visualizar mas secciones.
 
-    - Diseño de bordes y ventanas.
+.- Diseño de bordes y ventanas.
 
-    Descripción: Algunas ventanas tienen un nuevo diseño, esto con el fin de
-    quitar ciertas opciones que no se desean mostrar, ya que estan programadas
-    en el codigo."
+    Descripción: Algunas ventanas tienen un nuevo diseño, esto con el
+   fin de quitar ciertas opciones que no se desean mostrar, ya que
+   estan programadas en el codigo.
+
+# Cambios realizados: 13 - Julio - 2019
+
+.- Nuevas opciones en menu e informacion adicional agregada en
+   PawnWiki.
+
+    Descripción: Se añadio toda la informacion de CallBacks en
+   PawnWiki, ademas se hicieron otras correcciones con respecto
+   al menu de cierre y se agregaron las opciones de redireccion
+   a PawnWiki en cada ventana.
+
+.- Interfaz de Codigo en PawnWiki mejorada.
+
+    Descripción: Antes al visualizar el codigo de la PawnWiki se
+   veia con otro diseño, por lo que ahora puedes verlo a traves
+   de Codigo Html, de una forma mas dinamica de acorde a la
+   apariencia en Github."
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Application.Exit()
+        Close()
     End Sub
 
     Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox1.TextChanged
