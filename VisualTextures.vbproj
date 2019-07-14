@@ -28,7 +28,7 @@
     <ProductName>VisualTextures</ProductName>
     <PublisherName>Kaizer_Modding © 2018</PublisherName>
     <SuiteName>VisualTextures</SuiteName>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -140,6 +140,12 @@
       <DependentUpon>Pawncp.vb</DependentUpon>
     </Compile>
     <Compile Include="B-Languages\English\Pawncp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B-Languages\English\PSWiki.Designer.vb">
+      <DependentUpon>PSWiki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B-Languages\English\PSWiki.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="B-Languages\English\VSprites.Designer.vb">
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\Pawncp.resx">
       <DependentUpon>Pawncp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B-Languages\English\PSWiki.resx">
+      <DependentUpon>PSWiki.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\VSprites.resx">
       <DependentUpon>VSprites.vb</DependentUpon>
@@ -2124,6 +2133,8 @@
     <None Include="SAGallery\Texturas\Puertas\ws_security_door.bmp" />
     <None Include="SAGallery\Texturas\Puertas\ws_wood_doors1.bmp" />
     <None Include="SAGallery\Texturas\Puertas\ws_wood_doors2.bmp" />
+    <None Include="SAGallery\Credits\rafaellopez.jpg" />
+    <None Include="SAGallery\Credits\Diego.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup />
