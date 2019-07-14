@@ -27,6 +27,9 @@ Partial Class Credits
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -37,15 +40,12 @@ Partial Class Credits
         Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -93,6 +93,36 @@ Partial Class Credits
         Me.Panel2.Size = New System.Drawing.Size(461, 446)
         Me.Panel2.TabIndex = 120
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label5.Location = New System.Drawing.Point(126, 341)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(47, 18)
+        Me.Label5.TabIndex = 68
+        Me.Label5.Text = "Diego"
+        '
+        'RichTextBox4
+        '
+        Me.RichTextBox4.Location = New System.Drawing.Point(129, 362)
+        Me.RichTextBox4.Name = "RichTextBox4"
+        Me.RichTextBox4.ReadOnly = True
+        Me.RichTextBox4.Size = New System.Drawing.Size(303, 21)
+        Me.RichTextBox4.TabIndex = 67
+        Me.RichTextBox4.Text = "TeamResource. (Texturas)"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackgroundImage = Global.VisualTextures.My.Resources.Resources.Diego
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Location = New System.Drawing.Point(9, 341)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(111, 106)
+        Me.PictureBox4.TabIndex = 66
+        Me.PictureBox4.TabStop = False
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -111,7 +141,7 @@ Partial Class Credits
         Me.RichTextBox3.ReadOnly = True
         Me.RichTextBox3.Size = New System.Drawing.Size(303, 21)
         Me.RichTextBox3.TabIndex = 64
-        Me.RichTextBox3.Text = "DeveloperTeam, Git Contributor."
+        Me.RichTextBox3.Text = "DeveloperTeam, Git Contributor, Developer PawnWiki. (Web)"
         '
         'PictureBox3
         '
@@ -125,7 +155,7 @@ Partial Class Credits
         '
         'PictureBox2
         '
-        Me.PictureBox2.BackgroundImage = Global.VisualTextures.My.Resources.Resources.Fedenet
+        Me.PictureBox2.BackgroundImage = Global.VisualTextures.My.Resources.Resources.rafaellopez
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox2.Location = New System.Drawing.Point(9, 117)
         Me.PictureBox2.Name = "PictureBox2"
@@ -150,9 +180,9 @@ Partial Class Credits
         Me.Label4.ForeColor = System.Drawing.SystemColors.Control
         Me.Label4.Location = New System.Drawing.Point(123, 117)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 18)
+        Me.Label4.Size = New System.Drawing.Size(56, 18)
         Me.Label4.TabIndex = 60
-        Me.Label4.Text = "Fedenet"
+        Me.Label4.Text = "Exe.asi"
         '
         'Label3
         '
@@ -172,7 +202,7 @@ Partial Class Credits
         Me.RichTextBox2.ReadOnly = True
         Me.RichTextBox2.Size = New System.Drawing.Size(303, 21)
         Me.RichTextBox2.TabIndex = 39
-        Me.RichTextBox2.Text = "Traducción Ingles, EasyMysql, IDs de dialogos(enum)."
+        Me.RichTextBox2.Text = "PawnWiki English"
         '
         'RichTextBox1
         '
@@ -193,35 +223,6 @@ Partial Class Credits
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Label1"
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label5.Location = New System.Drawing.Point(126, 341)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(47, 18)
-        Me.Label5.TabIndex = 68
-        Me.Label5.Text = "Diego"
-        '
-        'RichTextBox4
-        '
-        Me.RichTextBox4.Location = New System.Drawing.Point(129, 362)
-        Me.RichTextBox4.Name = "RichTextBox4"
-        Me.RichTextBox4.ReadOnly = True
-        Me.RichTextBox4.Size = New System.Drawing.Size(303, 21)
-        Me.RichTextBox4.TabIndex = 67
-        Me.RichTextBox4.Text = "TeamResource."
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox4.Location = New System.Drawing.Point(9, 341)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(111, 106)
-        Me.PictureBox4.TabIndex = 66
-        Me.PictureBox4.TabStop = False
-        '
         'Credits
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -238,10 +239,10 @@ Partial Class Credits
         Me.MenuStrip1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
