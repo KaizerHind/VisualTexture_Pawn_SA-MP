@@ -49,6 +49,7 @@ Partial Class Spanish
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -79,7 +80,7 @@ Partial Class Spanish
         '
         'ToolsToolStripMenuItem
         '
-        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.VisualizadorDeSpritesToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem})
+        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.VisualizadorDeSpritesToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
         Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(90, 20)
         Me.ToolsToolStripMenuItem.Text = "Herramientas"
@@ -281,6 +282,12 @@ Partial Class Spanish
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Label4"
         '
+        'PawnWikiToolStripMenuItem
+        '
+        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
+        '
         'Spanish
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -331,4 +338,5 @@ Partial Class Spanish
     Friend WithEvents VisualizadorDeSpritesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PawnColorPickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SAMPScriptToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PawnWikiToolStripMenuItem As ToolStripMenuItem
 End Class
