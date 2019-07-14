@@ -1,4 +1,8 @@
-﻿Public Class PawnWiki
+﻿Public Class VSWiki
+
+    Private CordX As Integer
+    Private CordY As Integer
+    Private MoveForm As Boolean
 
     Private Sub PawnWiki_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel2.Hide()
@@ -73,7 +77,7 @@
                 Title1.Text = "OnDialogResponse"
                 Inform.Text = "Se llama cuando el jugador responde
 a un dialogo enviado anteriormente"
-                Tags.Text = "playerid, dialogid, response, listitem,
+                HKTags.Text = "playerid, dialogid, response, listitem,
 inputtext[]"
                 Subtitle1.Text = "OnDialogResponse"
                 RichTextBox1.Text = "Se llama cuando el jugador responde a un dialogo enviado anteriormente."
@@ -118,7 +122,7 @@ ShowPlayerDialog(playerid, DIALOG_PW, DIALOG_STYLE_MSGBOX, <span class=""hljs-st
                 Inform.Text = "Se llama cuando el GameMode
 termina (cerrando el
 samp-server.exe por ejemplo)"
-                Tags.Text = "Sin parametros"
+                HKTags.Text = "Sin parametros"
                 Subtitle1.Text = "OnGameModeExit"
                 RichTextBox1.Text = "Se llama cuando el GameMode termina (cerrando el samp-server.exe por ejemplo)"
                 RichTextBox2.Text = "Sin parametros"
@@ -145,7 +149,7 @@ Siempre se llama primero en gamemodes."
                 Panel3.Show()
                 Title1.Text = "OnGameModeInit"
                 Inform.Text = "Se llama cuando el GameMode inicia"
-                Tags.Text = "Sin parametros"
+                HKTags.Text = "Sin parametros"
                 Subtitle1.Text = "OnGameModeInit"
                 RichTextBox1.Text = "Esta funcion incia en cuanto el servidor es encendido."
                 RichTextBox2.Text = "Sin parametros"
@@ -174,7 +178,7 @@ Siempre se llama primero en gamemodes."
                 Title1.Text = "OnPlayerClickMap"
                 Inform.Text = "Se llama cuando el jugador
 clickea el mapa del menu esc"
-                Tags.Text = "playerid, Float:fX, Float:fY, Float:fZ"
+                HKTags.Text = "playerid, Float:fX, Float:fY, Float:fZ"
                 Subtitle1.Text = "OnPlayerClickMap"
                 RichTextBox1.Text = "Esta funcion es llamada cuando un jugador se encuentra en el menu
 de pausa y usa la seccion del Mapa."
@@ -206,7 +210,7 @@ Siempre se llama primero en gamemodes."
                 Title1.Text = "OnPlayerClickPlayer"
                 Inform.Text = "Se llama cuando el jugador
 clickea a otro en la tablist"
-                Tags.Text = "playerid, clickedplayerid, source."
+                HKTags.Text = "playerid, clickedplayerid, source."
                 Subtitle1.Text = "OnPlayerClickPlayer"
                 RichTextBox1.Text = "Funcion llamada cuanto el jugador selecciona a otro usuario en la TabList."
                 RichTextBox2.Text = "| playerid | El id del jugador. |
@@ -238,7 +242,7 @@ Siempre se llama primero en gamemodes."
                 Title1.Text = "OnPlayerConnect"
                 Inform.Text = "Este CallBack es llamado
 cuando el jugador entra al servidor"
-                Tags.Text = "playerid"
+                HKTags.Text = "playerid"
                 Subtitle1.Text = "OnPlayerConnect"
                 RichTextBox1.Text = "Funcion llamada en cuanto el jugador accede al Servidor."
                 RichTextBox2.Text = "| playerid | El id del jugador cuando se conecta. |"
@@ -269,7 +273,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnPlayerDeath"
                 Inform.Text = "Este evento es llamado
 cuando un jugador muere."
-                Tags.Text = "playerid, killerid, reason"
+                HKTags.Text = "playerid, killerid, reason"
                 Subtitle1.Text = "OnPlayerDeath"
                 RichTextBox1.Text = "Funcion llamada en cuanto un jugador es asesinado."
                 RichTextBox2.Text = "| playerid | El id del jugador cuando se conecta. |
@@ -309,7 +313,7 @@ Siempre se llama primero en filterscripts."
                 Inform.Text = "Este evento es llamado
 cuando el jugador abandona o cierra la sesion del
 servidor."
-                Tags.Text = "playerid, reason"
+                HKTags.Text = "playerid, reason"
                 Subtitle1.Text = "OnPlayerDisconnect"
                 RichTextBox1.Text = "Este evento es llamado cuando el jugador abandona o cierra la sesion del servidor."
                 RichTextBox2.Text = "| ID | Razón | Descripción | |--------------------------| | 0 | Timeout/Crash | Al jugador se le crasheó/Se le lageó extremadamente. | | 1 | Quitó | El jugador uso /q o /quit y/o se desconectó. | | 2 | Kick/Ban | El jugador fue expulsado o exiliado. |"
@@ -340,7 +344,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnPlayerEnterVehicle"
                 Inform.Text = "Se llama cuando el
 jugador entra a un vehiculo."
-                Tags.Text = "playerid, vehicleid, ispassenger"
+                HKTags.Text = "playerid, vehicleid, ispassenger"
                 Subtitle1.Text = "OnPlayerEnterVehicle"
                 RichTextBox1.Text = "Evento llamado cuando jugador entra en un vehiculo."
                 RichTextBox2.Text = "| playerid | El id del jugador. |
@@ -371,7 +375,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnPlayerExitVehicle"
                 Inform.Text = "Se llama cuando el
 jugador sale de un vehiculo"
-                Tags.Text = "playerid, vehicleid"
+                HKTags.Text = "playerid, vehicleid"
                 Subtitle1.Text = "OnPlayerExitVehicle"
                 RichTextBox1.Text = "Evento llamado cuando el jugador sale del interior de un vehiculo."
                 RichTextBox2.Text = "| playerid | El id del jugador. |
@@ -401,7 +405,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnPlayerKeyStateChange"
                 Inform.Text = "Informacion agregada
 en Descripcion."
-                Tags.Text = "playerid, newkeys, oldkeys"
+                HKTags.Text = "playerid, newkeys, oldkeys"
                 Subtitle1.Text = "OnPlayerKeyStateChange"
                 RichTextBox1.Text = "Se llama a este callback cuando se cambia (presiona / suelta) el estado de
 cualquier tecla compatible. Las teclas direccionales no activan
@@ -460,7 +464,7 @@ Siempre se llama primero en filterscripts."
                 Inform.Text = "Evento llamado cuando
 un jugador usa las
 opciones de spawn."
-                Tags.Text = "playerid"
+                HKTags.Text = "playerid"
                 Subtitle1.Text = "OnPlayerRequestSpawn"
                 RichTextBox1.Text = "Se llama cuando un jugador intenta Spawnear mediante la selección de clase presionando
 SHIFT o haciendo clic en el botón 'Spawn'"
@@ -493,7 +497,7 @@ Siempre se llama primero en los filterscripts, por lo que devolver 0 también bl
                 Inform.Text = "Evento llamado cuando
 un jugador Loguea/Spawnea
 en el Mapa."
-                Tags.Text = "playerid"
+                HKTags.Text = "playerid"
                 Subtitle1.Text = "OnPlayerSpawn"
                 RichTextBox1.Text = "Este evento es llamado cuando un jugador spawnea en en el mapa de SanAndreas."
                 RichTextBox2.Text = "| playerid | El id del jugador. |"
@@ -525,7 +529,7 @@ en el Mapa."
                 Inform.Text = "Se llama cuando un
 jugador envia un
 texto al chat."
-                Tags.Text = "playerid, text[]"
+                HKTags.Text = "playerid, text[]"
                 Subtitle1.Text = "OnPlayerText"
                 RichTextBox1.Text = "Evento llamado cuando un jugador envia un texto al chat."
                 RichTextBox2.Text = "| playerid | El id del jugador. |
@@ -556,7 +560,7 @@ Siempre se llama primero en filterscripts de modo que devolver 0 no permite que 
                 Inform.Text = "Se llama cuando un
 jugador intenta
 iniciar en RCON."
-                Tags.Text = "ip[], password[], sucess"
+                HKTags.Text = "ip[], password[], sucess"
                 Subtitle1.Text = "OnRconLoginAttempt"
                 RichTextBox1.Text = "Evento llamado cuando un jugador intenta iniciar en modo RCON."
                 RichTextBox2.Text = "| ip[] | El ip del jugador. |
@@ -598,7 +602,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnVehicleDeath"
                 Inform.Text = "Se llama cuando el
 vehículo es destruido."
-                Tags.Text = "vehicleid, killerid"
+                HKTags.Text = "vehicleid, killerid"
                 Subtitle1.Text = "OnVehicleDeath"
                 RichTextBox1.Text = "Evento llamado cuanto un vehiculo es destruido."
                 RichTextBox2.Text = "| vehicleid | El id del vehículo. |
@@ -630,7 +634,7 @@ Siempre se llama primero en filterscripts."
                 Title1.Text = "OnVehicleSpawn"
                 Inform.Text = "Se llama cuando el
 vehículo spawnea."
-                Tags.Text = "vehicleid"
+                HKTags.Text = "vehicleid"
                 Subtitle1.Text = "OnVehicleSpawn"
                 RichTextBox1.Text = "Evento llamado cuando un vehiculo es spawneado."
                 RichTextBox2.Text = "| vehicleid | El id del vehículo. |"
@@ -657,7 +661,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -678,7 +682,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -699,7 +703,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -720,7 +724,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -741,7 +745,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -762,7 +766,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -783,7 +787,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -804,7 +808,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -825,7 +829,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -846,7 +850,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -867,7 +871,7 @@ vehículo spawnea."
                 Panel3.Show()
                 Title1.Text = ""
                 Inform.Text = ""
-                Tags.Text = ""
+                HKTags.Text = ""
                 Subtitle1.Text = ""
                 RichTextBox1.Text = ""
                 RichTextBox2.Text = ""
@@ -891,4 +895,84 @@ vehículo spawnea."
         WebBrowser1.DocumentText = RichTextBox4.Text
     End Sub
 
+    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub AnimationsViewerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AnimationsViewerToolStripMenuItem.Click
+        VAnims.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub TextureViewerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TextureViewerToolStripMenuItem.Click
+        VTextures.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub VisualizadorDeSpritesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VisualizadorDeSpritesToolStripMenuItem.Click
+        VSprites.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub SAMPScriptToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SAMPScriptToolStripMenuItem.Click
+        frmMain.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PawnColorPickerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PawnColorPickerToolStripMenuItem.Click
+        Pawncp.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub ContactUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContactUsToolStripMenuItem.Click
+        Contact.Show()
+    End Sub
+
+    Private Sub LOGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGToolStripMenuItem.Click
+        LOG.Show()
+    End Sub
+
+    Private Sub CreditosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreditosToolStripMenuItem.Click
+        Credits.Show()
+    End Sub
+
+    Private Sub PawnWiki_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            MoveForm = 1
+            CordX = e.X
+            CordY = e.Y
+            Me.Cursor = Cursors.NoMove2D
+        End If
+    End Sub
+
+    Private Sub PawnWiki_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseMove
+        If MoveForm Then
+            Me.Location = New Point((Me.Left + e.X - CordX), (Me.Top + e.Y - CordY))
+        End If
+    End Sub
+
+    Private Sub PawnWiki_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseUp
+        MoveForm = 0
+        Me.Cursor = Cursors.Default
+    End Sub
+
+    Private Sub MenuStrip1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            MoveForm = 1
+            CordX = e.X
+            CordY = e.Y
+            Me.Cursor = Cursors.NoMove2D
+        End If
+    End Sub
+
+    Private Sub MenuStrip1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseMove
+        If MoveForm Then
+            Me.Location = New Point((Me.Left + e.X - CordX), (Me.Top + e.Y - CordY))
+        End If
+    End Sub
+
+    Private Sub MenuStrip1_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseUp
+        MoveForm = 0
+        Me.Cursor = Cursors.Default
+    End Sub
 End Class
