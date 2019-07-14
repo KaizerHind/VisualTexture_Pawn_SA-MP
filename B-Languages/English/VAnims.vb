@@ -1845,4 +1845,25 @@ ApplyActorAnimation(Variable, ""Box"", ""catch_box"", 4.0, 1, 1, 1, 0, 0);"
     Private Sub ToolStripMenuItem2_Click_1(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
         Application.Exit()
     End Sub
+
+    Private Sub PawnWikiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PawnWikiToolStripMenuItem.Click
+        VSWiki.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub ToolStripMenuItem9_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem9.Click
+
+    End Sub
+
+    Private Sub ToolStripMenuItem10_Click_1(sender As Object, e As EventArgs) Handles ToolStripMenuItem10.Click
+        Contact.Show()
+    End Sub
+
+    Private Sub LOGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGToolStripMenuItem.Click
+        LOG.Show()
+    End Sub
+
+    Private Sub CreditsToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles CreditsToolStripMenuItem.Click
+        Credits.Show()
+    End Sub
 End Class
