@@ -51,7 +51,7 @@ Partial Class Contact
         Me.RichTextBox2.ReadOnly = True
         Me.RichTextBox2.Size = New System.Drawing.Size(261, 74)
         Me.RichTextBox2.TabIndex = 6
-        Me.RichTextBox2.Text = "Discord: Kaizer#3443" & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(10) & "Facebook: https://www.facebook.com/ZaikerHiind/" & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(10) & "E-mail: za" &
+        Me.RichTextBox2.Text = "Discord: Kaizer#2694" & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(10) & "Facebook: https://www.facebook.com/ZaikerHiind/" & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(10) & "E-mail: za" &
     "ikmodding@gmail.com"
         '
         'PictureBox2
@@ -71,8 +71,9 @@ Partial Class Contact
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.ImageLocation = "https://www.upload.ee/image/9753481/discord.png"
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.ImageLocation = "https://cdn.discordapp.com/icons/515713517299564565/c45b6e3ad2b90ef08d5083997e7cc" &
+    "2f9.png?size=128"
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(60, 56)
@@ -84,7 +85,7 @@ Partial Class Contact
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox3.ImageLocation = "https://www.upload.ee/image/9837869/pawn3.png"
         Me.PictureBox3.Location = New System.Drawing.Point(12, 169)
         Me.PictureBox3.Name = "PictureBox3"
@@ -116,6 +117,7 @@ Partial Class Contact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(373, 248)
         Me.Controls.Add(Me.Button1)
