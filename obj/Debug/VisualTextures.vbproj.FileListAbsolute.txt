@@ -94,3 +94,15 @@ C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTex
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.GenerateResource.cache
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.CoreCompileInputs.cache
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.pdb
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\VisualTextures.exe.config
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\VisualTextures.exe.manifest
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\VisualTextures.application
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\VisualTextures.exe
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\VisualTextures.pdb
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.TrustInfo.xml
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.exe.manifest
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.application
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.CopyComplete
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.exe
