@@ -142,12 +142,6 @@
     <Compile Include="B-Languages\English\Pawncp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="B-Languages\English\PSWiki.Designer.vb">
-      <DependentUpon>PSWiki.vb</DependentUpon>
-    </Compile>
-    <Compile Include="B-Languages\English\PSWiki.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="B-Languages\English\VSprites.Designer.vb">
       <DependentUpon>VSprites.vb</DependentUpon>
     </Compile>
@@ -273,9 +267,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\Pawncp.resx">
       <DependentUpon>Pawncp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="B-Languages\English\PSWiki.resx">
-      <DependentUpon>PSWiki.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\VSprites.resx">
       <DependentUpon>VSprites.vb</DependentUpon>
