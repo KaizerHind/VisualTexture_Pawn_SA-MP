@@ -169,9 +169,6 @@
   <data name="rride4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\rride4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mans" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\ViObjects\mans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -268,9 +265,6 @@
   <data name="radar_spray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_spray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ini13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\ini13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FailLout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Credits\FailLout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -291,12 +285,6 @@
   </data>
   <data name="yride5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\yride5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Desinfeccion\des3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura46.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="radar_pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,12 +343,6 @@
   <data name="Weapon_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Iconsweap\Weapon-5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura37" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura37.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura14.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sa_mp_063" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weapons\sa-mp-063.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -390,9 +372,6 @@
   </data>
   <data name="Skin_281" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura11.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cd1d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd1d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -463,17 +442,11 @@
   <data name="sa_mp_008" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weather\sa-mp-008.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="txgrassbig1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\particle\txgrassbig1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura52.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rockshp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_SPAC\rockshp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -489,9 +462,6 @@
   </data>
   <data name="Box_boxhipup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\Box_boxhipup.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tvcorn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DUAL\tvcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -534,9 +504,6 @@
   </data>
   <data name="Vehicle_611" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_611.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura40.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -805,9 +772,6 @@
   <data name="plateback2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\vehicle\plateback2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura16a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura16a.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DUAL\dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -844,9 +808,6 @@
   <data name="sa_mp_078" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weapons\sa-mp-078.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura51.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sa_mp_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Pickups\sa-mp-120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -864,9 +825,6 @@
   </data>
   <data name="Vehicle_502" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_502.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura27.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -888,9 +846,6 @@
   </data>
   <data name="black1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_SPAC\black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Infotexto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Infotexto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Weapon_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Iconsweap\Weapon-40.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -940,9 +895,6 @@
   <data name="SOUND_MAGNET_VEHICLE_COLLISION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sounds\SOUND_MAGNET_VEHICLE_COLLISION.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Captura26" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura26.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Vehicle_607" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_607.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -951,9 +903,6 @@
   </data>
   <data name="Skin_173" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_173.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AirLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_PLAN\AirLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -966,9 +915,6 @@
   </data>
   <data name="flwra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_grav\flwra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cd2d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd2d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1059,9 +1005,6 @@
   </data>
   <data name="shopdoor01_law" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\shopdoor01_law.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura20.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="xvehicleenv128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\vehicle\xvehicleenv128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1213,9 +1156,6 @@
   <data name="Skin_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_12cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\12cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1257,9 +1197,6 @@
   </data>
   <data name="Skin_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="radar_TORENO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_TORENO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1390,9 +1327,6 @@
   <data name="shad_rcbaron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\particle\shad_rcbaron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura22.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="intro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\intro1\intro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1422,9 +1356,6 @@
   </data>
   <data name="rride5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\rride5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_243" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1489,9 +1420,6 @@
   <data name="sa_mp_110" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Pickups\sa-mp-110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura16.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="alleydoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\alleydoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1503,9 +1431,6 @@
   </data>
   <data name="wincrack_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\particle\wincrack_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cd7d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd7d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1530,12 +1455,6 @@
   </data>
   <data name="power" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DUAL\power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Desinfeccion\des2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura47.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SOUND_PED_HIT_WATER_SPLASH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sounds\SOUND_PED_HIT_WATER_SPLASH.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1588,9 +1507,6 @@
   <data name="cloudmasked1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\particle\cloudmasked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Vehicle_530" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_530.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1602,9 +1518,6 @@
   </data>
   <data name="radar_triads" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_triads.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura36.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_6crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\6crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1674,9 +1587,6 @@
   </data>
   <data name="Vehicle_600" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ped_run_armed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_run_armed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1930,9 +1840,6 @@
   <data name="Vehicle_506" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="back7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\fronten2\back7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1954,9 +1861,6 @@
   <data name="cd10h1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_POKE\cd10h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="des1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Desinfeccion\des1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ballydoor01_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\ballydoor01_128.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1965,9 +1869,6 @@
   </data>
   <data name="Matthudson" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Credits\Matthudson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drop2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\mp3\drop2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Zume" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Credits\Zume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2017,9 +1918,6 @@
   <data name="ped_cower" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_cower.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura39" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura39.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gride4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\gride4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2053,9 +1951,6 @@
   <data name="Skin_283" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_283.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura32.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gride1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\gride1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2073,9 +1968,6 @@
   </data>
   <data name="Skin_177" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_177.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_169" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_169.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2260,9 +2152,6 @@
   <data name="hon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_grav\hon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Vehicle_424" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_424.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2277,9 +2166,6 @@
   </data>
   <data name="Vehicle_533" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_533.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drop3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\mp3\drop3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cd3c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_POKE\cd3c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2380,9 +2266,6 @@
   <data name="radar_gangG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_gangG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pride7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\pride7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2404,14 +2287,8 @@
   <data name="bdfire_BD_Panic_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\bdfire_BD_Panic_04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="drop4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\mp3\drop4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_280" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Vehicle_494" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_494.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2548,9 +2425,6 @@
   <data name="Beach_SitnWait_loop_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\Beach_SitnWait_loop_W.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ws_painted_doors3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\ws_painted_doors3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2632,9 +2506,6 @@
   <data name="wheel_alloy64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\misc\wheel_alloy64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura28" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura28.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_6aztec" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\6aztec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2677,12 +2548,6 @@
   <data name="BIKEs_hit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\BIKEs_hit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura23.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura17.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_203" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2716,9 +2581,6 @@
   <data name="Skin_142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BlowJobz_BJ_Couch_Start_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\BlowJobz_BJ_Couch_Start_W.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2733,9 +2595,6 @@
   </data>
   <data name="Vehicle_407" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura16-.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_197" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2779,9 +2638,6 @@
   <data name="chit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_BEAT\chit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura41.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sa_mp_130" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Pickups\sa-mp-130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2815,9 +2671,6 @@
   <data name="Skin_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura44" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura44.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_103" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_103.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -2847,9 +2700,6 @@
   </data>
   <data name="particleskid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\particle\particleskid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ped_WALK_gang1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_WALK_gang1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3118,9 +2968,6 @@
   <data name="_11ggift" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\11ggift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="thumbdn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CHAT\thumbdn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3214,14 +3061,8 @@
   <data name="yride8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\yride8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura45.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\mp3\drop1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hbarr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_shtr\hbarr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3270,12 +3111,6 @@
   </data>
   <data name="ped_fucku" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_fucku.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura38" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura38.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura19.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gride7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\gride7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3562,9 +3397,6 @@
   <data name="ex12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_SPAC\ex1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Health1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_SPAC\Health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3600,9 +3432,6 @@
   </data>
   <data name="_6clown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\6clown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="up1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\pcbtns\up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3766,9 +3595,6 @@
   <data name="pointlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\effectsPC\pointlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="radio_RADIOX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\fronten1\radio_RADIOX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3826,9 +3652,6 @@
   <data name="cd10s1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_POKE\cd10s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura48.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Game_text_type5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Gametext\Game-text-type5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3837,9 +3660,6 @@
   </data>
   <data name="Ric1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB2\Ric1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loadsc122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LOADSUK\loadsc12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3855,9 +3675,6 @@
   </data>
   <data name="cd4h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd4h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura29.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tvl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\tvl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3892,9 +3709,6 @@
   <data name="radio_RLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\fronten1\radio_RLS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura35.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cd9h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd9h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3909,9 +3723,6 @@
   </data>
   <data name="cardebris_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\effectsPC\cardebris_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3937,9 +3748,6 @@
   <data name="loadscuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LOADSUK\loadscuk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura13.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_8sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\8sa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -3951,9 +3759,6 @@
   </data>
   <data name="Weapon_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Iconsweap\Weapon-31.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_250" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4021,9 +3826,6 @@
   <data name="loadsc102" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LOADSUK\loadsc10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura33.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_240" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -4041,9 +3843,6 @@
   </data>
   <data name="grapes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_SLOT\grapes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sa_mp_137" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weapons2\sa-mp-137.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4198,9 +3997,6 @@
   <data name="Skin_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura50.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Bike_Dbz_Pass_Driveby_FWD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\Bike_Dbz_Pass_Driveby_FWD.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -4260,9 +4056,6 @@
   </data>
   <data name="comptdoor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\comptdoor2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura42.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Vehicle_547" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Vehicles\Vehicle_547.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4333,12 +4126,6 @@
   <data name="ex31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_shtr\ex3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura34.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura15.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ped_run_fatold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_run_fatold.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -4372,17 +4159,8 @@
   <data name="race21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_RCE4\race21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DUALITY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DUAL\DUALITY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura31.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura12.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vehiclegrunge256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\vehicle\vehiclegrunge256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4483,17 +4261,11 @@
   <data name="_12myfac" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_TATT\12myfac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura53" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura53.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="tvr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_grav\tvr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bomber_BOM_Plant_Loop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\Bomber_BOM_Plant_Loop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura43.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Weapon_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Iconsweap\Weapon-30.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4533,9 +4305,6 @@
   </data>
   <data name="loadsc13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\loadsc13\loadsc13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ini1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sa_mp_149" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weapons2\sa-mp-149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4602,9 +4371,6 @@
   </data>
   <data name="radar_centre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_centre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura24.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Skin_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4719,9 +4485,6 @@
   </data>
   <data name="radio_playback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\fronten1\radio_playback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura18.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hrs2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\hrs2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4975,9 +4738,6 @@
   <data name="cd9s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_CARD\cd9s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura25.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ribb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DRV\ribb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5077,9 +4837,6 @@
   <data name="rride7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\rride7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="wheel_classic64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\misc\wheel_classic64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5155,9 +4912,6 @@
   <data name="tvl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_shtr\tvl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ini10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Guide1\Ini10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="backred" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_POKE\backred.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5172,9 +4926,6 @@
   </data>
   <data name="radar_saveGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_saveGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura49.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="radar_tshirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_tshirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -5326,9 +5077,6 @@
   <data name="shoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_DUAL\shoot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_shtr\pa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5379,9 +5127,6 @@
   </data>
   <data name="Skin_226" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_226.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Introductions\Captura30.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cbarr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\ld_shtr\cbarr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
