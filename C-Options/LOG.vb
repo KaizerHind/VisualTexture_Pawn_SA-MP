@@ -168,7 +168,17 @@ tambien asi mismo se añadio nueva informacion y datos.
 
     Descripción: Se descarto la opcion de usar la Wiki en Ingles
    debido a que esta puede ser consultada desde la Web, ademas
-   de que era irrelevante e innecesario agregarla."
+   de que era irrelevante e innecesario agregarla.
+
+# Cambios realizados: 24 - Julio - 2019
+
+.- Variables y contenido removido.
+
+    Descripción: Se removieron algunas variables y contenido como
+   imagenes y entre otras cosas de secciones que se implementaron
+   en la version 1.1 para la PawnWiki anterior, esto con el fin de
+   optimizar el peso del software y quitar lo que no se esta
+   usando."
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
