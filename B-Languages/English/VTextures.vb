@@ -3,6 +3,8 @@
     Private CordY As Integer
     Private MoveForm As Boolean
 
+    Dim strText As String
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ListBox1.Items.AddRange(New Object() {"1.- Doors", "2.- Walls", "3.- Windows", "4.- Floors", "5.-Metals", "6- Colors", "7.- Furnitures", "8.- Accesories", "9.- Random"})
 
@@ -2555,7 +2557,7 @@
                 RichTextBox1.Text = ""
         End Select
     End Sub
-    Dim strText As String
+
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
         Select Case ListBox1.SelectedIndex
             Case 0
