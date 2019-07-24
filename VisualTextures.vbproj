@@ -364,16 +364,8 @@
     <None Include="SAGallery\ALogos\VisualTexture_GIF.gif" />
     <None Include="SAGallery\Colors\20100501221341!SA-MP_Color.jpg" />
     <None Include="SAGallery\Colors\Carcolours_All.jpg" />
-    <None Include="SAGallery\Credits\DanielWalker.PNG" />
     <None Include="SAGallery\Credits\DarkThinking.png" />
-    <None Include="SAGallery\Credits\FailLout.png" />
-    <None Include="SAGallery\Credits\Fedenet.jpg" />
-    <None Include="SAGallery\Credits\Graber.png" />
     <None Include="SAGallery\Credits\Kaizer.jpg" />
-    <None Include="SAGallery\Credits\Matthudson.png" />
-    <None Include="SAGallery\Credits\TheChaoz.png" />
-    <None Include="SAGallery\Credits\Y_Less.png" />
-    <None Include="SAGallery\Credits\Zume.jpg" />
     <None Include="SAGallery\Gametext\Game-text-type0.jpg" />
     <None Include="SAGallery\Gametext\Game-text-type1.jpg" />
     <None Include="SAGallery\Gametext\Game-text-type2.jpg" />

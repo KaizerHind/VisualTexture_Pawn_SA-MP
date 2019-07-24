@@ -265,9 +265,6 @@
   <data name="radar_spray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\hud\radar_spray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FailLout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\FailLout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Skin_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -345,9 +342,6 @@
   </data>
   <data name="sa_mp_063" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Weapons\sa-mp-063.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Y_Less" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\Y_Less.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ped_facgum" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_facgum.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1735,9 +1729,6 @@
   <data name="Bow_LoadingBayDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\Bow_LoadingBayDoor.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fedenet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\Fedenet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ped_run_civi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_run_civi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1866,12 +1857,6 @@
   </data>
   <data name="Skin_229" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Peds\Skin_229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Matthudson" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\Matthudson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Zume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\Zume.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rride2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_OTB\rride2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -2460,9 +2445,6 @@
   </data>
   <data name="ped_Run_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_Run_stop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Graber" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\Graber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="race001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_RCE1\race00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -3210,9 +3192,6 @@
   </data>
   <data name="title_pc_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LOADSCS\title_pc_US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TheChaoz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\TheChaoz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ped_roadcross" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_roadcross.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -4548,9 +4527,6 @@
   </data>
   <data name="boatwake1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\effectsPC\boatwake1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DanielWalker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\DanielWalker.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Was_scrpyd_door_in_hngr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\Was_scrpyd_door_in_hngr.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
