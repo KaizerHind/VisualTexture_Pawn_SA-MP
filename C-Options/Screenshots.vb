@@ -10,12 +10,6 @@
         PictureBox1.Visible = 1
         PictureBox1.Image = images(pos)
 
-        PictureBox1.Image = Global.VisualTextures.My.Resources.Infotexto
-        images(1) = Global.VisualTextures.My.Resources.drop1
-        images(2) = Global.VisualTextures.My.Resources.drop2
-        images(3) = Global.VisualTextures.My.Resources.drop3
-        images(4) = Global.VisualTextures.My.Resources.drop4
-        images(5) = Global.VisualTextures.My.Resources.Infotexto
     End Sub
 
     Private Sub Screenshots_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
