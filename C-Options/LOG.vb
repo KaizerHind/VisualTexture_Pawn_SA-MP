@@ -160,7 +160,15 @@ tambien asi mismo se añadio nueva informacion y datos.
     Descripción: Antes al visualizar el codigo de la PawnWiki se
    veia con otro diseño, por lo que ahora puedes verlo a traves
    de Codigo Html, de una forma mas dinamica de acorde a la
-   apariencia en Github."
+   apariencia en Github.
+
+# Cambios realizados: 14 - Julio - 2019
+
+.- Descartada la seccion ingles de Pawn Wiki.
+
+    Descripción: Se descarto la opcion de usar la Wiki en Ingles
+   debido a que esta puede ser consultada desde la Web, ademas
+   de que era irrelevante e innecesario agregarla."
     End Sub
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
