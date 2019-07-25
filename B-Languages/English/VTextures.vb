@@ -14,6 +14,7 @@
         Select Case ListBox1.SelectedIndex
             Case 0
                 'Habilitacion de RadioButtons.'
+                Panel1.Show()
                 RadioButton1.Visible = True
                 RadioButton2.Visible = True
                 RadioButton3.Visible = True
@@ -551,21 +552,21 @@
                 RichTextBox1.Text = ""
 
             Case 1
-                Enabled = 0
+                Panel1.Hide()
             Case 2
-                Enabled = 0
+                Panel1.Hide()
             Case 3
-                Enabled = 0
+                Panel1.Hide()
             Case 4
-                Enabled = 0
+                Panel1.Hide()
             Case 5
-                Enabled = 0
+                Panel1.Hide()
             Case 6
-                Enabled = 0
+                Panel1.Hide()
             Case 7
-                Enabled = 0
+                Panel1.Hide()
             Case 8
-                Enabled = 0
+                Panel1.Hide()
         End Select
     End Sub
 
