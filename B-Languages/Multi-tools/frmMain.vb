@@ -454,4 +454,8 @@
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
         Close()
     End Sub
+
+    Private Sub tabVehicles_Click(sender As Object, e As EventArgs) Handles tabVehicles.Click
+
+    End Sub
 End Class

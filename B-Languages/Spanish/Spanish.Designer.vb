@@ -32,6 +32,7 @@ Partial Class Spanish
         Me.VisualizadorDeSpritesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SAMPScriptToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PawnColorPickerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SupportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -49,7 +50,6 @@ Partial Class Spanish
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -58,7 +58,6 @@ Partial Class Spanish
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(660, 24)
@@ -115,9 +114,14 @@ Partial Class Spanish
         Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "PawnColor Picker"
         '
+        'PawnWikiToolStripMenuItem
+        '
+        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
+        '
         'SupportToolStripMenuItem
         '
-        Me.SupportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem, Me.ContactUsToolStripMenuItem, Me.LanguageToolStripMenuItem, Me.LOGToolStripMenuItem, Me.CreditosToolStripMenuItem})
         Me.SupportToolStripMenuItem.Name = "SupportToolStripMenuItem"
         Me.SupportToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.SupportToolStripMenuItem.Text = "Soporte"
@@ -125,20 +129,20 @@ Partial Class Spanish
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "Acerca de"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contactenos"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LanguageToolStripMenuItem.Text = "Idioma"
         '
         'EnglishToolStripMenuItem
@@ -150,13 +154,13 @@ Partial Class Spanish
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditosToolStripMenuItem
         '
         Me.CreditosToolStripMenuItem.Name = "CreditosToolStripMenuItem"
-        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreditosToolStripMenuItem.Text = "Creditos"
         '
         'PictureBox1
@@ -281,12 +285,6 @@ Partial Class Spanish
         Me.Label4.Size = New System.Drawing.Size(45, 16)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Label4"
-        '
-        'PawnWikiToolStripMenuItem
-        '
-        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
-        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'Spanish
         '

@@ -40,4 +40,8 @@
             MsgBox("Solo se admiten numeros. 0-9")
         End If
     End Sub
+
+    Private Sub CMilisegundos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

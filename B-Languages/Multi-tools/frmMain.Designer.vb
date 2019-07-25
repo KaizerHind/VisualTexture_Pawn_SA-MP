@@ -258,7 +258,6 @@ Partial Class frmMain
         'mnuMain
         '
         Me.mnuMain.BackColor = System.Drawing.SystemColors.Control
-        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewToolStripMenuItem4, Me.HelpToolStripMenuItem2})
         Me.mnuMain.Location = New System.Drawing.Point(0, 0)
         Me.mnuMain.Name = "mnuMain"
         Me.mnuMain.Size = New System.Drawing.Size(746, 24)

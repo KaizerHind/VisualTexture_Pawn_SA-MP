@@ -54,7 +54,7 @@
         Me.Cursor = Cursors.Default
     End Sub
 
-    Private Sub MenuStrip1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseDown
+    Private Sub MenuStrip1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs)
         If e.Button = Windows.Forms.MouseButtons.Left Then
             MoveForm = 1
             CordX = e.X
@@ -63,13 +63,13 @@
         End If
     End Sub
 
-    Private Sub MenuStrip1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseMove
+    Private Sub MenuStrip1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs)
         If MoveForm Then
             Me.Location = New Point((Me.Left + e.X - CordX), (Me.Top + e.Y - CordY))
         End If
     End Sub
 
-    Private Sub MenuStrip1_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles MenuStrip1.MouseUp
+    Private Sub MenuStrip1_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs)
         MoveForm = 0
         Me.Cursor = Cursors.Default
     End Sub
@@ -141,4 +141,11 @@
         Me.Hide()
     End Sub
 
+    Private Sub ContactUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContactUsToolStripMenuItem.Click
+        Contact.Show()
+    End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases")
+    End Sub
 End Class
