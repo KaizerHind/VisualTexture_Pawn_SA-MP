@@ -75,7 +75,7 @@ Partial Class Index
         'CloseToolStripMenuItem
         '
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
         '
         'ToolsToolStripMenuItem
@@ -150,7 +150,7 @@ Partial Class Index
         'SpanishToolStripMenuItem
         '
         Me.SpanishToolStripMenuItem.Name = "SpanishToolStripMenuItem"
-        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpanishToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
         Me.SpanishToolStripMenuItem.Text = "Spanish"
         '
         'LOGToolStripMenuItem

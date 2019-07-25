@@ -1422,6 +1422,8 @@
         Me.Hide()
     End Sub
 
-
+    Private Sub ToolStripMenuItem9_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem9.Click
+        System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases/")
+    End Sub
 
 End Class

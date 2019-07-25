@@ -150,6 +150,8 @@ Partial Class frmMain
         Me.lstPlanes = New System.Windows.Forms.ListBox()
         Me.lstBikes = New System.Windows.Forms.ListBox()
         Me.tabControl = New System.Windows.Forms.TabControl()
+        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuMain.SuspendLayout()
         Me.tabSkins.SuspendLayout()
         CType(Me.picSkin, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -258,6 +260,7 @@ Partial Class frmMain
         'mnuMain
         '
         Me.mnuMain.BackColor = System.Drawing.SystemColors.Control
+        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem})
         Me.mnuMain.Location = New System.Drawing.Point(0, 0)
         Me.mnuMain.Name = "mnuMain"
         Me.mnuMain.Size = New System.Drawing.Size(746, 24)
@@ -1401,6 +1404,19 @@ Partial Class frmMain
         Me.tabControl.Size = New System.Drawing.Size(746, 385)
         Me.tabControl.TabIndex = 1
         '
+        'MainToolStripMenuItem
+        '
+        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseToolStripMenuItem1})
+        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
+        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
+        Me.MainToolStripMenuItem.Text = "Main"
+        '
+        'CloseToolStripMenuItem1
+        '
+        Me.CloseToolStripMenuItem1.Name = "CloseToolStripMenuItem1"
+        Me.CloseToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.CloseToolStripMenuItem1.Text = "Close"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1571,4 +1587,6 @@ Partial Class frmMain
     Friend WithEvents lstBikes As ListBox
     Friend WithEvents tabControl As TabControl
     Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CloseToolStripMenuItem1 As ToolStripMenuItem
 End Class

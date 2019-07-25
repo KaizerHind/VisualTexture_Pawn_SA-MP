@@ -156,4 +156,8 @@ Public Class VSprites
         VSWiki.Show()
         Me.Hide()
     End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases/")
+    End Sub
 End Class

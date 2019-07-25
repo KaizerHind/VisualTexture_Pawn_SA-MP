@@ -49,12 +49,12 @@ Partial Class Pawncp
         Me.TextureViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SpriteViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SAMPScriptToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SupportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PawnWikiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.toolStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -253,26 +253,32 @@ Partial Class Pawncp
         'AnimationsViewerToolStripMenuItem
         '
         Me.AnimationsViewerToolStripMenuItem.Name = "AnimationsViewerToolStripMenuItem"
-        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.AnimationsViewerToolStripMenuItem.Text = "Animations viewer"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
+        '
+        'PawnWikiToolStripMenuItem
+        '
+        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'SupportToolStripMenuItem
         '
@@ -284,32 +290,26 @@ Partial Class Pawncp
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contact us"
         '
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
-        '
-        'PawnWikiToolStripMenuItem
-        '
-        Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'Pawncp
         '

@@ -4543,25 +4543,25 @@ Partial Class VTextures
         'ToolStripMenuItem9
         '
         Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(131, 22)
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(180, 22)
         Me.ToolStripMenuItem9.Text = "About"
         '
         'ToolStripMenuItem10
         '
         Me.ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(131, 22)
+        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(180, 22)
         Me.ToolStripMenuItem10.Text = "Contact us"
         '
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
         '
         'VTextures

@@ -1852,7 +1852,7 @@ ApplyActorAnimation(Variable, ""Box"", ""catch_box"", 4.0, 1, 1, 1, 0, 0);"
     End Sub
 
     Private Sub ToolStripMenuItem9_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem9.Click
-
+        System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases/")
     End Sub
 
     Private Sub ToolStripMenuItem10_Click_1(sender As Object, e As EventArgs) Handles ToolStripMenuItem10.Click

@@ -136,20 +136,20 @@ Partial Class VSWiki
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "Acerca de"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contactenos"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LanguageToolStripMenuItem.Text = "Idioma"
         '
         'EnglishToolStripMenuItem
@@ -161,13 +161,13 @@ Partial Class VSWiki
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditosToolStripMenuItem
         '
         Me.CreditosToolStripMenuItem.Name = "CreditosToolStripMenuItem"
-        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreditosToolStripMenuItem.Text = "Creditos"
         '
         'ListBox1
