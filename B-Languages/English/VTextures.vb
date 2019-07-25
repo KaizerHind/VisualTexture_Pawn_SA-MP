@@ -106,6 +106,91 @@
                 RadioButton90.Visible = True
                 RadioButton91.Visible = True
                 RadioButton92.Visible = True
+                RadioButton93.Visible = True
+                RadioButton94.Visible = True
+                RadioButton95.Visible = True
+                RadioButton96.Visible = True
+                RadioButton97.Visible = True
+                RadioButton98.Visible = True
+                RadioButton99.Visible = True
+                RadioButton100.Visible = True
+                RadioButton101.Visible = True
+                RadioButton102.Visible = True
+                RadioButton103.Visible = True
+                RadioButton104.Visible = True
+                RadioButton105.Visible = True
+                RadioButton106.Visible = True
+                RadioButton107.Visible = True
+                RadioButton108.Visible = True
+                RadioButton109.Visible = True
+                RadioButton110.Visible = True
+                RadioButton111.Visible = True
+                RadioButton112.Visible = True
+                RadioButton113.Visible = True
+                RadioButton114.Visible = True
+                RadioButton115.Visible = True
+                RadioButton116.Visible = True
+                RadioButton117.Visible = True
+                RadioButton118.Visible = True
+                RadioButton119.Visible = True
+                RadioButton120.Visible = True
+                RadioButton121.Visible = True
+                RadioButton122.Visible = True
+                RadioButton123.Visible = True
+                RadioButton124.Visible = True
+                RadioButton125.Visible = True
+                RadioButton126.Visible = True
+                RadioButton127.Visible = True
+                RadioButton128.Visible = True
+                RadioButton129.Visible = True
+                RadioButton130.Visible = True
+                RadioButton131.Visible = True
+                RadioButton132.Visible = True
+                RadioButton133.Visible = True
+                RadioButton134.Visible = True
+                RadioButton135.Visible = True
+                RadioButton136.Visible = True
+                RadioButton137.Visible = True
+                RadioButton138.Visible = True
+                RadioButton139.Visible = True
+                RadioButton140.Visible = True
+                RadioButton141.Visible = True
+                RadioButton142.Visible = True
+                RadioButton143.Visible = True
+                RadioButton144.Visible = True
+                RadioButton145.Visible = True
+                RadioButton146.Visible = True
+                RadioButton147.Visible = True
+                RadioButton148.Visible = True
+                RadioButton149.Visible = True
+                RadioButton150.Visible = True
+                RadioButton151.Visible = True
+                RadioButton152.Visible = True
+                RadioButton153.Visible = True
+                RadioButton154.Visible = True
+                RadioButton155.Visible = True
+                RadioButton156.Visible = True
+                RadioButton157.Visible = True
+                RadioButton158.Visible = True
+                RadioButton159.Visible = True
+                RadioButton160.Visible = True
+                RadioButton161.Visible = True
+                RadioButton162.Visible = True
+                RadioButton163.Visible = True
+                RadioButton164.Visible = True
+                RadioButton165.Visible = True
+                RadioButton166.Visible = True
+                RadioButton167.Visible = True
+                RadioButton168.Visible = True
+                RadioButton169.Visible = True
+                RadioButton170.Visible = True
+                RadioButton171.Visible = True
+                RadioButton172.Visible = True
+                RadioButton173.Visible = True
+                RadioButton174.Visible = True
+                RadioButton175.Visible = True
+                RadioButton176.Visible = True
+                RadioButton177.Visible = True
                 RichTextBox1.Text = ""
 
                 'Item: Puertas.
@@ -466,21 +551,21 @@
                 RichTextBox1.Text = ""
 
             Case 1
-
+                Enabled = 0
             Case 2
-
+                Enabled = 0
             Case 3
-
+                Enabled = 0
             Case 4
-
+                Enabled = 0
             Case 5
-
+                Enabled = 0
             Case 6
-
+                Enabled = 0
             Case 7
-
+                Enabled = 0
             Case 8
-
+                Enabled = 0
         End Select
     End Sub
 
