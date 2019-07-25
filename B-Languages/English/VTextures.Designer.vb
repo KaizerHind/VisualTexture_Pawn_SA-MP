@@ -41,6 +41,10 @@ Partial Class VTextures
         Me.PortuguesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.RadioButton177 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox177 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton176 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox176 = New System.Windows.Forms.PictureBox()
         Me.RadioButton175 = New System.Windows.Forms.RadioButton()
         Me.PictureBox175 = New System.Windows.Forms.PictureBox()
         Me.RadioButton174 = New System.Windows.Forms.RadioButton()
@@ -406,11 +410,9 @@ Partial Class VTextures
         Me.ToolStripMenuItem10 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RadioButton176 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox176 = New System.Windows.Forms.PictureBox()
-        Me.RadioButton177 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox177 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox175, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox174, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox173, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -587,8 +589,6 @@ Partial Class VTextures
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -1069,6 +1069,44 @@ Partial Class VTextures
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(769, 446)
         Me.Panel1.TabIndex = 118
+        '
+        'RadioButton177
+        '
+        Me.RadioButton177.AutoSize = True
+        Me.RadioButton177.Location = New System.Drawing.Point(310, 4384)
+        Me.RadioButton177.Name = "RadioButton177"
+        Me.RadioButton177.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton177.TabIndex = 388
+        Me.RadioButton177.TabStop = True
+        Me.RadioButton177.UseVisualStyleBackColor = True
+        '
+        'PictureBox177
+        '
+        Me.PictureBox177.Location = New System.Drawing.Point(267, 4275)
+        Me.PictureBox177.Name = "PictureBox177"
+        Me.PictureBox177.Size = New System.Drawing.Size(95, 95)
+        Me.PictureBox177.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox177.TabIndex = 387
+        Me.PictureBox177.TabStop = False
+        '
+        'RadioButton176
+        '
+        Me.RadioButton176.AutoSize = True
+        Me.RadioButton176.Location = New System.Drawing.Point(191, 4384)
+        Me.RadioButton176.Name = "RadioButton176"
+        Me.RadioButton176.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton176.TabIndex = 386
+        Me.RadioButton176.TabStop = True
+        Me.RadioButton176.UseVisualStyleBackColor = True
+        '
+        'PictureBox176
+        '
+        Me.PictureBox176.Location = New System.Drawing.Point(148, 4275)
+        Me.PictureBox176.Name = "PictureBox176"
+        Me.PictureBox176.Size = New System.Drawing.Size(95, 95)
+        Me.PictureBox176.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox176.TabIndex = 385
+        Me.PictureBox176.TabStop = False
         '
         'RadioButton175
         '
@@ -4526,44 +4564,6 @@ Partial Class VTextures
         Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
         '
-        'RadioButton176
-        '
-        Me.RadioButton176.AutoSize = True
-        Me.RadioButton176.Location = New System.Drawing.Point(191, 4384)
-        Me.RadioButton176.Name = "RadioButton176"
-        Me.RadioButton176.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton176.TabIndex = 386
-        Me.RadioButton176.TabStop = True
-        Me.RadioButton176.UseVisualStyleBackColor = True
-        '
-        'PictureBox176
-        '
-        Me.PictureBox176.Location = New System.Drawing.Point(148, 4275)
-        Me.PictureBox176.Name = "PictureBox176"
-        Me.PictureBox176.Size = New System.Drawing.Size(95, 95)
-        Me.PictureBox176.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox176.TabIndex = 385
-        Me.PictureBox176.TabStop = False
-        '
-        'RadioButton177
-        '
-        Me.RadioButton177.AutoSize = True
-        Me.RadioButton177.Location = New System.Drawing.Point(310, 4384)
-        Me.RadioButton177.Name = "RadioButton177"
-        Me.RadioButton177.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton177.TabIndex = 388
-        Me.RadioButton177.TabStop = True
-        Me.RadioButton177.UseVisualStyleBackColor = True
-        '
-        'PictureBox177
-        '
-        Me.PictureBox177.Location = New System.Drawing.Point(267, 4275)
-        Me.PictureBox177.Name = "PictureBox177"
-        Me.PictureBox177.Size = New System.Drawing.Size(95, 95)
-        Me.PictureBox177.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox177.TabIndex = 387
-        Me.PictureBox177.TabStop = False
-        '
         'VTextures
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -4581,6 +4581,8 @@ Partial Class VTextures
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox175, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox174, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox173, System.ComponentModel.ISupportInitialize).EndInit()
@@ -4758,8 +4760,6 @@ Partial Class VTextures
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBox176, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox177, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
