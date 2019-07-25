@@ -4,7 +4,7 @@
     Private MoveForm As Boolean
 
     Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Application.Exit()
+        Close()
     End Sub
     Private Sub Credits_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
         If e.Button = Windows.Forms.MouseButtons.Left Then
