@@ -947,343 +947,343 @@
     End Sub
 
     Private Sub RadioButton93_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton93.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable93, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable93, 0, 5785, ""melrosetr1_lawn"", ""711doors1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton94_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton94.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable94, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable94, 0, 11145, ""carrierint_sfs"", ""ab_ACcarrierDoor"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton95_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton95.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable95, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable95, 0, 3899, ""hospital2"", ""airportdoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton96_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton96.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable96, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable96, 0, 11464, ""desn_trainstuff"", ""alleydoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton97_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton97.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable97, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable97, 0, 9237, ""hrbr_sfn"", ""alleydoor7"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton98_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton98.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable98, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable98, 0, 7491, ""vgncorp1"", ""alleydoorb256"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton99_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton99.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable99, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable99, 0, 8038, ""vgssairport02"", ""alleydoorz256"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton100_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton100.CheckedChanged
-            RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+            RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 4010, ""lanblokb2"", ""bevdoor02_law"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton101_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton101.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 17553, ""ebeachcineblok"", ""bevdoor03_law"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton102_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton102.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 3598, ""hillhousex_la1_2"", ""bevdoor04_law"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton103_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton103.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 18200, ""w_town2cs_t"", ""Bow_door_graffiti_128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton104_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton104.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 7493, ""vgwestabats"", ""Bow_Load_Door"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton105_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton105.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 5154, ""dkcargoshp_las2"", ""cargodoor_128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton106_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton106.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 16398, ""desn2_peckers"", ""carparkdoor1_256"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton107_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton107.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 6988, ""vgnfremnt1"", ""casinodoor_frmnt"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton108_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton108.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 3980, ""cityhall_lan"", ""cityhalldoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton109_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton109.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 11389, ""hubint1_sfse"", ""CJ_DOOR6"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton110_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton110.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 18023, ""genintintfastc"", ""CJ_PIZZA_DOOR"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton111_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton111.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 1490, ""int_doors"", ""CJ_SCOR_DOOR"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton112_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton112.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 10631, ""queensammo_sfs"", ""CJ_SUB_DOORS"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton113_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton113.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 3646, ""ganghouse1_lax"", ""compdoor1_LAe"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton114_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton114.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 3698, ""comedbarrio1_la"", ""compdoor5_LAe"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton115_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton115.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 17537, ""eastls4_lae2"", ""compdoor6_LAe"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton116_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton116.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 17566, ""contachou1_lae2"", ""comptdoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton117_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton117.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 6332, ""rodeo01_law2"", ""corporate2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton118_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton118.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 5725, ""sunrise08_lawn"", ""corporate3"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton119_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton119.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 7088, ""casinoshops1"", ""crapdoor1_256"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton120_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton120.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 16011, ""des_ntown"", ""des_adobedoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton121_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton121.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 11440, ""des_pueblo"", ""des_adobedoor2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton122_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton122.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 16051, ""oldwest"", ""des_adobedoor3"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton123_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton123.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 16051, ""oldwest"", ""des_door1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton124_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton124.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 18282, ""cw_truckstopcs_t"", ""des_door2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton125_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton125.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, 11471, ""des_wtownmain"", ""des_greendoor"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton126_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton126.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_metaldoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton127_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton127.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_ntwndoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton128_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton128.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_ntwndoor2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton129_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton129.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_ntwndoor3"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton130_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton130.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_ntwnwin6"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton131_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton131.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_thfdoor"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton132_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton132.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_wigwamdoor"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton133_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton133.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""des_woodshopdoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton134_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton134.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""doornvent256128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton135_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton135.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""door_pan1_64_128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton136_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton136.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""drvin_door1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton137_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton137.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""drvin_door2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton138_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton138.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""dt_ind_door"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton139_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton139.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""dt_scyscrap_door2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton140_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton140.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""GB_doorpur01"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton141_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton141.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""inddoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton142_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton142.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""inddoor5"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton143_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton143.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""inddoor7"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton144_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton144.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""inddoordark128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton145_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton145.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""inddoorway128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton146_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton146.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""mp_carter_doorway"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton147_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton147.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sf_ship_door"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton148_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton148.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""shopdoor02_law"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton149_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton149.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""shopdoor3_64"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton150_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton150.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sjmhoodoor1"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton151_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton151.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""slidingdoor01_128"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton152_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton152.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sl_presdoor01"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton153_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton153.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sl_presdoor02"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton154_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton154.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door03"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton155_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton155.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door04"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton156_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton156.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door05"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton157_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton157.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door07"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton158_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton158.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door08"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton159_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton159.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door09"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton160_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton160.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door10"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton161_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton161.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door13"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton162_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton162.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door14"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton163_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton163.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door15"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton164_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton164.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door16"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton165_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton165.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_dsw_door17oor16"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton166_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton166.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door18"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton167_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton167.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""sw_door19"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton168_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton168.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""trail_door"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton169_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton169.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""Was_scrpyd_door_dbl_grey"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton170_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton170.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""Was_scrpyd_trailer_door"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton171_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton171.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_dampdoubledoor"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton172_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton172.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_doorframe"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton173_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton173.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_doorfront"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton174_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton174.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_doubledoor3"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton175_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton175.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_garagedoor2_yello"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton176_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton176.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_rollerdoor_blue"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub RadioButton177_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton177.CheckedChanged
-        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , "" "", "" "", 0xFFFFFFFF);"
+        RichTextBox1.Text = "SetObjectMaterial(TuVariable1, 0, , """", ""ws_rollerdoor_silver2"", 0xFFFFFFFF);"
     End Sub
 
     Private Sub LOGToolStripMenuItem_Click(sender As Object, e As EventArgs)
