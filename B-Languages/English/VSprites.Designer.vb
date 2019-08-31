@@ -33,8 +33,6 @@ Partial Class VSprites
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.listBox1 = New System.Windows.Forms.ListBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimationsViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextureViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -46,6 +44,7 @@ Partial Class VSprites
         Me.ContactUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -147,61 +146,48 @@ Partial Class VSprites
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(613, 24)
         Me.MenuStrip1.TabIndex = 22
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'MainToolStripMenuItem
-        '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseToolStripMenuItem})
-        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
-        Me.MainToolStripMenuItem.Text = "Main"
-        '
-        'CloseToolStripMenuItem
-        '
-        Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
-        Me.CloseToolStripMenuItem.Text = "Close"
-        '
         'ToolsToolStripMenuItem
         '
         Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
+        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
         '
         'AnimationsViewerToolStripMenuItem
         '
         Me.AnimationsViewerToolStripMenuItem.Name = "AnimationsViewerToolStripMenuItem"
-        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimationsViewerToolStripMenuItem.Text = "Animations viewer"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'PawnWikiToolStripMenuItem
         '
         Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'SupportToolStripMenuItem
@@ -214,26 +200,38 @@ Partial Class VSprites
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contact us"
         '
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
+        '
+        'CloseBtn
+        '
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(573, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 23
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
         '
         'VSprites
         '
@@ -241,6 +239,7 @@ Partial Class VSprites
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(613, 351)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.label4)
         Me.Controls.Add(Me.label2)
@@ -274,8 +273,6 @@ Partial Class VSprites
     Private WithEvents PictureBox1 As PictureBox
     Private WithEvents listBox1 As ListBox
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AnimationsViewerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TextureViewerToolStripMenuItem As ToolStripMenuItem
@@ -287,4 +284,5 @@ Partial Class VSprites
     Friend WithEvents PawnColorPickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SAMPScriptToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PawnWikiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CloseBtn As Button
 End Class

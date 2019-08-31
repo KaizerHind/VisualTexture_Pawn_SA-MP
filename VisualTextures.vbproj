@@ -340,7 +340,6 @@
     </None>
     <None Include="App.config" />
     <None Include="VisualEnsambled.pfx" />
-    <None Include="VisualTextures_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -2118,6 +2117,7 @@
     <None Include="SAGallery\Texturas\Puertas\airportdoor1.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoordark128.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
+    <None Include="Resources\DarkThinking.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup />

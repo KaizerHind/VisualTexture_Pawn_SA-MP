@@ -28,7 +28,7 @@ Partial Class CMilisegundos
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.MenuStrip1.SuspendLayout()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -81,12 +81,25 @@ Partial Class CMilisegundos
         Me.Button5.Text = "Limpiar"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'CloseBtn
+        '
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(206, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 31
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
+        '
         'CMilisegundos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(246, 150)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.TextBox3)
@@ -96,8 +109,6 @@ Partial Class CMilisegundos
         Me.Name = "CMilisegundos"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CMilisegundos"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -109,4 +120,5 @@ Partial Class CMilisegundos
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Button5 As Button
+    Friend WithEvents CloseBtn As Button
 End Class

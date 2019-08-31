@@ -28,7 +28,7 @@ Partial Class Contact
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,14 +104,17 @@ Partial Class Contact
         Me.RichTextBox3.TabIndex = 8
         Me.RichTextBox3.Text = "Group Discord. (Pawnscript)"
         '
-        'Button1
+        'CloseBtn
         '
-        Me.Button1.Location = New System.Drawing.Point(351, 1)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(22, 20)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "X"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(334, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 13
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
         '
         'Contact
         '
@@ -120,7 +123,7 @@ Partial Class Contact
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(373, 248)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.RichTextBox3)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.RichTextBox2)
@@ -143,5 +146,5 @@ Partial Class Contact
     Friend WithEvents RichTextBox2 As RichTextBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents RichTextBox3 As RichTextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents CloseBtn As Button
 End Class

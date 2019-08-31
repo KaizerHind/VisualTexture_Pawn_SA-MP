@@ -2,10 +2,6 @@
     Private CordX As Integer
     Private CordY As Integer
     Private MoveForm As Boolean
-
-    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
-    End Sub
     Private Sub Credits_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
         If e.Button = Windows.Forms.MouseButtons.Left Then
             MoveForm = 1
@@ -66,4 +62,7 @@
         Me.Cursor = Cursors.Default
     End Sub
 
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Close()
+    End Sub
 End Class

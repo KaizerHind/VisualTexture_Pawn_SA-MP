@@ -105,10 +105,6 @@
         Me.Hide()
     End Sub
 
-    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Application.Exit()
-    End Sub
-
     Private Sub LOGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGToolStripMenuItem.Click
         LOG.Show()
     End Sub
@@ -118,7 +114,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub SoundsViewerToolStripMenuItem_Click(sender As Object, e As EventArgs) 
+    Private Sub SoundsViewerToolStripMenuItem_Click(sender As Object, e As EventArgs)
         MsgBox("Opcion deshabilitada temporalmente.")
     End Sub
 
@@ -152,5 +148,9 @@
 
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
         System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases/")
+    End Sub
+
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Environment.Exit(1)
     End Sub
 End Class

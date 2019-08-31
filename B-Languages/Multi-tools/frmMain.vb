@@ -450,9 +450,7 @@
     Private Sub CreditsToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CreditsToolStripMenuItem1.Click
         Form4.Show()
     End Sub
-
-
-    Private Sub CloseToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem1.Click
-        Application.Exit()
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Environment.Exit(1)
     End Sub
 End Class

@@ -24,8 +24,6 @@ Partial Class Spanish
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Spanish))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimationsViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextureViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -50,6 +48,7 @@ Partial Class Spanish
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -58,25 +57,12 @@ Partial Class Spanish
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(660, 24)
         Me.MenuStrip1.TabIndex = 6
         Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'MainToolStripMenuItem
-        '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseToolStripMenuItem})
-        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
-        Me.MainToolStripMenuItem.Text = "Menu"
-        '
-        'CloseToolStripMenuItem
-        '
-        Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(96, 22)
-        Me.CloseToolStripMenuItem.Text = "Salir"
         '
         'ToolsToolStripMenuItem
         '
@@ -131,20 +117,20 @@ Partial Class Spanish
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.AboutToolStripMenuItem.Text = "Acerca de"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contactenos"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.LanguageToolStripMenuItem.Text = "Idioma"
         '
         'EnglishToolStripMenuItem
@@ -156,13 +142,13 @@ Partial Class Spanish
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditosToolStripMenuItem
         '
         Me.CreditosToolStripMenuItem.Name = "CreditosToolStripMenuItem"
-        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CreditosToolStripMenuItem.Text = "Creditos"
         '
         'PictureBox1
@@ -288,12 +274,25 @@ Partial Class Spanish
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Label4"
         '
+        'CloseBtn
+        '
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(620, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 14
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
+        '
         'Spanish
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(660, 430)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -313,8 +312,6 @@ Partial Class Spanish
     End Sub
 
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AnimationsViewerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TextureViewerToolStripMenuItem As ToolStripMenuItem
@@ -339,4 +336,5 @@ Partial Class Spanish
     Friend WithEvents PawnColorPickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SAMPScriptToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PawnWikiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CloseBtn As Button
 End Class

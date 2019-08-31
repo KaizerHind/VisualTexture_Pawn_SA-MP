@@ -24,8 +24,6 @@ Partial Class VSWiki
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(VSWiki))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimationsViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextureViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -60,6 +58,7 @@ Partial Class VSWiki
         Me.KHTag = New System.Windows.Forms.Label()
         Me.Descrip = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -69,25 +68,12 @@ Partial Class VSWiki
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolsToolStripMenuItem, Me.SupportToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(804, 24)
         Me.MenuStrip1.TabIndex = 7
         Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'MainToolStripMenuItem
-        '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseToolStripMenuItem})
-        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
-        Me.MainToolStripMenuItem.Text = "Menu"
-        '
-        'CloseToolStripMenuItem
-        '
-        Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(96, 22)
-        Me.CloseToolStripMenuItem.Text = "Salir"
         '
         'ToolsToolStripMenuItem
         '
@@ -136,20 +122,20 @@ Partial Class VSWiki
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.AboutToolStripMenuItem.Text = "Acerca de"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contactenos"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.LanguageToolStripMenuItem.Text = "Idioma"
         '
         'EnglishToolStripMenuItem
@@ -161,13 +147,13 @@ Partial Class VSWiki
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditosToolStripMenuItem
         '
         Me.CreditosToolStripMenuItem.Name = "CreditosToolStripMenuItem"
-        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreditosToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CreditosToolStripMenuItem.Text = "Creditos"
         '
         'ListBox1
@@ -408,12 +394,25 @@ Partial Class VSWiki
         Me.Panel2.Size = New System.Drawing.Size(640, 355)
         Me.Panel2.TabIndex = 25
         '
+        'CloseBtn
+        '
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(764, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 26
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
+        '
         'VSWiki
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(804, 430)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Panel2)
@@ -435,8 +434,6 @@ Partial Class VSWiki
     End Sub
 
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AnimationsViewerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TextureViewerToolStripMenuItem As ToolStripMenuItem
@@ -471,4 +468,5 @@ Partial Class VSWiki
     Friend WithEvents WebBrowser1 As WebBrowser
     Protected WithEvents RichTextBox4 As RichTextBox
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents CloseBtn As Button
 End Class

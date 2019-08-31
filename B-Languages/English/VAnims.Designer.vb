@@ -43,8 +43,6 @@ Partial Class VAnims
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextureViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SpriteViewerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -56,6 +54,7 @@ Partial Class VAnims
         Me.ToolStripMenuItem10 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LOGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -198,61 +197,48 @@ Partial Class VAnims
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ToolStripMenuItem3, Me.ToolStripMenuItem8})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem3, Me.ToolStripMenuItem8})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(696, 24)
         Me.MenuStrip1.TabIndex = 14
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2})
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(46, 20)
-        Me.ToolStripMenuItem1.Text = "Main"
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
-        Me.ToolStripMenuItem2.Text = "Close"
-        '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TextureViewerToolStripMenuItem, Me.SpriteViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(48, 20)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(47, 20)
         Me.ToolStripMenuItem3.Text = "Tools"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'PawnWikiToolStripMenuItem
         '
         Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'ToolStripMenuItem8
@@ -265,26 +251,38 @@ Partial Class VAnims
         'ToolStripMenuItem9
         '
         Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(131, 22)
         Me.ToolStripMenuItem9.Text = "About"
         '
         'ToolStripMenuItem10
         '
         Me.ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(180, 22)
+        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(131, 22)
         Me.ToolStripMenuItem10.Text = "Contact us"
         '
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
+        '
+        'CloseBtn
+        '
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(656, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 13
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
         '
         'VAnims
         '
@@ -293,6 +291,7 @@ Partial Class VAnims
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(696, 498)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
@@ -330,8 +329,6 @@ Partial Class VAnims
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents TextureViewerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SpriteViewerToolStripMenuItem As ToolStripMenuItem
@@ -343,4 +340,5 @@ Partial Class VAnims
     Friend WithEvents PawnColorPickerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SAMPScriptToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PawnWikiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CloseBtn As Button
 End Class

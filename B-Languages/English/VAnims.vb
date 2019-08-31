@@ -1842,10 +1842,6 @@ ApplyActorAnimation(Variable, ""Box"", ""catch_box"", 4.0, 1, 1, 1, 0, 0);"
         MessageBox.Show("This option is not in use yet.")
     End Sub
 
-    Private Sub ToolStripMenuItem2_Click_1(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
-        Application.Exit()
-    End Sub
-
     Private Sub PawnWikiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PawnWikiToolStripMenuItem.Click
         VSWiki.Show()
         Me.Hide()
@@ -1865,5 +1861,9 @@ ApplyActorAnimation(Variable, ""Box"", ""catch_box"", 4.0, 1, 1, 1, 0, 0);"
 
     Private Sub CreditsToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles CreditsToolStripMenuItem.Click
         Credits.Show()
+    End Sub
+
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Environment.Exit(1)
     End Sub
 End Class

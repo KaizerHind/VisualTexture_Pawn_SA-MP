@@ -1,8 +1,4 @@
 ﻿Public Class CMilisegundos
-    Private Sub MainToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MainToolStripMenuItem.Click
-        Close()
-    End Sub
-
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         If (TextBox2.Text = "" And TextBox3.Text = "") Then
             TextBox2.Text = Val(TextBox2.Text) * 60000
@@ -43,5 +39,9 @@
 
     Private Sub CMilisegundos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Close()
     End Sub
 End Class

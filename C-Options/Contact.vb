@@ -33,8 +33,7 @@
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         System.Diagnostics.Process.Start("https://discordapp.com/invite/2dVvsRu")
     End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
         Close()
     End Sub
 End Class

@@ -150,9 +150,7 @@ Partial Class frmMain
         Me.lstPlanes = New System.Windows.Forms.ListBox()
         Me.lstBikes = New System.Windows.Forms.ListBox()
         Me.tabControl = New System.Windows.Forms.TabControl()
-        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.mnuMain.SuspendLayout()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.tabSkins.SuspendLayout()
         CType(Me.picSkin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabWeapons.SuspendLayout()
@@ -260,7 +258,6 @@ Partial Class frmMain
         'mnuMain
         '
         Me.mnuMain.BackColor = System.Drawing.SystemColors.Control
-        Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem})
         Me.mnuMain.Location = New System.Drawing.Point(0, 0)
         Me.mnuMain.Name = "mnuMain"
         Me.mnuMain.Size = New System.Drawing.Size(746, 24)
@@ -277,13 +274,13 @@ Partial Class frmMain
         '
         Me.SettingsToolStripMenuItem4.CheckOnClick = True
         Me.SettingsToolStripMenuItem4.Name = "SettingsToolStripMenuItem4"
-        Me.SettingsToolStripMenuItem4.Size = New System.Drawing.Size(194, 22)
+        Me.SettingsToolStripMenuItem4.Size = New System.Drawing.Size(193, 22)
         Me.SettingsToolStripMenuItem4.Text = "Auto-Minimize to Tray"
         '
         'CloseToolStripMenuItem
         '
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
+        Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(193, 22)
         Me.CloseToolStripMenuItem.Text = "Close"
         '
         'HelpToolStripMenuItem2
@@ -1404,24 +1401,24 @@ Partial Class frmMain
         Me.tabControl.Size = New System.Drawing.Size(746, 385)
         Me.tabControl.TabIndex = 1
         '
-        'MainToolStripMenuItem
+        'CloseBtn
         '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CloseToolStripMenuItem1})
-        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
-        Me.MainToolStripMenuItem.Text = "Main"
-        '
-        'CloseToolStripMenuItem1
-        '
-        Me.CloseToolStripMenuItem1.Name = "CloseToolStripMenuItem1"
-        Me.CloseToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
-        Me.CloseToolStripMenuItem1.Text = "Close"
+        Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.FlatAppearance.BorderSize = 0
+        Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Location = New System.Drawing.Point(706, 0)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
+        Me.CloseBtn.TabIndex = 13
+        Me.CloseBtn.Text = "X"
+        Me.CloseBtn.UseVisualStyleBackColor = False
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(746, 409)
+        Me.Controls.Add(Me.CloseBtn)
         Me.Controls.Add(Me.tabControl)
         Me.Controls.Add(Me.mnuMain)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -1429,8 +1426,6 @@ Partial Class frmMain
         Me.MainMenuStrip = Me.mnuMain
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.mnuMain.ResumeLayout(False)
-        Me.mnuMain.PerformLayout()
         Me.tabSkins.ResumeLayout(False)
         Me.tabSkins.PerformLayout()
         CType(Me.picSkin, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1587,6 +1582,5 @@ Partial Class frmMain
     Friend WithEvents lstBikes As ListBox
     Friend WithEvents tabControl As TabControl
     Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CloseToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CloseBtn As Button
 End Class

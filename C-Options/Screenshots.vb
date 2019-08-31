@@ -52,10 +52,6 @@
         Me.Cursor = Cursors.Default
     End Sub
 
-    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
-    End Sub
-
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         pos = pos + 1
         If (pos < images.Length - 1) Then
@@ -72,5 +68,9 @@
         Else
             pos = 0
         End If
+    End Sub
+
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Environment.Exit(1)
     End Sub
 End Class

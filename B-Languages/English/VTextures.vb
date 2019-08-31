@@ -1396,7 +1396,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
+    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs)
         Application.Exit()
     End Sub
 
@@ -1426,4 +1426,7 @@
         System.Diagnostics.Process.Start("https://github.com/KaizerHind/VisualTexture_Pawn_SA-MP/releases/")
     End Sub
 
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Environment.Exit(1)
+    End Sub
 End Class

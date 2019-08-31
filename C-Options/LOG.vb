@@ -178,13 +178,22 @@ tambien asi mismo se añadio nueva informacion y datos.
    imagenes y entre otras cosas de secciones que se implementaron
    en la version 1.1 para la PawnWiki anterior, esto con el fin de
    optimizar el peso del software y quitar lo que no se esta
-   usando."
-    End Sub
+   usando.
 
-    Private Sub CloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
-        Close()
-    End Sub
+# Cambios realizados: 31 - Agosto - 2019
 
+.- Arreglados BUGS al cerrar pestañas y botón de la X 
+   Agregado Y reducción de peso del app.
+
+    Descripción: Se arreglaron algunos bugs que permitian al 
+   cerrar una pestaña que el proceso siga estando en 
+   segundo plano y por lo tanto que no puedas volver
+   a abrir la aplicación una vez cerrada.
+   También se agregó el botón tipico de la X,
+   para cerrar la app.
+   Y por último se arregló el peso del app, de 230mb
+   a 120mb aproximados. (.exe y carpeta sprites)"
+    End Sub
     Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox1.TextChanged
         Try
             LockWindowUpdate(RichTextBox1.Handle.ToInt32)
@@ -213,5 +222,9 @@ tambien asi mismo se añadio nueva informacion y datos.
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
+    End Sub
+
+    Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
+        Close()
     End Sub
 End Class

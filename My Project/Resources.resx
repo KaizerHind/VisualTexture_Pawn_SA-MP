@@ -1924,9 +1924,6 @@
   <data name="ped_SEAT_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\LodAnims\ped_SEAT_down.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DarkThinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\SAGallery\Credits\DarkThinking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="race22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Sprites\LD_RCE4\race22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -5418,5 +5415,8 @@
   </data>
   <data name="_711doors11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Texturas\Puertas\711doors1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkThinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkThinking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

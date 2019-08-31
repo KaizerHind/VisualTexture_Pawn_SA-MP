@@ -3,6 +3,12 @@
 
 __________________________________![description](https://www.upload.ee/image/9967286/VisualTexture.png) __________________________________
 
+## Changed made: 31 - August - 2019
+
+- *Added typical X button to close the application.*
+- *Weight reduction.*
+- *Fix of closing bugs.*
+
 ## Changed made: 09 - July - 2019
 
 - *The multi-tools section was repaired, it had a small information problem.*
