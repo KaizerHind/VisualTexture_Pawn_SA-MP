@@ -3,6 +3,12 @@
 
 __________________________________![description](https://www.upload.ee/image/9967286/VisualTexture.png) __________________________________
 
+## Changed made: 08 - September - 2019
+
+- *Some features of the previous version were removed.*
+- *Some colors were changed in buttons and texts.*
+- *Internal and external errors were repaired within the application.*
+
 ## Changed made: 31 - August - 2019
 
 - *Added typical X button to close the application.*
