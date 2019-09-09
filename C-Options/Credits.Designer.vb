@@ -74,7 +74,7 @@ Partial Class Credits
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Location = New System.Drawing.Point(12, 38)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(461, 446)
+        Me.Panel2.Size = New System.Drawing.Size(461, 461)
         Me.Panel2.TabIndex = 120
         '
         'Label5
@@ -186,7 +186,7 @@ Partial Class Credits
         Me.RichTextBox2.ReadOnly = True
         Me.RichTextBox2.Size = New System.Drawing.Size(303, 21)
         Me.RichTextBox2.TabIndex = 39
-        Me.RichTextBox2.Text = "PawnWiki English"
+        Me.RichTextBox2.Text = "PawnWiki English, Gordo pizzero."
         '
         'RichTextBox1
         '
@@ -201,7 +201,7 @@ Partial Class Credits
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(368, 1224)
+        Me.Label2.Location = New System.Drawing.Point(417, 434)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(39, 13)
         Me.Label2.TabIndex = 3
