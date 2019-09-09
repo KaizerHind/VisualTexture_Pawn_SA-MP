@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="VisualTextures.exe.manifest" size="6710">
+    <dependentAssembly dependencyType="install" codebase="VisualTextures.exe.manifest" size="6642">
       <assemblyIdentity name="VisualTextures.exe" version="1.2.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SdypA8ymXKIrnMNCf1x2h29jeUtOVVQiWJsqISNGzAQ=</dsig:DigestValue>
+        <dsig:DigestValue>sH8fDs5vF6hjG4jNEdCjBZLmheGpX3efIrGzT6+I764=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

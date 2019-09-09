@@ -32,6 +32,7 @@
             "- OnVehicleSpawn",
             "",
             "    -- functions --",
+            "",
             "- Ban",
             "- CreateExplosion",
             "- CreatePickup",
@@ -655,28 +656,14 @@ vehículo spawnea."
 }</code></pre>
 </Body>
 </html>"
+
             ' ------------- Inicio de categoria functions ------------- '
             Case 19
-                Panel2.Show()
-                Panel3.Show()
-                Title1.Text = ""
-                Inform.Text = ""
-                HKTags.Text = ""
-                Subtitle1.Text = ""
-                RichTextBox1.Text = ""
-                RichTextBox2.Text = ""
-                RichTextBox3.Text = ""
-                RichTextBox4.Text = "<!DOCTYPE html>
-<html>
-<head>
-<link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/github-markdown.css""/>
-<link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/hljs-github.min.css""/>
-<link type=""text/css"" rel=""stylesheet"" href=""http://kai.pawnscript.com/pilcrow.css""/>
-</head>
-<Body>
+                Panel2.Hide()
+                ListBox1.SelectedIndex = 0
+                Panel2.Hide()
 
-</Body>
-</html>"
+
             Case 20
                 Panel2.Show()
                 Panel3.Show()
@@ -698,6 +685,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 21
                 Panel2.Show()
                 Panel3.Show()
@@ -719,6 +708,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 22
                 Panel2.Show()
                 Panel3.Show()
@@ -740,6 +731,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 23
                 Panel2.Show()
                 Panel3.Show()
@@ -761,6 +754,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 24
                 Panel2.Show()
                 Panel3.Show()
@@ -782,7 +777,9 @@ vehículo spawnea."
 
 </Body>
 </html>"
-            Case 25    
+
+
+            Case 25
                 Panel2.Show()
                 Panel3.Show()
                 Title1.Text = ""
@@ -803,6 +800,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 26
                 Panel2.Show()
                 Panel3.Show()
@@ -824,6 +823,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 27
                 Panel2.Show()
                 Panel3.Show()
@@ -866,6 +867,8 @@ vehículo spawnea."
 
 </Body>
 </html>"
+
+
             Case 29
                 Panel2.Show()
                 Panel3.Show()

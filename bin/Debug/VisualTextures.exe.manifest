@@ -4,7 +4,7 @@
   <description asmv2:iconFile="visualicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="VisualTextures" version="1.0.0.0" publicKeyToken="19D5B0034F5F6F9D" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="VisualTextures" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="VisualTextures.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualTextures.exe" size="119705600">
-      <assemblyIdentity name="VisualTextures" version="1.0.0.0" publicKeyToken="19D5B0034F5F6F9D" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualTextures.exe" size="119703552">
+      <assemblyIdentity name="VisualTextures" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fIj0ywoLRa6Wl639MQLtxWbUd3VKPHeOcM5qiIjrT+Q=</dsig:DigestValue>
+        <dsig:DigestValue>OQkNsZfDKu0RCkLSkyPB6CIAn4GwKws3XautG6ITNzM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

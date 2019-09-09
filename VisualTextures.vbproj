@@ -80,7 +80,7 @@
     </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>VisualEnsambled.pfx</AssemblyOriginatorKeyFile>
@@ -184,12 +184,6 @@
     <Compile Include="B-Languages\Spanish\PawnWiki.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="C-Options\CMilisegundos.Designer.vb">
-      <DependentUpon>CMilisegundos.vb</DependentUpon>
-    </Compile>
-    <Compile Include="C-Options\CMilisegundos.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="C-Options\Contact.Designer.vb">
       <DependentUpon>Contact.vb</DependentUpon>
     </Compile>
@@ -200,12 +194,6 @@
       <DependentUpon>Credits.vb</DependentUpon>
     </Compile>
     <Compile Include="C-Options\Credits.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="C-Options\Screenshots.Designer.vb">
-      <DependentUpon>Screenshots.vb</DependentUpon>
-    </Compile>
-    <Compile Include="C-Options\Screenshots.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="B-Languages\English\VAnims.Designer.vb">
@@ -289,17 +277,11 @@
     <EmbeddedResource Include="B-Languages\Spanish\PawnWiki.resx">
       <DependentUpon>PawnWiki.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="C-Options\CMilisegundos.resx">
-      <DependentUpon>CMilisegundos.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="C-Options\Contact.resx">
       <DependentUpon>Contact.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="C-Options\Credits.resx">
       <DependentUpon>Credits.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="C-Options\Screenshots.resx">
-      <DependentUpon>Screenshots.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\VAnims.resx">
       <DependentUpon>VAnims.vb</DependentUpon>
@@ -2117,7 +2099,6 @@
     <None Include="SAGallery\Texturas\Puertas\airportdoor1.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoordark128.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
-    <None Include="Resources\DarkThinking.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup />

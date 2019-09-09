@@ -80,10 +80,8 @@ C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTex
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.frmVehicleColors.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Form4.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VSWiki.resources
-C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.CMilisegundos.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Contact.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Credits.resources
-C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Screenshots.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VAnims.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VTextures.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.LOG.resources
