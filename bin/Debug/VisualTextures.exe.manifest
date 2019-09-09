@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualTextures.exe" size="119703552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualTextures.exe" size="119703040">
       <assemblyIdentity name="VisualTextures" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OQkNsZfDKu0RCkLSkyPB6CIAn4GwKws3XautG6ITNzM=</dsig:DigestValue>
+        <dsig:DigestValue>FhsthOxngB5QkKqosHV2tAZAX8AzQ+L4unP0d07+EyU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
