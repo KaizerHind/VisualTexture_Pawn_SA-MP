@@ -30,10 +30,7 @@
         System.Diagnostics.Process.Start("http://discord.gg/P5dUTyC")
     End Sub
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
-        System.Diagnostics.Process.Start("https://discordapp.com/invite/2dVvsRu")
-    End Sub
     Private Sub CloseBtn_Click(sender As Object, e As EventArgs) Handles CloseBtn.Click
-        Close()
+        Environment.Exit(1)
     End Sub
 End Class

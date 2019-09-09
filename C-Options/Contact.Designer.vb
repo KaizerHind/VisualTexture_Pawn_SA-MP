@@ -26,12 +26,9 @@ Partial Class Contact
         Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
         Me.CloseBtn = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'RichTextBox1
@@ -81,29 +78,6 @@ Partial Class Contact
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox3.ImageLocation = "https://www.upload.ee/image/9837869/pawn3.png"
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 169)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(60, 60)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 7
-        Me.PictureBox3.TabStop = False
-        '
-        'RichTextBox3
-        '
-        Me.RichTextBox3.BackColor = System.Drawing.Color.White
-        Me.RichTextBox3.Location = New System.Drawing.Point(79, 187)
-        Me.RichTextBox3.Name = "RichTextBox3"
-        Me.RichTextBox3.ReadOnly = True
-        Me.RichTextBox3.Size = New System.Drawing.Size(261, 23)
-        Me.RichTextBox3.TabIndex = 8
-        Me.RichTextBox3.Text = "Group Discord. (Pawnscript)"
-        '
         'CloseBtn
         '
         Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
@@ -122,10 +96,8 @@ Partial Class Contact
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(41, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(373, 248)
+        Me.ClientSize = New System.Drawing.Size(373, 182)
         Me.Controls.Add(Me.CloseBtn)
-        Me.Controls.Add(Me.RichTextBox3)
-        Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.RichTextBox2)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.PictureBox2)
@@ -135,7 +107,6 @@ Partial Class Contact
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -144,7 +115,5 @@ Partial Class Contact
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents RichTextBox1 As RichTextBox
     Friend WithEvents RichTextBox2 As RichTextBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents RichTextBox3 As RichTextBox
     Friend WithEvents CloseBtn As Button
 End Class
