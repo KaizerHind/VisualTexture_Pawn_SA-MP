@@ -9,7 +9,7 @@ __________________________________![description](https://www.upload.ee/image/996
 - *Some colors were changed in buttons and texts.*
 - *Internal and external errors were repaired within the application.*
 - *The doors section has been 100% updated.*
-- 
+  
 ## Changed made: 31 - August - 2019
 
 - *Added typical X button to close the application.*
