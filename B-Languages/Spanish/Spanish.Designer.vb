@@ -277,8 +277,10 @@ Partial Class Spanish
         'CloseBtn
         '
         Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CloseBtn.FlatAppearance.BorderSize = 0
         Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CloseBtn.Location = New System.Drawing.Point(620, 0)
         Me.CloseBtn.Name = "CloseBtn"
         Me.CloseBtn.Size = New System.Drawing.Size(40, 24)

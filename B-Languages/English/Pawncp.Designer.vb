@@ -213,7 +213,7 @@ Partial Class Pawncp
         '
         Me.toolStripLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.toolStripLabel1.Name = "toolStripLabel1"
-        Me.toolStripLabel1.Size = New System.Drawing.Size(127, 15)
+        Me.toolStripLabel1.Size = New System.Drawing.Size(129, 15)
         Me.toolStripLabel1.Text = "PAWN Color by _Zume"
         '
         'timer1
@@ -233,37 +233,37 @@ Partial Class Pawncp
         '
         Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.SpriteViewerToolStripMenuItem, Me.SAMPScriptToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
+        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
         '
         'AnimationsViewerToolStripMenuItem
         '
         Me.AnimationsViewerToolStripMenuItem.Name = "AnimationsViewerToolStripMenuItem"
-        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.AnimationsViewerToolStripMenuItem.Text = "Animations viewer"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'SAMPScriptToolStripMenuItem
         '
         Me.SAMPScriptToolStripMenuItem.Name = "SAMPScriptToolStripMenuItem"
-        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SAMPScriptToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.SAMPScriptToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnWikiToolStripMenuItem
         '
         Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
         Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'SupportToolStripMenuItem
@@ -300,8 +300,10 @@ Partial Class Pawncp
         'CloseBtn
         '
         Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
+        Me.CloseBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CloseBtn.FlatAppearance.BorderSize = 0
         Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CloseBtn.Location = New System.Drawing.Point(548, 0)
         Me.CloseBtn.Name = "CloseBtn"
         Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
