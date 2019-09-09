@@ -68,43 +68,43 @@ Partial Class Index
         '
         Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnimationsViewerToolStripMenuItem, Me.TextureViewerToolStripMenuItem, Me.SpriteViewerToolStripMenuItem, Me.EditorZoneToolStripMenuItem, Me.PawnColorPickerToolStripMenuItem, Me.PawnWikiToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
+        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
         '
         'AnimationsViewerToolStripMenuItem
         '
         Me.AnimationsViewerToolStripMenuItem.Name = "AnimationsViewerToolStripMenuItem"
-        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.AnimationsViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimationsViewerToolStripMenuItem.Text = "Animations viewer"
         '
         'TextureViewerToolStripMenuItem
         '
         Me.TextureViewerToolStripMenuItem.Name = "TextureViewerToolStripMenuItem"
-        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.TextureViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TextureViewerToolStripMenuItem.Text = "Texture Viewer"
         '
         'SpriteViewerToolStripMenuItem
         '
         Me.SpriteViewerToolStripMenuItem.Name = "SpriteViewerToolStripMenuItem"
-        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.SpriteViewerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SpriteViewerToolStripMenuItem.Text = "Sprite Viewer"
         '
         'EditorZoneToolStripMenuItem
         '
         Me.EditorZoneToolStripMenuItem.Name = "EditorZoneToolStripMenuItem"
-        Me.EditorZoneToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.EditorZoneToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EditorZoneToolStripMenuItem.Text = "SA:MP Script"
         '
         'PawnColorPickerToolStripMenuItem
         '
         Me.PawnColorPickerToolStripMenuItem.Name = "PawnColorPickerToolStripMenuItem"
-        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnColorPickerToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnColorPickerToolStripMenuItem.Text = "Pawn Color Picker"
         '
         'PawnWikiToolStripMenuItem
         '
         Me.PawnWikiToolStripMenuItem.Name = "PawnWikiToolStripMenuItem"
-        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(172, 22)
+        Me.PawnWikiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PawnWikiToolStripMenuItem.Text = "PawnWiki"
         '
         'SupportToolStripMenuItem
@@ -117,20 +117,20 @@ Partial Class Index
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ContactUsToolStripMenuItem
         '
         Me.ContactUsToolStripMenuItem.Name = "ContactUsToolStripMenuItem"
-        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ContactUsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ContactUsToolStripMenuItem.Text = "Contact us"
         '
         'LanguageToolStripMenuItem
         '
         Me.LanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SpanishToolStripMenuItem})
         Me.LanguageToolStripMenuItem.Name = "LanguageToolStripMenuItem"
-        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.LanguageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LanguageToolStripMenuItem.Text = "Language"
         '
         'SpanishToolStripMenuItem
@@ -142,13 +142,13 @@ Partial Class Index
         'LOGToolStripMenuItem
         '
         Me.LOGToolStripMenuItem.Name = "LOGToolStripMenuItem"
-        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.LOGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LOGToolStripMenuItem.Text = "LOG"
         '
         'CreditsToolStripMenuItem
         '
         Me.CreditsToolStripMenuItem.Name = "CreditsToolStripMenuItem"
-        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CreditsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CreditsToolStripMenuItem.Text = "Credits"
         '
         'Label2
@@ -267,6 +267,8 @@ Partial Class Index
         Me.CloseBtn.BackColor = System.Drawing.SystemColors.Control
         Me.CloseBtn.FlatAppearance.BorderSize = 0
         Me.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CloseBtn.ForeColor = System.Drawing.Color.Black
         Me.CloseBtn.Location = New System.Drawing.Point(620, 0)
         Me.CloseBtn.Name = "CloseBtn"
         Me.CloseBtn.Size = New System.Drawing.Size(40, 24)
