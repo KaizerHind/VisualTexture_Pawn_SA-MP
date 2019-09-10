@@ -576,7 +576,50 @@
                 PictureBox21.Image = Global.VisualTextures.My.Resources.sw_olddrum1
                 PictureBox22.Image = Global.VisualTextures.My.Resources.wallgreyred128
 
-
+                RadioButton1.Visible = True
+                RadioButton2.Visible = True
+                RadioButton3.Visible = True
+                RadioButton4.Visible = True
+                RadioButton5.Visible = True
+                RadioButton6.Visible = True
+                RadioButton7.Visible = True
+                RadioButton8.Visible = True
+                RadioButton9.Visible = True
+                RadioButton10.Visible = True
+                RadioButton11.Visible = True
+                RadioButton12.Visible = True
+                RadioButton13.Visible = True
+                RadioButton14.Visible = True
+                RadioButton15.Visible = True
+                RadioButton16.Visible = True
+                RadioButton17.Visible = True
+                RadioButton18.Visible = True
+                RadioButton19.Visible = True
+                RadioButton20.Visible = True
+                RadioButton21.Visible = True
+                RadioButton22.Visible = True
+                PictureBox1.Visible = True
+                PictureBox2.Visible = True
+                PictureBox3.Visible = True
+                PictureBox4.Visible = True
+                PictureBox5.Visible = True
+                PictureBox6.Visible = True
+                PictureBox7.Visible = True
+                PictureBox8.Visible = True
+                PictureBox9.Visible = True
+                PictureBox10.Visible = True
+                PictureBox11.Visible = True
+                PictureBox12.Visible = True
+                PictureBox13.Visible = True
+                PictureBox14.Visible = True
+                PictureBox15.Visible = True
+                PictureBox16.Visible = True
+                PictureBox17.Visible = True
+                PictureBox18.Visible = True
+                PictureBox19.Visible = True
+                PictureBox20.Visible = True
+                PictureBox21.Visible = True
+                PictureBox22.Visible = True
             Case 2
                 Panel1.Hide()
             Case 3

@@ -88,7 +88,6 @@ C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTex
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Loading.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Index.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Spanish.resources
-C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Resources.resources
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.GenerateResource.cache
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.CoreCompileInputs.cache
 C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.pdb
