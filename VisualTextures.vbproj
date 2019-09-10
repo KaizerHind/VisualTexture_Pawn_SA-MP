@@ -13,7 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\sebas_000\Desktop\VS T\</PublishUrl>
+    <PublishUrl>C:\Users\sebas_000\Desktop\VisualT\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,7 +28,7 @@
     <ProductName>VisualTextures</ProductName>
     <PublisherName>Kaizer_Modding © 2018</PublisherName>
     <SuiteName>VisualTextures</SuiteName>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -80,7 +80,7 @@
     </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>VisualEnsambled.pfx</AssemblyOriginatorKeyFile>
@@ -184,6 +184,12 @@
     <Compile Include="B-Languages\Spanish\PawnWiki.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="C-Options\CMilisegundos.Designer.vb">
+      <DependentUpon>CMilisegundos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\CMilisegundos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="C-Options\Contact.Designer.vb">
       <DependentUpon>Contact.vb</DependentUpon>
     </Compile>
@@ -194,6 +200,12 @@
       <DependentUpon>Credits.vb</DependentUpon>
     </Compile>
     <Compile Include="C-Options\Credits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Options\Screenshots.Designer.vb">
+      <DependentUpon>Screenshots.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C-Options\Screenshots.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="B-Languages\English\VAnims.Designer.vb">
@@ -245,8 +257,8 @@
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -277,11 +289,17 @@
     <EmbeddedResource Include="B-Languages\Spanish\PawnWiki.resx">
       <DependentUpon>PawnWiki.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\CMilisegundos.resx">
+      <DependentUpon>CMilisegundos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="C-Options\Contact.resx">
       <DependentUpon>Contact.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="C-Options\Credits.resx">
       <DependentUpon>Credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Options\Screenshots.resx">
+      <DependentUpon>Screenshots.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="B-Languages\English\VAnims.resx">
       <DependentUpon>VAnims.vb</DependentUpon>
@@ -301,12 +319,12 @@
     <EmbeddedResource Include="B-Languages\Spanish\Spanish.resx">
       <DependentUpon>Spanish.vb</DependentUpon>
     </EmbeddedResource>
-    <Resource Include="My Project\Resources.resx">
+    <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
-    </Resource>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
@@ -315,11 +333,12 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="App.config" />
     <None Include="VisualEnsambled.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -2098,29 +2117,7 @@
     <None Include="SAGallery\Texturas\Puertas\airportdoor1.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoordark128.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
-    <None Include="SAGallery\Texturas\Paredes\a51_floorpanel1.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_panel2.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_strips1.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_vent1.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_wall1.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\brick.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\carparkwall12_256.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\concretegroundl1_256.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\concretewall22_256.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\concreteyellow256_copy.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\des_factower.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\ferry_build14.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\Metalox64.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\pcut_bot_law.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\rebrckwall_128.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\redmetal.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\shingles2.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\sl_vicbrikwall01.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\sl_vicwall01.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\sl_vicwall02.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\sw_olddrum1.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\wallgreyred128.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_panels1.bmp" />
+    <None Include="Resources\DarkThinking.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup />
