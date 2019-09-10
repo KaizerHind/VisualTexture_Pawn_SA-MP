@@ -553,28 +553,6 @@
             Case 1
                 Panel1.Show()
 
-                PictureBox1.Image = Global.VisualTextures.My.Resources.a51_floorpanel1
-                PictureBox2.Image = Global.VisualTextures.My.Resources.a51_panel2
-                PictureBox3.Image = Global.VisualTextures.My.Resources.a51_panels1
-                PictureBox4.Image = Global.VisualTextures.My.Resources.a51_strips1
-                PictureBox5.Image = Global.VisualTextures.My.Resources.a51_vent1
-                PictureBox6.Image = Global.VisualTextures.My.Resources.a51_wall1
-                PictureBox7.Image = Global.VisualTextures.My.Resources.brick
-                PictureBox8.Image = Global.VisualTextures.My.Resources.carparkwall12_256
-                PictureBox9.Image = Global.VisualTextures.My.Resources.concretegroundl1_256
-                PictureBox10.Image = Global.VisualTextures.My.Resources.concretewall22_256
-                PictureBox11.Image = Global.VisualTextures.My.Resources.concreteyellow256_copy
-                PictureBox12.Image = Global.VisualTextures.My.Resources.des_factower
-                PictureBox13.Image = Global.VisualTextures.My.Resources.ferry_build14
-                PictureBox14.Image = Global.VisualTextures.My.Resources.pcut_bot_law
-                PictureBox15.Image = Global.VisualTextures.My.Resources.rebrckwall_128
-                PictureBox16.Image = Global.VisualTextures.My.Resources.redmetal
-                PictureBox17.Image = Global.VisualTextures.My.Resources.shingles2
-                PictureBox18.Image = Global.VisualTextures.My.Resources.sl_vicbrikwall01
-                PictureBox19.Image = Global.VisualTextures.My.Resources.sl_vicwall01
-                PictureBox20.Image = Global.VisualTextures.My.Resources.sl_vicwall02
-                PictureBox21.Image = Global.VisualTextures.My.Resources.sw_olddrum1
-                PictureBox22.Image = Global.VisualTextures.My.Resources.wallgreyred128
 
                 RadioButton1.Visible = True
                 RadioButton2.Visible = True
