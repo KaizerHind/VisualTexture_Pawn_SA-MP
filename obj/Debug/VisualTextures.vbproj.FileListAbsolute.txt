@@ -139,3 +139,4 @@ C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualText
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.application
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.vbproj.CopyComplete
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.exe
+C:\Users\sebas_000\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.g.resources

@@ -238,7 +238,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb" />
     <Compile Include="My Project\Resources1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -246,8 +245,8 @@
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -302,12 +301,12 @@
     <EmbeddedResource Include="B-Languages\Spanish\Spanish.resx">
       <DependentUpon>Spanish.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="My Project\Resources.resx">
+    <Resource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
-    </EmbeddedResource>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
@@ -316,12 +315,11 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="App.config" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
-      <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
     <None Include="VisualEnsambled.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -2102,7 +2100,6 @@
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
     <None Include="SAGallery\Texturas\Paredes\a51_floorpanel1.bmp" />
     <None Include="SAGallery\Texturas\Paredes\a51_panel2.bmp" />
-    <None Include="SAGallery\Texturas\Paredes\a51_panels1.bmp" />
     <None Include="SAGallery\Texturas\Paredes\a51_strips1.bmp" />
     <None Include="SAGallery\Texturas\Paredes\a51_vent1.bmp" />
     <None Include="SAGallery\Texturas\Paredes\a51_wall1.bmp" />
@@ -2123,6 +2120,7 @@
     <None Include="SAGallery\Texturas\Paredes\sl_vicwall02.bmp" />
     <None Include="SAGallery\Texturas\Paredes\sw_olddrum1.bmp" />
     <None Include="SAGallery\Texturas\Paredes\wallgreyred128.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_panels1.bmp" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
   <ItemGroup />
