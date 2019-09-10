@@ -238,7 +238,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
+    <Compile Include="My Project\Resources.Designer.vb" />
+    <Compile Include="My Project\Resources1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -305,7 +306,7 @@
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -2099,10 +2100,31 @@
     <None Include="SAGallery\Texturas\Puertas\airportdoor1.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoordark128.png" />
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
+    <None Include="SAGallery\Texturas\Paredes\a51_floorpanel1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_panel2.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_panels1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_strips1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_vent1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\a51_wall1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\brick.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\carparkwall12_256.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\concretegroundl1_256.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\concretewall22_256.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\concreteyellow256_copy.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\des_factower.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\ferry_build14.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\Metalox64.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\pcut_bot_law.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\rebrckwall_128.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\redmetal.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\shingles2.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\sl_vicbrikwall01.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\sl_vicwall01.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\sl_vicwall02.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\sw_olddrum1.bmp" />
+    <None Include="SAGallery\Texturas\Paredes\wallgreyred128.bmp" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SAGallery\Texturas\Paredes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
