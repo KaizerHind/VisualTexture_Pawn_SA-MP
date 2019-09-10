@@ -910,33 +910,30 @@
                 PictureBox175.Visible = True
                 PictureBox176.Visible = True
                 PictureBox177.Visible = True
-                PictureBox1.Image = Global.VisualTextures.My.Resources.a51_floorpanel1
-                PictureBox2.Image = Global.VisualTextures.My.Resources.a51_panel2
-                PictureBox3.Image = Global.VisualTextures.My.Resources.a51_panels1
-                PictureBox4.Image = Global.VisualTextures.My.Resources.a51_pipeend
-                PictureBox5.Image = Global.VisualTextures.My.Resources.a51_strips1
-                PictureBox6.Image = Global.VisualTextures.My.Resources.a51_vent1
-                PictureBox7.Image = Global.VisualTextures.My.Resources.a51_wall1
-                PictureBox8.Image = Global.VisualTextures.My.Resources.beachwall_law
-                PictureBox9.Image = Global.VisualTextures.My.Resources.bonyrd_skin2
-                PictureBox10.Image = Global.VisualTextures.My.Resources.Bow_Abpave_Gen
-                PictureBox11.Image = Global.VisualTextures.My.Resources.brick
-                PictureBox12.Image = Global.VisualTextures.My.Resources.carparkwall12_256
-                PictureBox13.Image = Global.VisualTextures.My.Resources.concretegroundl1_256
-                PictureBox14.Image = Global.VisualTextures.My.Resources.concretemanky
-                PictureBox15.Image = Global.VisualTextures.My.Resources.concretewall22_256
-                PictureBox16.Image = Global.VisualTextures.My.Resources.concreteyellow256 copy
-                PictureBox17.Image = Global.VisualTextures.My.Resources.des_factower
-                PictureBox18.Image = Global.VisualTextures.My.Resources.des_tunnellight
-                PictureBox19.Image = Global.VisualTextures.My.Resources.Metalox64
-                PictureBox20.Image = Global.VisualTextures.My.Resources.pcut_bot_law
-                PictureBox21.Image = Global.VisualTextures.My.Resources.rebrckwall_128
-                PictureBox22.Image = Global.VisualTextures.My.Resources.redmetal
-                PictureBox23.Image = Global.VisualTextures.My.Resources.shingles2
-                PictureBox24.Image = Global.VisualTextures.My.Resources.sl_vicbrikwall01
-                PictureBox25.Image = Global.VisualTextures.My.Resources.sl_vicwall01
-                PictureBox26.Image = Global.VisualTextures.My.Resources.sl_vicwall02
-                PictureBox27.Image = Global.VisualTextures.My.Resources.wallgreyred128
+                'PictureBox1.Image = Global.VisualTextures.My.a51_floorpanel1
+                'PictureBox2.Image = Global.VisualTextures.My.a51_panel2
+                'PictureBox3.Image = Global.VisualTextures.My.a51_panels1
+                'PictureBox4.Image = Global.VisualTextures.My.a51_strips1
+                'PictureBox5.Image = Global.VisualTextures.My.a51_vent1
+                'PictureBox6.Image = Global.VisualTextures.My.a51_wall1
+                'PictureBox7.Image = Global.VisualTextures.My.brick
+                'PictureBox8.Image = Global.VisualTextures.My.carparkwall12_256
+                'PictureBox9.Image = Global.VisualTextures.My.concretegroundl1_256
+                'PictureBox10.Image = Global.VisualTextures.My.concretewall22_256
+                'PictureBox11.Image = Global.VisualTextures.My.concreteyellow256_copy
+                'PictureBox12.Image = Global.VisualTextures.My.des_factower
+                'PictureBox13.Image = Global.VisualTextures.My.ferry_build14
+                'PictureBox14.Image = Global.VisualTextures.My.pcut_bot_law
+                'PictureBox15.Image = Global.VisualTextures.My.rebrckwall_128
+                'PictureBox16.Image = Global.VisualTextures.My.redmetal
+                'PictureBox17.Image = Global.VisualTextures.My.shingles2
+                'PictureBox18.Image = Global.VisualTextures.My.sl_vicbrikwall01
+                'PictureBox19.Image = Global.VisualTextures.My.sl_vicwall01
+                'PictureBox20.Image = Global.VisualTextures.My.sl_vicwall02
+                'PictureBox21.Image = Global.VisualTextures.My.sw_olddrum1
+                'PictureBox22.Image = Global.VisualTextures.My.wallgreyred128
+
+
             Case 2
                 Panel1.Hide()
             Case 3

@@ -5419,4 +5419,7 @@
   <data name="DarkThinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\SAGallery\Credits\DarkThinking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Metalox64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\SAGallery\Texturas\Paredes\Metalox64.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

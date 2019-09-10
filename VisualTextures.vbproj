@@ -2101,6 +2101,8 @@
     <None Include="SAGallery\Texturas\Puertas\inddoorway128.png" />
     <Content Include="visualicon.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SAGallery\Texturas\Paredes\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -9,7 +9,7 @@
     <ErrorReportUrlHistory>https://github.com/KaizerHind/VisualTexture|https://www.facebook.com/ZaikerHiind</ErrorReportUrlHistory>
     <FallbackCulture>es-ES</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup>
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
