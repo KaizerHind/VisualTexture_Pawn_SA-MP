@@ -339,7 +339,7 @@
         txtSongName.Text = lstSounds.SelectedItem.ToString
         txtSoundID.Text = g_SoundID(index)
 
-        player.Play()
+        player.PlaySync()
     End Sub
 
     Private Sub btnStop_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStop.Click

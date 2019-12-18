@@ -113,10 +113,8 @@ C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualText
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.frmVehicleColors.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Form4.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VSWiki.resources
-C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.CMilisegundos.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Contact.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Credits.resources
-C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.Screenshots.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VAnims.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.VTextures.resources
 C:\Users\DarkFire\Documents\GitHub\VisualTexture_Pawn_SA-MP\obj\Debug\VisualTextures.LOG.resources
