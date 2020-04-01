@@ -1,7 +1,7 @@
 
 
 
-__________________________________![description](https://i.imgur.com/FcNbH8q.png) __________________________________
+_________![description](https://i.imgur.com/FcNbH8q.png) _________
 
 ## Changed made: 08 - September - 2019
 
